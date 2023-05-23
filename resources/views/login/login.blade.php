@@ -13,16 +13,12 @@
 
                     <div class="card position-absolute top-50 start-50 translate-middle shadow-lg p-3 mb-5 bg-body rounded border-0">
                         <div class="card-body">
-                           {{--  <h4>{{$titulo}}</h4> no secesitamos el titulo --}}
-
-                           <!---->
                            <div class="row">
                             <div class="col-sm-6">
                               <div class="card">
                                 <div class="card-body">
                                 <!--Titulo-->
                                 <h1>Sistema Extra Excolares</h1>
-                              
                                 <!---->
                                 </div>
                               </div>
@@ -33,7 +29,6 @@
                                     <form action="{{ route('logear')}}" method="post">
                                         @csrf
                                         @method('POST')
-                                       
                                         <label for="name">Nombre Completo</label>
                                         <input type="text" class="form-control" name="name" required>
                                         <label for="email">Email</label>
