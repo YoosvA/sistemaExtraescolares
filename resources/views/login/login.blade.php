@@ -21,7 +21,7 @@
                                 <!--Titulo-->
                                 <h1 class="text-center">Sistema Extra Excolares</h1>
                              <div class="text-center">
-                              <img src="{{ asset('img/LogoITMA.png') }}" class="tamañoDeImgLogo" alt="">
+                              <img src="{{ asset('img/LogoITMA.png') }}" class="tamañoDeImgLogo sm-6" alt="">
                              </div>
                                 <!---->
                                 </div>
