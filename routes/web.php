@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Datos;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,13 +15,17 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//login
 Route::get('/', [AuthController::class, 'login'])->name('auth-login');
-Route::post('logear', [AuthController::class,'logear'])->name('logear');
-Route::get('/usuarioNuevo', [AuthController::class, 'agregarNuevo']);
+Route::post('logear', [AuthController::class, 'logear'])->name('logear');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
+// agregar usuario
+// Route::get('/usuarioNuevo', [AuthController::class, 'agregarNuevo']);
+
+//pagina inicio
+Route::get('/inicio', [Controller::class, 'index'])->name('inicio');
+
+//agregar Usuarios
 Route::get('/agregarUsuario', [AuthController::class, 'createUser']);
 Route::post('/agregarNuevo', [AuthController::class, 'agregarNuevo']);
-
-Route::get('/inicio', [Controller::class, 'index'])->name('inicio');
-Route::get('datostitulo1',[Controller::class, 'datostitulo1'])->name('datostitulo1');

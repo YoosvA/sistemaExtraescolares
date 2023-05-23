@@ -12,11 +12,7 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index(){
-        $titulo = "pag principal";
+        $titulo = "pagina principal";
         return view('index', compact('titulo'));
-    }
-
-    public function datostitulo1(){
-        return view('prueba/datostitulo1');
     }
 }

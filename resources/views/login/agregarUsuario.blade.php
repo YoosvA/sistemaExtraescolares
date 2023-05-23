@@ -1,12 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <title>{{$titulo}}</title>
-</head>
-<body>
+@extends('layouts/main')
+
+@section('contenido')
     <div class="container">
         <div class="row">
             <div class="col">
@@ -17,7 +11,7 @@
                             @csrf
                             @method('POST')
                             <label for="name">Nombre Completo</label>
-                            <input type="text" class="form-control" name="name" id="name" required> 
+                            <input type="text" class="form-control" name="name" id="name" required>
                             <label for="email">Email</label>
                             <input type="email" class="form-control" name="email" id="email" required>
                             <label for="user">Usuario</label>
@@ -32,7 +26,4 @@
             </div>
         </div>
     </div>
-    
-    <script src="{{mix('js/app.js')}}"></script>
-</body>
-</html>
+@endsection

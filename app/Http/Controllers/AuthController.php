@@ -10,7 +10,8 @@ use Illuminate\Support\Facades\Session;
 
 class AuthController extends Controller
 {
-    public function login(){
+    public function login()
+    {
         $titulo = 'login';
         if (Auth::check()) {
             return redirect()->route('inicio');
@@ -18,35 +19,49 @@ class AuthController extends Controller
         return view('/login/login', compact('titulo'));
     }
 
-    public function logear(Request $request){
-        $credenciales = $request->only('name','password');
+    public function logear(Request $request)
+    {
+        $credenciales = $request->only('user', 'password');
         if (Auth::attempt($credenciales)) {
             return redirect()->route('inicio');
-        }else{
+        } else {
             return back()->withInput($credenciales);
         }
     }
 
-    public function logout(){
+    public function logout()
+    {
         Auth::logout();
         Session::flush();
         return redirect()->route('auth-login');
     }
 
 
-    public function createUser(){
+    public function createUser()
+    {
         $titulo = 'Agregar Usuario';
         $items = User::all();
         return view('/login/agregarUsuario', compact('titulo', 'items'));
     }
 
-    public function agregarNuevo(Request $request){
+    public function agregarNuevo(Request $request)
+    {
         $item = new User();
         $item->name = $request->name;
         $item->email = $request->email;
         $item->user = $request->user;
         $item->password = Hash::make($request->password);
         $item->save();
-        return redirect('/');
+        return redirect('/inicio');
     }
+
+    // public function agregarNuevo(){
+    //     $item = new User();
+    //     $item->name = 'admin';
+    //     $item->email = 'admin@gmail.com';
+    //     $item->user = 'admin';
+    //     $item->password = Hash::make('12345');
+    //     $item->save();
+    //     return $item;
+    // }
 }
