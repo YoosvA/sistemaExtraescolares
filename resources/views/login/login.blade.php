@@ -17,9 +17,9 @@
                             <form action="{{ route('logear')}}" method="post">
                                 @csrf
                                 @method('POST')
-                                <label for="name">nombre</label>
+                                <label for="name">Nombre Completo</label>
                                 <input type="text" class="form-control" name="name" required>
-                                <label for="email">email</label>
+                                <label for="email">Email</label>
                                 <input type="email" class="form-control" name="email" required>
                                 <label for="user">Usuario</label>
                                 <input type="text" class="form-control" name="user" required>

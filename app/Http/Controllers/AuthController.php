@@ -11,9 +11,7 @@ use Illuminate\Support\Facades\Session;
 class AuthController extends Controller
 {
     public function login(){
-
         $titulo = 'login';
-
         if (Auth::check()) {
             return redirect()->route('inicio');
         }
@@ -36,8 +34,7 @@ class AuthController extends Controller
     }
 
 
-    public function createUser()
-    {
+    public function createUser(){
         $titulo = 'Agregar Usuario';
         $items = User::all();
         return view('/login/agregarUsuario', compact('titulo', 'items'));
@@ -51,6 +48,5 @@ class AuthController extends Controller
         $item->password = Hash::make($request->password);
         $item->save();
         return redirect('/');
-
     }
 }
