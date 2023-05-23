@@ -20,7 +20,7 @@
                                 <div class="card-body">
                                 <!--Titulo-->
                                 <h1 class="text-center">Sistema Extra Excolares</h1>
-                             <div class="text-center">
+                             <div class="col text-center">
                               <img src="{{ asset('img/LogoITMA.png') }}" class="tamañoDeImgLogo sm-6" alt="">
                              </div>
                                 <!---->
