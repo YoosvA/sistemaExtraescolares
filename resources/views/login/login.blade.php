@@ -22,7 +22,7 @@
                                 <div class="card-body">
                                 <!--Titulo-->
                                 <h1>Sistema Extra Excolares</h1>
-                              
+                              <img src="{{ asset('img/Principal.git') }}" alt="">
                                 <!---->
                                 </div>
                               </div>
