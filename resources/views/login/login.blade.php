@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
     <title>{{$titulo}}</title>
 </head>
-<body>
+<body class="color">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -18,17 +19,17 @@
                            <!---->
                            <div class="row">
                             <div class="col-sm-6">
-                              <div class="card">
+                              <div class="card border-0 colorTransparente">
                                 <div class="card-body">
                                 <!--Titulo-->
                                 <h1>Sistema Extra Excolares</h1>
-                              <img src="{{ asset('img/Principal.git') }}" alt="">
+                              <img src="{{ asset('img/LogoITMA.png') }}" class="" alt="">
                                 <!---->
                                 </div>
                               </div>
                             </div>
                             <div class="col-sm-6">
-                              <div class="card">
+                              <div class="card border-0 colorTransparente">
                                 <div class="card-body">
                                     <form action="{{ route('logear')}}" method="post">
                                         @csrf
