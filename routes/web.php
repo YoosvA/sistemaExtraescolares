@@ -23,3 +23,4 @@ Route::get('/agregarUsuario', [AuthController::class, 'createUser']);
 Route::post('/agregarNuevo', [AuthController::class, 'agregarNuevo']);
 
 Route::get('/inicio', [Controller::class, 'index'])->name('inicio');
+Route::get('datostitulo1',[Controller::class, 'datostitulo1'])->name('datostitulo1');

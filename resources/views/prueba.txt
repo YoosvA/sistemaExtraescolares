@@ -28,7 +28,7 @@
                       </div>
                     </section>
                     <section class="content">
-                      <h2 id="titulo1">Datos Personales Del Alumno</h2>
+                      <h2 id="titulo1">Titulo 1</h2>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis officia similique blanditiis eaque
                         laboriosam a fugiat, excepturi nemo quod asperiores. Itaque sed unde vitae modi velit, minima iste odit corporis
@@ -44,8 +44,18 @@
                         dignissimos blanditiis. Placeat, modi doloremque similique expedita voluptatibus rerum. Reprehenderit rem eveniet
                         facilis modi facere, explicabo dolorem in perspiciatis distinctio magni deserunt excepturi doloremque! Ex
                         accusantium
-                        <br>
-                   <a href="/datostitulo1" class="btn btn-primary">ingresar</a>
+                        rerum ullam magni earum? Sed tenetur corrupti ducimus voluptatum nesciunt consequuntur exercitationem necessitatibus
+                        quod itaque dolorum beatae maxime maiores, cum suscipit quam deserunt eaque temporibus facilis cupiditate fugiat
+                        voluptate quis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis officia similique blanditiis eaque
+                        laboriosam a fugiat, excepturi nemo quod asperiores. Itaque sed unde vitae modi velit, minima iste odit corporis
+                        facere similique dolore laudantium amet, eaque, ratione voluptatem. Autem dolorem accusamus quibusdam, vero
+                        dignissimos blanditiis. Placeat, modi doloremque similique expedita voluptatibus rerum. Reprehenderit rem eveniet
+                        facilis modi facere, explicabo dolorem in perspiciatis distinctio magni deserunt excepturi doloremque! Ex
+                        accusantium
+                        rerum ullam magni earum? Sed tenetur corrupti ducimus voluptatum nesciunt consequuntur exercitationem necessitatibus
+                        quod itaque dolorum beatae maxime maiores, cum suscipit quam deserunt eaque temporibus facilis cupiditate fugiat
+                        voluptate quis.
                       </p>
                       <h2 id="titulo2">Titulo 2</h2>
                       <p>
