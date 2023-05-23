@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
     <title>{{$titulo}}</title>
 </head>
-<body class="color">
+<body class="color tipoLetra">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -19,8 +19,10 @@
                               <div class="card border-0 colorTransparente">
                                 <div class="card-body">
                                 <!--Titulo-->
-                                <h1>Sistema Extra Excolares</h1>
-                              <img src="{{ asset('img/LogoITMA.png') }}" class="" alt="">
+                                <h1 class="text-center">Sistema Extra Excolares</h1>
+                             <div class="text-center">
+                              <img src="{{ asset('img/LogoITMA.png') }}" class="tamañoDeImgLogo" alt="">
+                             </div>
                                 <!---->
                                 </div>
                               </div>
@@ -31,18 +33,22 @@
                                     <form action="{{ route('logear')}}" method="post">
                                         @csrf
                                         @method('POST')
-                                        <label for="name">Nombre Completo</label>
+                                        <h3>Nombre Completo</h3>
                                         <input type="text" class="form-control" name="name" required>
-                                        <label for="email">Email</label>
+                                        <h3>Email</h3>
                                         <input type="email" class="form-control" name="email" required>
-                                        <label for="user">Usuario</label>
+                                        <h3>Usuario</h3>
                                         <input type="text" class="form-control" name="user" required>
-                                        <label for="password">Contraseña</label>
+                                        <h3>Contraseña</label>
                                         <input type="password" class="form-control" name="password" required>
-                                        <button class="btn btn-primary mt-3">Entrar</button>
+
+                                        <div class="d-grid gap-2 col-6 mx-auto mt-3">
+                                          <button class="btn colorDeBoton">Entrar</button>
+                                        </div>
+                                        
                                     </form>
                                     <div class="mt-2">
-                                        <a href="/agregarUsuario">Agregar Usuario</a>
+                                        <a href="/agregarUsuario" >Agregar Usuario</a>
                                     </div>
                                 </div>
                               </div>
