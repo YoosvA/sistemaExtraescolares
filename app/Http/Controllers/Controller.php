@@ -15,4 +15,8 @@ class Controller extends BaseController
         $titulo = "pag principal";
         return view('index', compact('titulo'));
     }
+
+    public function datostitulo1(){
+        return view('prueba/datostitulo1');
+    }
 }
