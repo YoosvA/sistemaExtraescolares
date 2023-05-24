@@ -38,10 +38,24 @@
                                             <h3>Usuario</h3>
                                             <input type="text" class="form-control" name="user" required>
                                             <h3>Contraseña</label>
-                                                <input type="password" class="form-control" name="password" required>
-                                                <div class="d-grid gap-2 col-6 mx-auto mt-3">
-                                                    <button class="btn colorDeBoton">Entrar</button>
-                                                </div>
+                                            <input type="password" class="form-control" name="password" id="password" required>
+                                            <input type="checkbox" id="showPassword">
+                                            <label for="showPassword"><h5>Mostrar contraseña</h5></label>
+                                            <script>
+                                            const passwordInput = document.getElementById('password');
+                                            const showPasswordCheckbox = document.getElementById('showPassword');
+
+                                            showPasswordCheckbox.addEventListener('change', function() {
+                                                if (showPasswordCheckbox.checked) {
+                                                passwordInput.type = 'text';
+                                                } else {
+                                                passwordInput.type = 'password';
+                                                }
+                                            });
+                                            </script>
+                                            <div class="d-grid gap-2 col-6 mx-auto mt-3">
+                                                <button class="btn colorDeBoton">Entrar</button>
+                                            </div>
                                         </form>
                                     </div>
                                 </div>
