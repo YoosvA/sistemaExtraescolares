@@ -16,16 +16,19 @@
         <!---->
         <br>
         <div class="nav-header">
-            <img src="{{ asset('') }}" alt="">
             <p class="logo">Sistema ExtraEscolares</p>
             <i class="bx bx-menu btn-menu"></i>
         </div>
         <!---->
         <ul class="nav-links">
             <li>
-
+               <div class="text-center">
+                <img src="{{ asset('img/LogoITMA.png') }}" class="title tamañoDeImgLogo" alt="">
+                <span class="tooltip"></span>
+               </div>
             </li>
             <li>
+
                 <a href="#DatosPersonales">
 
                     <span class="title">Datos Personales <br> Del Alumno</span>

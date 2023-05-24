@@ -2,13 +2,25 @@
     background:rgba(138,221,45,0);
 }
 .color{
-  background-color: #f8f9fa;
+  background-color: #000000;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .tamañoDeImgLogo{
-    width: 5rem;
-    height: 5rem;
+    width: 25rem;
+    height: 25rem;
 }
 .colorDeBoton{
     background-color: #dee2e6;
+    width: 5rem;
+    height: 5rem;
+}
+.divFondoPrimero{
+    background-image: url(../img/LogoPrincipal.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 22em;
+}
+.colorNegro{
+    background:rgba(138,221,45,0);
 }
