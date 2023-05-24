@@ -229,10 +229,21 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: none;
   transition: var(--transition);
 }
-
 .sidebar.expand .theme-wrapper p {
   display: block;
 }
+.theme-wrapper h4 {
+  font-size: 16px;
+  color: var(--color-black);
+  font-weight: 400;
+  display: none;
+  transition: var(--transition);
+}
+
+.sidebar.expand .theme-wrapper h4 {
+  display: block;
+}
+
 
 .theme-wrapper .theme-btn {
   width: 40px;
@@ -284,6 +295,12 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   white-space: nowrap;
 } */
 .home p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+  margin: 20px;
+}
+.home h4 {
   font-size: 20px;
   font-weight: 500;
   color: var(--color-black);
