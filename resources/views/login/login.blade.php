@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{asset('librerias/fontawesome/css/all.css')}}">
     <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
     <title>{{ $titulo }}</title>
 </head>
@@ -35,7 +36,7 @@
                                         <form action="{{ route('logear') }}" method="post">
                                             @csrf
                                             @method('POST')
-                                            <h3>Usuario</h3>
+                                            <h3><i class="fas fa-user"></i> Usuario</h3>
                                             <input type="text" class="form-control" name="user" required>
                                             <h3>Contraseña</label>
                                             <input type="password" class="form-control" name="password" id="password" required>
