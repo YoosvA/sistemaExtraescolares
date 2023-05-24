@@ -37,11 +37,11 @@
                                             @method('POST')
                                             <h1 class="text-center">Sistema ExtraEscolares</h1>
                                             <h3><img src="{{ asset('img/user.svg') }}" alt=""> Usuario</h3>
-                                            <input type="text" class="form-control" name="user" required>
+                                            <input type="text" class="form-control text-center" name="user" required>
                                             <br>
                                             <h3><img src="{{ asset('img/password.svg') }}" alt="">
                                                 Contraseña</label>
-                                                <input type="password" class="form-control" name="password"
+                                                <input type="password" class="form-control text-center" name="password"
                                                     id="password" required>
                                                 <input type="checkbox" id="showPassword">
                                                 <label for="showPassword">
@@ -75,6 +75,10 @@
             </div>
         </div>
     </div>
+
+    <script src="{{('js/mascaraDeCarga/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{('js/mascaraDeCarga/jquery.blockUI.js')}}"></script>
+    <script src="{{('js/mascaraDeCarga/mascara.js')}}"></script>
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
 
