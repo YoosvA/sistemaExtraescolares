@@ -60,10 +60,11 @@
                                                     });
                                                 </script>
                                                
-                                                <div class="d-grid gap-2 col-6 mx-auto mt-3 ms-6">
+                                            <div class="text-center  mt-3 ">
                                                     <button class="btn colorDeBoton rounded-circle"> <img src="{{ asset('img/entrar.svg') }}" alt=""> <br> Entrar</button>
                                                 </div>
-                                              
+                                                <hr>
+                                            <h5 class="text-center mt-2">Creative Code</h5>
                                         </form>
                                     </div>
                                 </div>
