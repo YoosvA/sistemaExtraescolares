@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
     <title>{{ $titulo }}</title>
 </head>
 
@@ -22,8 +23,7 @@
                                         <!--Titulo-->
                                         <h1 class="text-center">Sistema Extra Excolares</h1>
                                         <div class="col text-center">
-                                            <img src="{{ asset('img/LogoITMA.png') }}" class="tamañoDeImgLogo sm-6"
-                                                alt="">
+                                            <img src="{{ asset('img/LogoITMA.png') }}" class="tamañoDeImgLogo" alt="">
                                         </div>
                                         <!---->
                                     </div>
