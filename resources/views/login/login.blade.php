@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{asset('librerias/fontawesome/css/all.css')}}">
     <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
     <title>{{ $titulo }}</title>
 </head>
@@ -35,21 +36,15 @@
                                         <form action="{{ route('logear') }}" method="post">
                                             @csrf
                                             @method('POST')
-                                            <h1 class="text-center">Sistema ExtraEscolares</h1>
-                                            <h3><img src="{{ asset('img/user.svg') }}" alt=""> Usuario</h3>
-                                            <input type="text" class="form-control text-center" name="user" required>
-                                            <br>
-                                            <h3><img src="{{ asset('img/password.svg') }}" alt="">
-                                                Contraseña</label>
-                                                <input type="password" class="form-control text-center" name="password"
-                                                    id="password" required>
-                                                <input type="checkbox" id="showPassword">
-                                                <label for="showPassword">
-                                                    <h5>Mostrar contraseña</h5>
-                                                </label>
-                                                <script>
-                                                    const passwordInput = document.getElementById('password');
-                                                    const showPasswordCheckbox = document.getElementById('showPassword');
+                                            <h3>Usuario</h3>
+                                            <input type="text" class="form-control" name="user" required>
+                                            <h3>Contraseña</label>
+                                            <input type="password" class="form-control" name="password" id="password" required>
+                                            <input type="checkbox" id="showPassword">
+                                            <label for="showPassword"><h5>Mostrar contraseña</h5></label>
+                                            <script>
+                                            const passwordInput = document.getElementById('password');
+                                            const showPasswordCheckbox = document.getElementById('showPassword');
 
                                                     showPasswordCheckbox.addEventListener('change', function() {
                                                         if (showPasswordCheckbox.checked) {

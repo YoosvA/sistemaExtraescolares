@@ -1,8 +1,8 @@
 <?php
 
+use App\Http\Controllers\Alumnos;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\Datos;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,3 +29,11 @@ Route::get('/inicio', [Controller::class, 'index'])->name('inicio');
 //agregar Usuarios
 Route::get('/agregarUsuario', [AuthController::class, 'createUser']);
 Route::post('/agregarNuevo', [AuthController::class, 'agregarNuevo']);
+
+//datosAlumnos
+Route::get('/vistaAlumnos', [Alumnos::class, 'index']);
+Route::get('crearAlumnos', [Alumnos::class, 'create']);
+Route::post('/store', [Alumnos::class, 'store']);
+
+Route::get('/editarAlumnos/{id}', [Alumnos::class, 'edit'])->name('editarAlumnos');
+Route::put('update/{id}', [Alumnos::class, 'update'])->name('update');
