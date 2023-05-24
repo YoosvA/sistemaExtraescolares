@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Alumno;
-use App\Models\carreraCatalogo;
+use App\Models\CarreraCatalogo;
 use Illuminate\Http\Request;
 
 class Alumnos extends Controller
@@ -71,7 +71,7 @@ class Alumnos extends Controller
     public function edit($id){
         $titulo = 'Actualizar Datos Alumno';
         $items = Alumno::find($id);
-        $items2 = carreraCatalogo::all();
+        $items2 = CarreraCatalogo::all();
         return view('/alumnos/editarAlumnos', compact('titulo', 'items','items2'));
     }
 
