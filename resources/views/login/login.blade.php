@@ -21,7 +21,7 @@
                                 <div class="card border-0 colorTransparente">
                                     <div class="card-body">
                                         <!--Titulo-->
-                                        <h1 class="text-center">Sistema Extra Excolares</h1>
+                                        <h1 class="text-center">Sistema Extra Escolares</h1>
                                         <div class="col text-center">
                                             <img src="{{ asset('img/LogoITMA.png') }}" class="tamañoDeImgLogo" alt="">
                                         </div>
