@@ -71,7 +71,8 @@ class Alumnos extends Controller
     public function edit($id){
         $titulo = 'Actualizar Datos Alumno';
         $items = Alumno::find($id);
-        return view('/alumnos/editarAlumnos', compact('titulo', 'items'));
+        $items2 = carreraCatalogo::all();
+        return view('/alumnos/editarAlumnos', compact('titulo', 'items','items2'));
     }
 
     /**
