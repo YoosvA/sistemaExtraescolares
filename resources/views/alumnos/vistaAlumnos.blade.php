@@ -1,7 +1,7 @@
 @extends('layouts/main')
 
 @section('contenido')
-    <div class="container-fluid mt-4">
+    <div class="container mt-4">
         <h4>Agregar Datos Alumno</h4>
         <a href="/crearAlumnos" class="btn btn-primary mt-3">Agregar Alumno</a>
         <a href="/inicio" class="btn btn-danger mt-3 ms-2">Regresar</a>
