@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Carpeta;
 use App\Models\Credito;
 use Illuminate\Http\Request;
 
@@ -104,5 +105,19 @@ class Creditos extends Controller
         $item->estado = $item->estado === 'En proceso' ? 'Liberado' : 'En proceso';
         $item->save();
         return redirect()->back();
+    }
+
+    public function createCarpetas(){
+        $titulo = 'Agregar Carpetas';
+        $items = Carpeta::all();
+        return view('/creditos/crearCarpetas', compact('titulo', 'items'));
+    }
+
+    public function storeCarpetas(Request $request)
+    {
+        $item = new Carpeta();
+        $item->nombreCarpeta = $request->nombreCarpeta;
+        $item->save();
+        return redirect('/vistaCreditos');
     }
 }

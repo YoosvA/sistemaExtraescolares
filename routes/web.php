@@ -47,3 +47,5 @@ Route::post('/store', [Creditos::class, 'store']);
 
 Route::delete('/destroy/{id}', [Creditos::class, 'destroy'])->name('destroy');
 Route::put('/cambiarEstado/{id}', [Creditos::class, 'cambiarEstado'])->name('cambiarEstado');
+Route::get('crearCarpetas', [Creditos::class, 'createCarpetas']);
+Route::post('/storeCarpetas', [Creditos::class, 'storeCarpetas']);
