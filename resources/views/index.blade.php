@@ -21,14 +21,13 @@
         </div>
         <!---->
         <ul class="nav-links">
-            <li>
+            {{-- <li>
                <div class="text-center">
                 <img src="{{ asset('img/LogoITMA.png') }}" class="title tamañoDeImgLogo" alt="">
                 <span class="tooltip"></span>
                </div>
-            </li>
+            </li> --}}
             <li>
-
                 <a href="#DatosPersonales">
 
                     <span class="title">Datos Personales <br> Del Alumno</span>
@@ -75,85 +74,21 @@
         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum exercitationem dolorem sunt reprehenderit
             mollitia qui corrupti molestias ex vel porro quos, rerum esse ducimus. Ipsam provident dignissimos quia
             distinctio nam.</h4>
-        <a href="/vistaAlumnos">Vista Datos</a>
+
+        <a href="/vistaAlumnos" class="btn btn-primary">Vista Datos</a>
 
         <h2 id="NotasDeParticipacion">NotasDeParticipacion</h2>
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi expedita quo odit inventore
             neque quisquam praesentium! Eveniet aut mollitia quo vel commodi delectus, natus autem ipsa recusandae
-            voluptas!
-            Reiciendis culpa consequuntur corporis reprehenderit quaerat, aperiam nisi exercitationem a molestiae enim
-            tenetur, assumenda placeat, libero facere natus provident? Dolorum officiis fugiat nobis unde soluta autem
-            voluptatum quidem reiciendis aperiam?
-            Labore sequi quas accusantium magni reprehenderit earum sint perspiciatis nesciunt quidem explicabo, quae
-            voluptatum soluta ea illum eius iste magnam minus? Esse vero blanditiis, incidunt odit temporibus rerum
-            atque qui!
-            Saepe fugit ratione totam, mollitia consequuntur quam. Necessitatibus ratione fugit et minima deserunt,
-            voluptatum culpa doloremque quo sapiente dignissimos quam aperiam. Unde dolorem exercitationem doloremque
-            iure inventore, aperiam minus veniam!
-            At sapiente placeat a, molestias ea repellat tempore deserunt dolores. Nulla corporis maxime qui
-            perspiciatis assumenda dicta quibusdam distinctio, exercitationem repellat dolor itaque quae aperiam beatae,
-            porro dolorem. Excepturi, expedita.</h1>
+            voluptas!.
+        </h1>
+
         <h2 id="Creditos">Creditos</h2>
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi expedita quo odit inventore
             neque quisquam praesentium! Eveniet aut mollitia quo vel commodi delectus, natus autem ipsa recusandae
             voluptas!
-            Reiciendis culpa consequuntur corporis reprehenderit quaerat, aperiam nisi exercitationem a molestiae enim
-            tenetur, assumenda placeat, libero facere natus provident? Dolorum officiis fugiat nobis unde soluta autem
-            voluptatum quidem reiciendis aperiam?
-            Labore sequi quas accusantium magni reprehenderit earum sint perspiciatis nesciunt quidem explicabo, quae
-            voluptatum soluta ea illum eius iste magnam minus? Esse vero blanditiis, incidunt odit temporibus rerum
-            atque qui!
-            Saepe fugit ratione totam, mollitia consequuntur quam. Necessitatibus ratione fugit et minima deserunt,
-            voluptatum culpa doloremque quo sapiente dignissimos quam aperiam. Unde dolorem exercitationem doloremque
-            iure inventore, aperiam minus veniam!
-            At sapiente placeat a, molestias ea repellat tempore deserunt dolores. Nulla corporis maxime qui
-            perspiciatis assumenda dicta quibusdam distinctio, exercitationem repellat dolor itaque quae aperiam beatae,
-            porro dolorem. Excepturi, expedita.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi expedita quo odit inventore
-            neque quisquam praesentium! Eveniet aut mollitia quo vel commodi delectus, natus autem ipsa recusandae
-            voluptas!
-            Reiciendis culpa consequuntur corporis reprehenderit quaerat, aperiam nisi exercitationem a molestiae enim
-            tenetur, assumenda placeat, libero facere natus provident? Dolorum officiis fugiat nobis unde soluta autem
-            voluptatum quidem reiciendis aperiam?
-            Labore sequi quas accusantium magni reprehenderit earum sint perspiciatis nesciunt quidem explicabo, quae
-            voluptatum soluta ea illum eius iste magnam minus? Esse vero blanditiis, incidunt odit temporibus rerum
-            atque qui!
-            Saepe fugit ratione totam, mollitia consequuntur quam. Necessitatibus ratione fugit et minima deserunt,
-            voluptatum culpa doloremque quo sapiente dignissimos quam aperiam. Unde dolorem exercitationem doloremque
-            iure inventore, aperiam minus veniam!
-            At sapiente placeat a, molestias ea repellat tempore deserunt dolores. Nulla corporis maxime qui
-            perspiciatis assumenda dicta quibusdam distinctio, exercitationem repellat dolor itaque quae aperiam beatae,
-            porro dolorem. Excepturi, expedita.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi expedita quo odit inventore
-            neque quisquam praesentium! Eveniet aut mollitia quo vel commodi delectus, natus autem ipsa recusandae
-            voluptas!
-            Reiciendis culpa consequuntur corporis reprehenderit quaerat, aperiam nisi exercitationem a molestiae enim
-            tenetur, assumenda placeat, libero facere natus provident? Dolorum officiis fugiat nobis unde soluta autem
-            voluptatum quidem reiciendis aperiam?
-            Labore sequi quas accusantium magni reprehenderit earum sint perspiciatis nesciunt quidem explicabo, quae
-            voluptatum soluta ea illum eius iste magnam minus? Esse vero blanditiis, incidunt odit temporibus rerum
-            atque qui!
-            Saepe fugit ratione totam, mollitia consequuntur quam. Necessitatibus ratione fugit et minima deserunt,
-            voluptatum culpa doloremque quo sapiente dignissimos quam aperiam. Unde dolorem exercitationem doloremque
-            iure inventore, aperiam minus veniam!
-            At sapiente placeat a, molestias ea repellat tempore deserunt dolores. Nulla corporis maxime qui
-            perspiciatis assumenda dicta quibusdam distinctio, exercitationem repellat dolor itaque quae aperiam beatae,
-            porro dolorem. Excepturi, expedita.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi expedita quo odit inventore
-            neque quisquam praesentium! Eveniet aut mollitia quo vel commodi delectus, natus autem ipsa recusandae
-            voluptas!
-            Reiciendis culpa consequuntur corporis reprehenderit quaerat, aperiam nisi exercitationem a molestiae enim
-            tenetur, assumenda placeat, libero facere natus provident? Dolorum officiis fugiat nobis unde soluta autem
-            voluptatum quidem reiciendis aperiam?
-            Labore sequi quas accusantium magni reprehenderit earum sint perspiciatis nesciunt quidem explicabo, quae
-            voluptatum soluta ea illum eius iste magnam minus? Esse vero blanditiis, incidunt odit temporibus rerum
-            atque qui!
-            Saepe fugit ratione totam, mollitia consequuntur quam. Necessitatibus ratione fugit et minima deserunt,
-            voluptatum culpa doloremque quo sapiente dignissimos quam aperiam. Unde dolorem exercitationem doloremque
-            iure inventore, aperiam minus veniam!
-            At sapiente placeat a, molestias ea repellat tempore deserunt dolores. Nulla corporis maxime qui
-            perspiciatis assumenda dicta quibusdam distinctio, exercitationem repellat dolor itaque quae aperiam beatae,
-            porro dolorem. Excepturi, expedita.</h1>
+            <a href="/vistaCreditos" class="btn btn-primary">Creditos</a>
+        </h1>
     </section>
 
 
