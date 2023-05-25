@@ -18,13 +18,20 @@
                     <input type="text" name="noControl" id="noControl" class="form-control" required>
                     <label for="telefono">Numero de Celular</label>
                     <input type="text" name="telefono" id="telefono" class="form-control" required>
+
+                    {{-- <label for="carrera">Carrera</label>
+                    <input type="text" name="carrera" id="carrera" class="form-control" required> --}}
+
                     <label for="carrera">Carrera</label>
-                    <select type="text" name="carrera" id="carrera" class="form-select" required>
+                    <select name="carrera" id="carrera" class="form-select" required>
                         <option value="" selected>Selecciona una opcion</option>
-                            @foreach ($items as $item)
-                                <option value="{{$item->nombre}}">{{$item->nombre}}</option>
-                            @endforeach
+                        @foreach($carreras as $carrera)
+                            <option value="{{ $carrera->nombre }}">{{ $carrera->nombre }}</option>
+                        @endforeach
                     </select>
+
+
+
                     <label for="fechaNac">Fecha de Nacimiento</label>
                     <input type="date" name="fechaNac" id="fechaNac" class="form-control" required>
                     <label for="escuelaProcedencia">Escuela de Procedencia</label>

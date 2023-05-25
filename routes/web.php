@@ -37,3 +37,5 @@ Route::post('/store', [Alumnos::class, 'store']);
 
 Route::get('/editarAlumnos/{id}', [Alumnos::class, 'edit'])->name('editarAlumnos');
 Route::put('update/{id}', [Alumnos::class, 'update'])->name('update');
+
+Route::delete('/destroy/{id}', [Alumnos::class, 'destroy'])->name('destroy');

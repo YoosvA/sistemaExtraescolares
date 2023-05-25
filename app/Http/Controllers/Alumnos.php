@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Alumno;
-use App\Models\CarreraCatalogo;
+use App\Models\Catalogocarrera;
 use Illuminate\Http\Request;
 
 class Alumnos extends Controller
@@ -26,8 +26,9 @@ class Alumnos extends Controller
      */
     public function create(){
         $titulo = 'Agregar Alumnos';
+        $carreras = Catalogocarrera::all();
         $items = Alumno::all();
-        return view('/alumnos/crearAlumnos', compact('titulo', 'items'));
+        return view('/alumnos/crearAlumnos', compact('titulo', 'items','carreras'));
     }
 
     /**
@@ -70,9 +71,9 @@ class Alumnos extends Controller
      */
     public function edit($id){
         $titulo = 'Actualizar Datos Alumno';
+        $carreras = Catalogocarrera::all();
         $items = Alumno::find($id);
-        $items2 = CarreraCatalogo::all();
-        return view('/alumnos/editarAlumnos', compact('titulo', 'items','items2'));
+        return view('/alumnos/editarAlumnos', compact('titulo' ,'carreras','items'));
     }
 
     /**
@@ -105,6 +106,8 @@ class Alumnos extends Controller
      */
     public function destroy($id)
     {
-        //
+        $item = Alumno::find($id);
+        $item->delete();
+        return redirect('/vistaAlumnos');
     }
 }

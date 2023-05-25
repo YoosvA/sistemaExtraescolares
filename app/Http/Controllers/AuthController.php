@@ -44,8 +44,7 @@ class AuthController extends Controller
         return view('/login/agregarUsuario', compact('titulo', 'items'));
     }
 
-    public function agregarNuevo(Request $request)
-    {
+    public function agregarNuevo(Request $request){
         $item = new User();
         $item->name = $request->name;
         $item->email = $request->email;

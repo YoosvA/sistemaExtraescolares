@@ -38,10 +38,15 @@
                                 <td>{{ $item->escuelaProcedencia }}</td>
                                 <td>{{ $item->fechaIngreso }}</td>
                                 <td>
+                                    <br>
                                     <a href="{{ route('editarAlumnos', $item->id) }}" class="btn btn-warning">Editar</a>
                                 </td>
                                 <td>
-                                    <button class="btn btn-danger">Eliminar</button>
+                                    <form action="{{ route('destroy', $item->id) }}" method="POST">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button class="btn btn-danger">Eliminar</button>
+                                    </form>
                                 </td>
                             </tr>
                         @endforeach

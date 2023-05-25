@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCarreraCatalogoTable extends Migration
+class CreateCarreraTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateCarreraCatalogoTable extends Migration
      */
     public function up()
     {
-        Schema::create('carrera_catalogo', function (Blueprint $table) {
+        Schema::create('carrera', function (Blueprint $table) {
             $table->id();
             $table->string('nombre');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateCarreraCatalogoTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('carrera_catalogo');
+        Schema::dropIfExists('carrera');
     }
 }
