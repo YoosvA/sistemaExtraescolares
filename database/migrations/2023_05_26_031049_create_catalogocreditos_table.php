@@ -5,7 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCarreraTable extends Migration
+class CreateCatalogocreditosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,16 +14,16 @@ class CreateCarreraTable extends Migration
      */
     public function up()
     {
-        Schema::create('carrera', function (Blueprint $table) {
+        Schema::create('catalogocreditos', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre');
+            $table->string('nameCredito');
             $table->timestamps();
         });
 
-        DB::table('carrera')->insert([
-            ['nombre' => 'Ingenieria en Sistemas Computacionales'],
-            ['nombre' => 'Ingenieria en Gestión Empresarial'],
-            ['nombre' => 'Ingenieria Industrial']
+        DB::table('catalogocreditos')->insert([
+            ['nameCredito' => 'Civico'],
+            ['nameCredito' => 'Cultural'],
+            ['nameCredito' => 'Deportivo']
         ]);
     }
 
@@ -34,6 +34,6 @@ class CreateCarreraTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('carrera');
+        Schema::dropIfExists('catalogocreditos');
     }
 }

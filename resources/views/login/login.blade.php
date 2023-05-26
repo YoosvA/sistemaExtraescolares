@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('librerias/fontawesome/css/all.css') }}">
     <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
-    <!--Estilos Que Ocupamos Fin-->
     <title>{{ $titulo }}</title>
 </head>
 <!--Se Coloco El Tipo De Letra Global En El Diseño Del Login-->
@@ -90,10 +89,10 @@
             </div>
         </div>
     </div>
-    <!--Contenido De Link De Js y Igualmente Contiene La Mascara De Carga Inicio-->
-    <script src="{{ 'js/mascaraDeCarga/jquery-3.2.1.min.js' }}"></script>
-    <script src="{{ 'js/mascaraDeCarga/jquery.blockUI.js' }}"></script>
-    <script src="{{ 'js/mascaraDeCarga/mascara.js' }}"></script>
+
+    <script src="{{('js/mascaraDeCarga/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{('js/mascaraDeCarga/jquery.blockUI.js')}}"></script>
+    <script src="{{('js/mascaraDeCarga/mascara.js')}}"></script>
     <script src="{{ mix('js/app.js') }}"></script>
     <!--Contenido De Link De Js y Igualmente Contiene La Mascara De Carga Fin-->
 </body>

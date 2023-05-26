@@ -51,7 +51,7 @@
                                     {{-- <a href="{{ route('editarAlumnos', $item->id) }}" class="btn btn-warning">Editar</a> --}}
                                 </td>
                                 <td>
-                                    <form action="{{ route('destroy', $item->id) }}" method="POST">
+                                    <form action="{{ route('destroyCreditos', $item->id) }}" method="POST">
                                         @csrf
                                         @method('DELETE')
                                         <button class="btn btn-danger">Eliminar</button>

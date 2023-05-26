@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Carpeta;
+use App\Models\Catalogocredito;
 use App\Models\Credito;
 use Illuminate\Http\Request;
 
@@ -13,7 +14,7 @@ class Creditos extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function indexCreditos()
     {
         $titulo = "Creditos";
         $items = Credito::all();
@@ -25,12 +26,13 @@ class Creditos extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function crearCreditos()
     {
         $titulo = 'Agregar Creditos';
-        // $carreras = Credito::all();
+        $carpetas = Carpeta::all();
         $items = Credito::all();
-        return view('/creditos/crearCreditos', compact('titulo', 'items'));
+        $creditosrol = Catalogocredito::all();
+        return view('/creditos/crearCreditos', compact('titulo', 'items','carpetas','creditosrol'));
     }
 
     /**
@@ -39,7 +41,7 @@ class Creditos extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function storeCreditos(Request $request)
     {
         $item = new Credito();
         $item->nombreCredito = $request->nombreCredito;
@@ -69,9 +71,14 @@ class Creditos extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function editCreditos($id)
     {
-        //
+        $titulo = 'Actualizar Creditos';
+        
+        $items = Credito::find($id);
+        $carpetas = Carpeta::all();
+        $creditosrol = Catalogocredito::all();
+        return view('/creditos/editarCreditos', compact('titulo', 'items', 'carpetas','creditosRol'));
     }
 
     /**
@@ -81,9 +88,17 @@ class Creditos extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function updateCreditos(Request $request, $id)
     {
-        //
+        $item = Credito::find($id);
+        $item->nombreCredito = $request->nombreCredito;
+        $item->mooc = $request->mooc;
+        $item->constancia = $request->constancia;
+        $item->oficioLiberacion = $request->oficioLiberacion;
+        $item->evidencia = $request->evidencia;
+        $item->carpeta = $request->carpeta;
+        $item->save();
+        return redirect('/vistaCreditos');
     }
 
     /**
@@ -92,7 +107,7 @@ class Creditos extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroyCreditos($id)
     {
         $item = Credito::find($id);
         $item->delete();
@@ -107,13 +122,11 @@ class Creditos extends Controller
         } else {
             $item->estado = 'Liberado';
         }
-        
+
         $item->save();
         return redirect()->back();
     }
     
-
-
     public function createCarpetas(){
         $titulo = 'Agregar Carpetas';
         $items = Carpeta::all();
