@@ -5,6 +5,8 @@
 .TipoDeLetraDeLogint{
     /*Tipo De Letra Para Proyecto*/
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #e9ecef;
+  /*Se Coloco Un Color Al Fondo Del Login*/
 }
 .tamañoDeImgLogo{
     width: 20rem;
