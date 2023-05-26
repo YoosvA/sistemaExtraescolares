@@ -40,12 +40,12 @@ Route::put('update/{id}', [Alumnos::class, 'update'])->name('update');
 Route::delete('/destroy/{id}', [Alumnos::class, 'destroy'])->name('destroy');
 
 //creditos
-Route::get('/vistaCreditos', [Creditos::class, 'index']);
-Route::get('crearCreditos', [Creditos::class, 'create']);
-Route::post('/store', [Creditos::class, 'store']);
+Route::get('/vistaCreditos', [Creditos::class, 'indexCreditos']);
+Route::get('crearCreditos', [Creditos::class, 'crearCreditos']);
+Route::post('/storeCreditos', [Creditos::class, 'storeCreditos']);
 
 
-Route::delete('/destroy/{id}', [Creditos::class, 'destroy'])->name('destroy');
+Route::delete('/destroyCreditos/{id}', [Creditos::class, 'destroyCreditos'])->name('destroyCreditos');
 Route::put('/cambiarEstado/{id}', [Creditos::class, 'cambiarEstado'])->name('cambiarEstado');
 Route::get('crearCarpetas', [Creditos::class, 'createCarpetas']);
 Route::post('/storeCarpetas', [Creditos::class, 'storeCarpetas']);

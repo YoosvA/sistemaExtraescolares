@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{{asset('librerias/fontawesome/css/all.css')}}">
     <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
     <title>{{ $titulo }}</title>
 </head>
 
@@ -74,6 +75,8 @@
     <script src="{{('js/mascaraDeCarga/jquery-3.2.1.min.js')}}"></script>
     <script src="{{('js/mascaraDeCarga/jquery.blockUI.js')}}"></script>
     <script src="{{('js/mascaraDeCarga/mascara.js')}}"></script>
+    <script src="{{ asset('js/aos.js') }}"></script>
+    <script src="{{ asset('js/aosint.js') }}"></script>
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
 
