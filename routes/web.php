@@ -43,7 +43,8 @@ Route::delete('/destroy/{id}', [Alumnos::class, 'destroy'])->name('destroy');
 Route::get('/vistaCreditos', [Creditos::class, 'indexCreditos']);
 Route::get('crearCreditos', [Creditos::class, 'crearCreditos']);
 Route::post('/storeCreditos', [Creditos::class, 'storeCreditos']);
-
+Route::get('/editarCreditos/{id}', [Creditos::class, 'editCreditos'])->name('editarCreditos');
+Route::put('updateCreditos/{id}', [Creditos::class, 'updateCreditos'])->name('updateCreditos');
 
 Route::delete('/destroyCreditos/{id}', [Creditos::class, 'destroyCreditos'])->name('destroyCreditos');
 Route::put('/cambiarEstado/{id}', [Creditos::class, 'cambiarEstado'])->name('cambiarEstado');

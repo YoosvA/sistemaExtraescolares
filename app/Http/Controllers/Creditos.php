@@ -74,11 +74,10 @@ class Creditos extends Controller
     public function editCreditos($id)
     {
         $titulo = 'Actualizar Creditos';
-        
-        $items = Credito::find($id);
         $carpetas = Carpeta::all();
+        $items = Credito::find($id);
         $creditosrol = Catalogocredito::all();
-        return view('/creditos/editarCreditos', compact('titulo', 'items', 'carpetas','creditosRol'));
+        return view('/creditos/editarCreditos', compact('titulo', 'items', 'carpetas', 'creditosrol'));
     }
 
     /**

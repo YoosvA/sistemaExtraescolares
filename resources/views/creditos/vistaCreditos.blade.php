@@ -46,9 +46,8 @@
                                 </td>
                                 <td> {{ $item->created_at }} </td>
                                 <td>
-                                    Editar
                                     <br>
-                                    {{-- <a href="{{ route('editarAlumnos', $item->id) }}" class="btn btn-warning">Editar</a> --}}
+                                    <a href="{{ route('editarCreditos', $item->id) }}" class="btn btn-warning">Editar</a>
                                 </td>
                                 <td>
                                     <form action="{{ route('destroyCreditos', $item->id) }}" method="POST">

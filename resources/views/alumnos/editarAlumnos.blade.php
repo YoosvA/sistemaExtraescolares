@@ -28,7 +28,7 @@
                         </div>
                         <div class="col">
                             <label for="carrera">Carrera</label>
-                            <select name="carrera" id="carrera" class="form-select" value="{{ $items->carrera }}"required>
+                            <select name="carrera" id="carrera" class="form-select" value="{{ $items->carrera }}" required>
                                 <option value="" selected>Selecciona una opcion</option>
                                 @foreach ($carreras as $item)
                                     <option value="{{ $item->nombre }}">{{ $item->nombre }}</option>
