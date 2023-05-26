@@ -29,8 +29,9 @@ class Creditos extends Controller
     {
         $titulo = 'Agregar Creditos';
         // $carreras = Credito::all();
+        $carpetas = Carpeta::all();
         $items = Credito::all();
-        return view('/creditos/crearCreditos', compact('titulo', 'items'));
+        return view('/creditos/crearCreditos', compact('titulo', 'items','carpetas'));
     }
 
     /**
@@ -107,13 +108,11 @@ class Creditos extends Controller
         } else {
             $item->estado = 'Liberado';
         }
-        
+
         $item->save();
         return redirect()->back();
     }
     
-
-
     public function createCarpetas(){
         $titulo = 'Agregar Carpetas';
         $items = Carpeta::all();

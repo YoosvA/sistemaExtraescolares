@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class CreateCarreraTable extends Migration
@@ -18,6 +19,12 @@ class CreateCarreraTable extends Migration
             $table->string('nombre');
             $table->timestamps();
         });
+
+        DB::table('carrera')->insert([
+            ['nombre' => 'Ingenieria en Sistemas Computacionales'],
+            ['nombre' => 'Ingenieria en Gestión Empresarial'],
+            ['nombre' => 'Ingenieria Industrial']
+        ]);
     }
 
     /**

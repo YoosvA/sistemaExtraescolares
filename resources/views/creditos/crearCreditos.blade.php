@@ -23,8 +23,17 @@
                             <input type="file" name="oficioLiberacion" id="oficioLiberacion" class="form-control">
                             <label for="evidencia">Evidencia</label>
                             <input type="file" name="evidencia" id="evidencia" class="form-control">
+                            {{-- <label for="carpeta">Carpeta Fisica</label>
+                            <input type="carpeta" name="carpeta" id="carpeta" class="form-control" required>   --}}
+                            
+                            
                             <label for="carpeta">Carpeta Fisica</label>
-                            <input type="carpeta" name="carpeta" id="carpeta" class="form-control" required>
+                            <select name="carpeta" id="carpeta" class="form-select" required>
+                                <option value="" selected>Selecciona una opcion</option>
+                                @foreach ($carpetas as $carpeta)
+                                    <option value="{{ $carpeta->nombreCarpeta }}">{{ $carpeta->nombreCarpeta }}</option>
+                                @endforeach
+                            </select>
                         </div>
                     </div>
 
