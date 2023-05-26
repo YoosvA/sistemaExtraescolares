@@ -1,26 +1,28 @@
+/*HOJA DE ESTILOS PRINCIPAL DEL LOGIN*/
 .colorTransparente{
     background:rgba(138,221,45,0);
 }
-.color{
-  background-color: #000000;
+.TipoDeLetraDeLogint{
+    /*Tipo De Letra Para Proyecto*/
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .tamañoDeImgLogo{
     width: 20rem;
-    height: 20rem;
+    height: 25rem;
 }
 .colorDeBoton{
-    background-color: #dee2e6;
-    width: 5rem;
-    height: 5rem;
+    /*Color Que Puedes Ocupar En El Proyecto (Institucional)*/
+    background-color: #1b396a;
+  
 }
 .divFondoPrimero{
+    /*Nota
+    - > No Se Borre Lo Ocuparemos En Algun Momento En Un Div En Una vista
+        Del Proyecto Del Sistema ExtraEscolares
+    */
     background-image: url(../img/LogoPrincipal.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 22em;
-}
-.colorNegro{
-    background:rgba(138,221,45,0);
 }
