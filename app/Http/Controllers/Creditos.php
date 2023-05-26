@@ -99,13 +99,20 @@ class Creditos extends Controller
         return redirect('/vistaCreditos');
     }
 
-    public function cambiarEstado($id)
-    {
+    public function cambiarEstado($id){
         $item = Credito::find($id);
-        $item->estado = $item->estado === 'En proceso' ? 'Liberado' : 'En proceso';
+    
+        if ($item->estado === 'Liberado') {
+            $item->estado = 'En proceso';
+        } else {
+            $item->estado = 'Liberado';
+        }
+        
         $item->save();
         return redirect()->back();
     }
+    
+
 
     public function createCarpetas(){
         $titulo = 'Agregar Carpetas';
