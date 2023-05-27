@@ -9,7 +9,7 @@
   /*Se Coloco Un Color Al Fondo Del Login*/
 }
 .tamañoDeImgLogo{
-    width: 20rem;
+    width: 21rem;
     height: 25rem;
 }
 .colorDeBoton{
@@ -17,6 +17,7 @@
     background-color: #1b396a;
   
 }
+
 .divFondoPrimero{
     /*Nota
     - > No Se Borre Lo Ocuparemos En Algun Momento En Un Div En Una vista

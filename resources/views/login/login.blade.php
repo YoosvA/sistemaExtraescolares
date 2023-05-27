@@ -18,7 +18,7 @@
             <div class="col">
                 <!--Primer Card Contenido Inicio-->
                 <div
-                    class="card position-absolute top-50 start-50 translate-middle shadow-lg bg-body rounded rounded border-0">
+                    class="card position-absolute top-50 start-50 translate-middle shadow-lg bg-body rounded rounded border-0 rounded-5">
                     <div class="card-body">
                         <!--Contenido De Los 2 Card-->
                         <div class="row">
@@ -27,7 +27,7 @@
                                 <div class="card border-0 colorTransparente">
                                     <div class="card-body">
                                         <!--Contenido De Logo Tecnm Inicio-->
-                                        <img src="{{ asset('img/Tecnm.png') }}" class="tamañoDeImgLogo img-flui"
+                                        <img src="{{ asset('img/Tecnm.png') }}" class="tamañoDeImgLogo img-fluid"
                                             alt="">
                                         <!--Contenido De Logo Tecnm Fin-->
                                     </div>
@@ -40,13 +40,13 @@
                                         <form action="{{ route('logear') }}" method="post">
                                             @csrf
                                             @method('POST')
-                                            <h2>Sistema Extra Escolares</h2>
+                                            <h2 class="text-center">Sistema Extra Escolares</h2>
                                             <h4><img src="{{ asset('img/user.svg') }}" alt=""> Usuario</h4>
-                                            <input type="text" class="form-control mt-2 mb-2" name="user"
+                                            <input type="text" class="form-control rounded-pill mt-2 mb-2" name="user"
                                                 required>
                                             <h4><img src="{{ asset('img/password.svg') }}" alt="">
                                                 Contraseña</label>
-                                                <input type="password" class="form-control mt-2 mb-2" name="password"
+                                                <input type="password" class="form-control rounded-pill mt-2 mb-2" name="password"
                                                     id="password" required>
                                                 <!--Parte De Boton De Mostrar Contraseña Inicio (Se Utilizo JS)-->
                                                 <input type="checkbox" id="showPassword">
@@ -68,7 +68,7 @@
                                                 <!--Parte De Boton De Mostrar Contraseña Fin (Se Utilizo JS)-->
                                                 <!--Contenido De Boton Color Azul Inicio-->
                                                 <div class="text-center d-grid gap-2 col-6 mx-auto  mt-3 ">
-                                                    <button class=" btn colorDeBoton rounded-pill ">
+                                                    <button class="btn colorDeBoton rounded-pill ">
                                                         <h5 class="text-white">Entrar</h5>
                                                     </button>
                                                 </div>
