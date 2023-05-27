@@ -5,7 +5,7 @@ $(document).ready(function() {
 function mascaraObloqueo() {
     $.blockUI({
         //Fondo Para Colocar Una Img De Loader ( Loader Spinner )
-        message: ' <img src="../../img/ITMA II.png" width="300" height="300">',
+        message: ' <img src="../../img/TecnmCircular.png" width="300" height="300">',
         css: {
             border: 'none',
             // padding: '15px', 

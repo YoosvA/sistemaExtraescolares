@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="{{ asset('css/jquery.dataTables.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.dataTables.min.css') }}">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
     <title>{{ $titulo }}</title>
 </head>
 
-<body>
+<body class="TipoDeLetraDeLogint">
 
     {{-- @include('shared/menu') --}}
     @yield('contenido')

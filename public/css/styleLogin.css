@@ -17,7 +17,13 @@
     background-color: #1b396a;
   
 }
-
+.tamañoDeImgTecnmCircular{
+    width: 15rem;
+    height: 15rem;
+}
+.PrimerBotonDeAgregarNuevoUsuario{
+    background-color: #1b396a;
+}
 .divFondoPrimero{
     /*Nota
     - > No Se Borre Lo Ocuparemos En Algun Momento En Un Div En Una vista

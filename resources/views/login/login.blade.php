@@ -42,12 +42,12 @@
                                             @method('POST')
                                             <h2 class="text-center">Sistema Extra Escolares</h2>
                                             <h4><img src="{{ asset('img/user.svg') }}" alt=""> Usuario</h4>
-                                            <input type="text" class="form-control rounded-pill mt-2 mb-2" name="user"
-                                                required>
+                                            <input type="text" class="form-control text-center rounded-pill mt-2 mb-2" name="user"
+                                                required placeholder="Usuario" aria-label="Usuario">
                                             <h4><img src="{{ asset('img/password.svg') }}" alt="">
                                                 Contraseña</label>
-                                                <input type="password" class="form-control rounded-pill mt-2 mb-2" name="password"
-                                                    id="password" required>
+                                                <input type="password" class="form-control text-center rounded-pill mt-2 mb-2" name="password"
+                                                    id="password" required placeholder="Contraseña" aria-label="Contraseña">
                                                 <!--Parte De Boton De Mostrar Contraseña Inicio (Se Utilizo JS)-->
                                                 <input type="checkbox" id="showPassword">
                                                 <label for="showPassword">
@@ -89,7 +89,7 @@
             </div>
         </div>
     </div>
-
+     <!--Contenido De Link De Js y Igualmente Contiene La Mascara De Carga Inicio-->   
     <script src="{{('js/mascaraDeCarga/jquery-3.2.1.min.js')}}"></script>
     <script src="{{('js/mascaraDeCarga/jquery.blockUI.js')}}"></script>
     <script src="{{('js/mascaraDeCarga/mascara.js')}}"></script>
