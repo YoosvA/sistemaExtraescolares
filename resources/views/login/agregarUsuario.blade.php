@@ -5,13 +5,15 @@
         <div class="row">
             <div class="col">
                 <!--Contenido De Informacion Que Esta Dentro De Un Card Inicio-->
-                <div class="card position-absolute top-50 start-50 translate-middle shadow-lg bg-body rounded rounded border-0 rounded-5">
+                <div
+                    class="card position-absolute top-50 start-50 translate-middle shadow-lg bg-body rounded rounded border-0 rounded-5">
                     <div class="card-body text-center">
                         <!--Contenido Donde Se Coloco Una Imagen Y Titulo Inicio-->
                         <img src="{{ asset('img/TecnmCircular.png') }}" class="tamañoDeImgTecnmCircular img-fluid"
                             alt="">
                         <h1 class="text-center mt-2">Agregar Usuario</h1>
                         <!--Contenido Donde Se Coloco Una Imagen Y Titulo Fin-->
+                        <!--Contenido De Input Que Estan Dentro De Diferentes Card En Orden Inicio-->
                         <form action="/agregarNuevo" method="post" class="mt-3">
                             @csrf
                             @method('POST')
@@ -64,11 +66,10 @@
                                             class="btn PrimerBotonDeAgregarNuevoUsuario rounded-pill mt-3 mx-5 text-white">Guardar</button>
                                         <a href="/" class="btn btn-success rounded-pill mt-3">regresar</a>
                                     </div>
-
                                 </div>
                             </div>
-
                         </form>
+                        <!--Contenido De Input Que Estan Dentro De Diferentes Card En Orden Fin-->
                     </div>
                 </div>
                 <!--Contenido De Informacion Que Esta Dentro De Un Card Fin-->
