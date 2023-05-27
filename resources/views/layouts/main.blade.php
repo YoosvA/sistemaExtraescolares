@@ -13,10 +13,10 @@
 </head>
 
 <body class="TipoDeLetraDeLogint">
-
     {{-- @include('shared/menu') --}}
     @yield('contenido')
-    
+
+
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
