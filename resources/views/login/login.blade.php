@@ -68,7 +68,7 @@
                                                 <!--Parte De Boton De Mostrar Contraseña Fin (Se Utilizo JS)-->
                                                 <!--Contenido De Boton Color Azul Inicio-->
                                                 <div class="text-center d-grid gap-2 col-6 mx-auto  mt-3 ">
-                                                    <button class="btn colorDeBoton rounded-pill ">
+                                                    <button class="btn colorDeBoton rounded-pill">
                                                         <h5 class="text-white">Entrar</h5>
                                                     </button>
                                                 </div>
