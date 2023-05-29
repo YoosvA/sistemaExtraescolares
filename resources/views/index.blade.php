@@ -11,7 +11,7 @@
     <title>{{ $titulo }}</title>
 </head>
 
-<body>
+<body class="colorDeFondo">
     <section class="sidebar">
         <!---->
         <br>
@@ -21,12 +21,12 @@
         </div>
         <!---->
         <ul class="nav-links">
-            {{-- <li>
+            <li>
                <div class="text-center">
-                <img src="{{ asset('img/LogoITMA.png') }}" class="title tamañoDeImgLogo" alt="">
+                <img src="{{ asset('img/LOGO_TECNM_BLANCO.png') }}" class="title tamañoDeImgLogo" alt="">
                 <span class="tooltip"></span>
                </div>
-            </li> --}}
+            </li>
             <li>
                 <a href="#DatosPersonales">
 
