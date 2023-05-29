@@ -38,7 +38,7 @@
         </section>
         <section class="content">
             <!---->
-            <br><br>
+            <br>
             <h1 id="DatosPersonalesDelAlumno">Datos Personales Del Alumno</h1>
             <h2 class="ms-5">Caracteristicas</h2>
             <h4 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, id corporis.
@@ -62,7 +62,7 @@
                             <br>
                             <div class="d-grid gap-2 col-4 mt-4 mx-auto">
                                 <a href="/vistaAlumnos" class="btn colorDeBotonazul rounded-pill border-0">
-                                    <h5 class="text-white">Vista Datos</h5>
+                                    <h5 class="text-white">Entrar</h5>
                                 </a>
                             </div>
                             <!--Parte de boton-->
@@ -84,7 +84,7 @@
             <!---->
             <h1 id="Creditos">Creditos</h1>
             <h2 class="ms-5">Caracteristicas</h2>
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi expedita quo odit
+            <h5 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi expedita quo odit
                 inventore
                 neque quisquam praesentium! Eveniet aut mollitia quo vel commodi delectus, natus autem ipsa recusandae
                 voluptas!Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi expedita quo
@@ -117,7 +117,7 @@
                             <br>
                             <div class="d-grid gap-2 col-4 mt-4 mx-auto">
                                 <a href="/vistaCreditos" class="btn colorDeBotonazul rounded-pill border-0">
-                                    <h5 class="text-white">Creditos</h5>
+                                    <h5 class="text-white">Entrar</h5>
                                 </a>
                             </div>
                             <!--Parte de boton-->
@@ -125,58 +125,50 @@
                     </div>
                 </div>
             </div>
+            <br><br><br><br>
             <!---->
-            <h2 id="NotasDeParticipacion">Notas De <br> Participacion</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis officia similique
-                blanditiis eaque
-                laboriosam a fugiat, excepturi nemo quod asperiores. Itaque sed unde vitae modi velit, minima iste
-                odit corporis
-                facere similique dolore laudantium amet, eaque, ratione voluptatem. Autem dolorem accusamus
-                quibusdam, vero
-                dignissimos blanditiis. Placeat, modi doloremque similique expedita voluptatibus rerum.
-                Reprehenderit rem eveniet
-                facilis modi facere, explicabo dolorem in perspiciatis distinctio magni deserunt excepturi
-                doloremque! Ex
-                accusantium
-                rerum ullam magni earum? Sed tenetur corrupti ducimus voluptatum nesciunt consequuntur
-                exercitationem necessitatibus
-                quod itaque dolorum beatae maxime maiores, cum suscipit quam deserunt eaque temporibus facilis
-                cupiditate fugiat
-                voluptate quis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis officia similique
-                blanditiis eaque
-                laboriosam a fugiat, excepturi nemo quod asperiores. Itaque sed unde vitae modi velit, minima iste
-                odit corporis
-                facere similique dolore laudantium amet, eaque, ratione voluptatem. Autem dolorem accusamus
-                quibusdam, vero
-                dignissimos blanditiis. Placeat, modi doloremque similique expedita voluptatibus rerum.
-                Reprehenderit rem eveniet
-                facilis modi facere, explicabo dolorem in perspiciatis distinctio magni deserunt excepturi
-                doloremque! Ex
-                accusantium
-                rerum ullam magni earum? Sed tenetur corrupti ducimus voluptatum nesciunt consequuntur
-                exercitationem necessitatibus
-                quod itaque dolorum beatae maxime maiores, cum suscipit quam deserunt eaque temporibus facilis
-                cupiditate fugiat
-                voluptate quis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis officia similique
-                blanditiis eaque
-                laboriosam a fugiat, excepturi nemo quod asperiores. Itaque sed unde vitae modi velit, minima iste
-                odit corporis
-                facere similique dolore laudantium amet, eaque, ratione voluptatem. Autem dolorem accusamus
-                quibusdam, vero
-                dignissimos blanditiis. Placeat, modi doloremque similique expedita voluptatibus rerum.
-                Reprehenderit rem eveniet
-                facilis modi facere, explicabo dolorem in perspiciatis distinctio magni deserunt excepturi
-                doloremque! Ex
-                accusantium
-                rerum ullam magni earum? Sed tenetur corrupti ducimus voluptatum nesciunt consequuntur
-                exercitationem necessitatibus
-                quod itaque dolorum beatae maxime maiores, cum suscipit quam deserunt eaque temporibus facilis
-                cupiditate fugiat
-                voluptate quis.
-            </p>
+            <h1 id="NotasDeParticipacion">Notas De Participacion</h1>
+            <h2 class="ms-5">Caracteristicas</h2>
+            <h4 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, id corporis.
+                Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
+                vel tempore incidunt perferendis eos quasi nostrum odit!Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Deserunt, id corporis.
+                Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
+                vel tempore incidunt perferendis eos quasi nostrum odit!</h4>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card border-0 colorTransparente">
+                        <div class="card-body">
+                            <h5 class="mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+                                id corporis.
+                                Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
+                                vel tempore incidunt perferendis eos quasi nostrum odit!Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Deserunt, id corporis.
+                                Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
+                                vel tempore incidunt perferendis eos quasi nostrum odit!</h5>
+                            <!--Parte de boton-->
+                            <br>
+                            <div class="d-grid gap-2 col-4 mt-4 mx-auto">
+                                <!--FALTA COLOCAR LA DIRECCION DONDE VA A ESTAR DIRIGIDO OSVALDO EN EL HREF-->
+                                <a href="/" class="btn colorDeBotonazul rounded-pill border-0">
+                                    <h5 class="text-white">Entrar</h5>
+                                </a>
+                            </div>
+                            <!--Parte de boton-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card border-0 colorTransparente">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="{{ asset('img/Persona1.jpg') }}"
+                                    class="rounded-circle tamañoDeImgPersona img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!---->
         </section>
     </main>
