@@ -56,10 +56,12 @@ class Creditos extends Controller
         $pathmooc = $request->file('mooc')->store('archivosServidor', 'public');
         $item->mooc = $pathmooc;
         }
+        
         if(!empty($request->constancia)){
         $pathconstancia = $request->file('constancia')->store('archivosServidor', 'public');
         $item->constancia = $pathconstancia;
-        }
+        } 
+
         if(!empty($request->oficioLiberacion)){
         $pathoficioLiberacion = $request->file('oficioLiberacion')->store('archivosServidor', 'public');
         $item->oficioLiberacion = $pathoficioLiberacion;

@@ -32,18 +32,33 @@
                                         <td>{{ $item->id }}</td>
                                         <td>{{ $item->nombreCredito }}</td>
                                         <td>
-                                            <a href="{{ asset($item->mooc) }}" target="_blank">Mostrar</a>
-                                          
-                                        </td>
-        
-                                        <td>
-                                            <a href="{{ asset($item->constancia) }}" target="_blank">Mostrar</a>
-                                        </td>
-                                        <td>
-                                            <a href="{{ asset($item->oficioLiberacion) }}" target="_blank">Mostrar</a>
+                                            @if (!empty($item->mooc))
+                                            <a class="btn btn-dark" href="{{ asset($item->mooc) }}" target="_blank">Mostrar</a>
+                                            @else
+                                                No se ha agregado el archivo
+                                            @endif
                                         </td>
                                         <td>
-                                            <a href="{{ asset($item->evidencia) }}" target="_blank">Mostrar</a>
+                                            @if (!empty($item->constancia))
+                                            <a class="btn btn-dark" href="{{ asset($item->constancia) }}" target="_blank">Mostrar</a>
+                                            @else
+                                                No se ha agregado el archivo
+                                            @endif
+                                        </td>
+                                        <td>
+                                            @if (!empty($item->oficioLiberacion))
+                                            <a class="btn btn-dark" href="{{ asset($item->oficioLiberacion) }}" target="_blank">Mostrar</a>
+                                            @else
+                                                No se ha agregado el archivo
+                                            @endif
+                                            
+                                        </td>
+                                        <td>
+                                            @if (!empty($item->evidencia))
+                                            <a class="btn btn-dark" href="{{ asset($item->evidencia) }}" target="_blank">Mostrar</a>
+                                            @else
+                                                No se ha agregado el archivo
+                                            @endif
                                         </td>
                                         <td>{{ $item->carpeta }}</td>
                                         <td>
