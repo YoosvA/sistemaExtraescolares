@@ -45,11 +45,29 @@ class Creditos extends Controller
     {
         $item = new Credito();
         $item->nombreCredito = $request->nombreCredito;
-        $item->mooc = $request->mooc;
-        $item->constancia = $request->constancia;
-        $item->oficioLiberacion = $request->oficioLiberacion;
-        $item->evidencia = $request->evidencia;
+        
         $item->carpeta = $request->carpeta;
+
+        // Guardar el archivo
+        // $path = $request->file('mooc')->asset('public/archivosServidor');
+        // $item->mooc = $path;
+        
+        if(!empty($request->mooc)){
+        $pathmooc = $request->file('mooc')->store('archivosServidor', 'public');
+        $item->mooc = $pathmooc;
+        }
+        if(!empty($request->constancia)){
+        $pathconstancia = $request->file('constancia')->store('archivosServidor', 'public');
+        $item->constancia = $pathconstancia;
+        }
+        if(!empty($request->oficioLiberacion)){
+        $pathoficioLiberacion = $request->file('oficioLiberacion')->store('archivosServidor', 'public');
+        $item->oficioLiberacion = $pathoficioLiberacion;
+        }
+        if(!empty($request->evidencia)){
+        $pathevidencia = $request->file('evidencia')->store('archivosServidor', 'public');
+        $item->evidencia = $pathevidencia;
+        }
         $item->save();
         return redirect('/vistaCreditos');
     }

@@ -50,3 +50,4 @@ Route::delete('/destroyCreditos/{id}', [Creditos::class, 'destroyCreditos'])->na
 Route::put('/cambiarEstado/{id}', [Creditos::class, 'cambiarEstado'])->name('cambiarEstado');
 Route::get('crearCarpetas', [Creditos::class, 'createCarpetas']);
 Route::post('/storeCarpetas', [Creditos::class, 'storeCarpetas']);
+
