@@ -14,8 +14,15 @@
 </head>
 
 <body class="TipoDeLetraDeLogint">
-    @include('shared/menu')
-    @yield('contenido')
+
+    <main class="main">
+        <div class="menu" id="menu">
+            @include('shared/menu')
+        </div>
+        <div class="content">
+            @yield('contenido')
+        </div>
+    </main>
 
 
     <script src="{{ asset('js/jquery.js') }}"></script>

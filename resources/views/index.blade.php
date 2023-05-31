@@ -13,13 +13,15 @@
 
 <body class="colorDeFondo">
     <main class="main">
-        <section class="menu" id="menu">
+        <div class="menu" id="menu">
             <button>=</button>
             <div class="menu-content">
                 <ul>
                     <li>
-                        <div class="text-center"> &nbsp;&nbsp;&nbsp; <img src="{{ asset('img/LOGO_TECNM_BLANCO.png') }}"
-                                class="tamañoDeLogoBlanco img-fluid" alt=""></div>
+                        <div class="text-center">
+                            &nbsp;&nbsp;&nbsp;
+                            <img src="{{ asset('img/LOGO_TECNM_BLANCO.png') }}" class="tamañoDeLogoBlanco img-fluid" alt="">
+                        </div>
                     </li>
                     <li>
                         <h3 class="text-center text-white">Sistema <br> ExtraEscolares</h3>
@@ -35,8 +37,8 @@
                     <li class="colorBlanco text-center">Creative Code</li>
                 </ul>
             </div>
-        </section>
-        <section class="content">
+        </div>
+        <div class="content">
             <!---->
             <br>
             <h1 id="DatosPersonalesDelAlumno">Datos Personales Del Alumno</h1>
@@ -73,8 +75,7 @@
                     <div class="card border-0 colorTransparente">
                         <div class="card-body">
                             <div class="text-center">
-                                <img src="{{ asset('img/Persona1.jpg') }}"
-                                    class="rounded-circle tamañoDeImgPersona img-fluid" alt="">
+                                <img src="{{ asset('img/Persona1.jpg') }}" class="rounded-circle tamañoDeImgPersona img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -97,8 +98,7 @@
                     <div class="card border-0 colorTransparente">
                         <div class="card-body">
                             <div class="text-center">
-                                <img src="{{ asset('img/Persona2.jpg') }}"
-                                    class="rounded-circle tamañoDeImgPersona img-fluid" alt="">
+                                <img src="{{ asset('img/Persona2.jpg') }}" class="rounded-circle tamañoDeImgPersona img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -162,16 +162,16 @@
                     <div class="card border-0 colorTransparente">
                         <div class="card-body">
                             <div class="text-center">
-                                <img src="{{ asset('img/Persona3.jpg') }}"
-                                    class="rounded-circle tamañoDeImgPersona img-fluid" alt="">
+                                <img src="{{ asset('img/Persona3.jpg') }}" class="rounded-circle tamañoDeImgPersona img-fluid" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!---->
-        </section>
+        </div>
     </main>
+    
     <script src="{{asset('js/mascaraDeCarga/jquery-3.2.1.min.js')}}"></script>
     <script src="{{asset('js/mascaraDeCarga/jquery.blockUI.js')}}"></script>
     <script src="{{asset('js/mascaraDeCarga/mascara.js')}}"></script>
