@@ -162,7 +162,7 @@
                     <div class="card border-0 colorTransparente">
                         <div class="card-body">
                             <div class="text-center">
-                                <img src="{{ asset('img/Persona1.jpg') }}"
+                                <img src="{{ asset('img/Persona3.jpg') }}"
                                     class="rounded-circle tamañoDeImgPersona img-fluid" alt="">
                             </div>
                         </div>
