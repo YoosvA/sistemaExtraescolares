@@ -43,9 +43,6 @@
                                 @endforeach
                             </select>
 
-                            {{-- <label for="nombreCredito">Credito</label>
-                            <input type="text" name="nombreCredito" id="nombreCredito" class="form-control" required> --}}
-
                             <label for="mooc">Mooc</label>
                             <input type="file" name="mooc" id="mooc" class="form-control">
 

@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.dataTables.min.css') }}">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <title>{{ $titulo }}</title>
 </head>
 
 <body class="TipoDeLetraDeLogint">
-    {{-- @include('shared/menu') --}}
+    @include('shared/menu')
     @yield('contenido')
 
 
@@ -22,6 +23,13 @@
     <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('js/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }} "></script>
+
+    <script>
+        const menu = document.getElementById('menu')
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('menu-activo');
+        })
+    </script>
 </body>
 
 </html>
