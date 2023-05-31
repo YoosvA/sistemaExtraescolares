@@ -4,6 +4,7 @@ use App\Http\Controllers\Alumnos;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Creditos;
+use App\Http\Controllers\Notas;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -50,4 +51,7 @@ Route::delete('/destroyCreditos/{id}', [Creditos::class, 'destroyCreditos'])->na
 Route::put('/cambiarEstado/{id}', [Creditos::class, 'cambiarEstado'])->name('cambiarEstado');
 Route::get('crearCarpetas', [Creditos::class, 'createCarpetas']);
 Route::post('/storeCarpetas', [Creditos::class, 'storeCarpetas']);
+
+//notas
+Route::get('vistaNotas', [Notas::class, 'indexNotas']);
 

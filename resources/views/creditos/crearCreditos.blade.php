@@ -10,6 +10,30 @@
                     @method('POST')
                     <div class="row">
                         <div class="col">
+
+                            <label for="nombreAlumnosCreditos">Nombre del Alumno</label>
+                            <select name="nombreAlumnosCreditos" id="nombreAlumnosCreditos" class="form-select" required>
+                                <option value="" selected>Selecciona una opcion</option>
+                                @foreach ($alumnosDatos as $datos)
+                                    <option value="{{ $datos->nombre }}">{{ $datos->nombre }}</option>
+                                @endforeach
+                            </select>
+                            
+                            <label for="apellidoPaternoCreditos">Apellido Paterno</label>
+                            <select name="apellidoPaternoCreditos" id="apellidoPaternoCreditos" class="form-select" required>
+                                <option value="" selected>Selecciona una opcion</option>
+                                @foreach ($alumnosDatos as $datos)
+                                    <option value="{{ $datos->apellidoPaterno }}">{{ $datos->apellidoPaterno }}</option>
+                                @endforeach
+                            </select>
+
+                            <label for="apellidoMaternoCreditos">Apellido Materno</label>
+                            <select name="apellidoMaternoCreditos" id="apellidoMaternoCreditos" class="form-select" required>
+                                <option value="" selected>Selecciona una opcion</option>
+                                @foreach ($alumnosDatos as $datos)
+                                    <option value="{{ $datos->apellidoMaterno }}">{{ $datos->apellidoMaterno }}</option>
+                                @endforeach
+                            </select>
                             
                             <label for="nombreCredito">Credito</label>
                             <select name="nombreCredito" id="nombreCredito" class="form-select" required>
@@ -24,11 +48,11 @@
 
                             <label for="mooc">Mooc</label>
                             <input type="file" name="mooc" id="mooc" class="form-control">
-                            <label for="constancia">Constancia</label>
-                            <input type="file" name="constancia" id="constancia" class="form-control">
 
                         </div>
                         <div class="col">
+                            <label for="constancia">Constancia</label>
+                            <input type="file" name="constancia" id="constancia" class="form-control">
                             <label for="oficioLiberacion">Oficio de Liberación</label>
                             <input type="file" name="oficioLiberacion" id="oficioLiberacion" class="form-control">
                             <label for="evidencia">Evidencia</label>

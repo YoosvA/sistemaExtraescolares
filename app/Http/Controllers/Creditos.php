@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Alumno;
 use App\Models\Carpeta;
 use App\Models\Catalogocredito;
 use App\Models\Credito;
 use Illuminate\Http\Request;
+
 
 class Creditos extends Controller
 {
@@ -32,7 +34,8 @@ class Creditos extends Controller
         $carpetas = Carpeta::all();
         $items = Credito::all();
         $creditosrol = Catalogocredito::all();
-        return view('/creditos/crearCreditos', compact('titulo', 'items','carpetas','creditosrol'));
+        $alumnosDatos = Alumno::all();
+        return view('/creditos/crearCreditos', compact('titulo', 'items','carpetas','creditosrol','alumnosDatos'));
     }
 
     /**
@@ -44,14 +47,17 @@ class Creditos extends Controller
     public function storeCreditos(Request $request)
     {
         $item = new Credito();
+
+        $item->nombreAlumnosCreditos = $request->nombreAlumnosCreditos;
+        $item->apellidoPaternoCreditos = $request->apellidoPaternoCreditos;
+        $item->apellidoMaternoCreditos = $request->apellidoMaternoCreditos;
+
         $item->nombreCredito = $request->nombreCredito;
         
         $item->carpeta = $request->carpeta;
 
         // Guardar el archivo
-        // $path = $request->file('mooc')->asset('public/archivosServidor');
-        // $item->mooc = $path;
-        
+  
         if(!empty($request->mooc)){
         $pathmooc = $request->file('mooc')->store('archivosServidor', 'public');
         $item->mooc = $pathmooc;
@@ -70,6 +76,7 @@ class Creditos extends Controller
         $pathevidencia = $request->file('evidencia')->store('archivosServidor', 'public');
         $item->evidencia = $pathevidencia;
         }
+        
         $item->save();
         return redirect('/vistaCreditos');
     }
@@ -97,7 +104,8 @@ class Creditos extends Controller
         $carpetas = Carpeta::all();
         $items = Credito::find($id);
         $creditosrol = Catalogocredito::all();
-        return view('/creditos/editarCreditos', compact('titulo', 'items', 'carpetas', 'creditosrol'));
+        $alumnosDatos = Alumno::all();
+        return view('/creditos/editarCreditos', compact('titulo', 'items', 'carpetas', 'creditosrol','alumnosDatos'));
     }
 
     /**
@@ -110,12 +118,34 @@ class Creditos extends Controller
     public function updateCreditos(Request $request, $id)
     {
         $item = Credito::find($id);
+
+        $item->nombreAlumnosCreditos = $request->nombreAlumnosCreditos;
+        $item->apellidoPaternoCreditos = $request->apellidoPaternoCreditos;
+        $item->apellidoMaternoCreditos = $request->apellidoMaternoCreditos;
+
         $item->nombreCredito = $request->nombreCredito;
-        $item->mooc = $request->mooc;
-        $item->constancia = $request->constancia;
-        $item->oficioLiberacion = $request->oficioLiberacion;
-        $item->evidencia = $request->evidencia;
         $item->carpeta = $request->carpeta;
+
+
+        if(!empty($request->mooc)){
+            $pathmooc = $request->file('mooc')->store('archivosServidor', 'public');
+            $item->mooc = $pathmooc;
+            }
+            
+            if(!empty($request->constancia)){
+            $pathconstancia = $request->file('constancia')->store('archivosServidor', 'public');
+            $item->constancia = $pathconstancia;
+            } 
+    
+            if(!empty($request->oficioLiberacion)){
+            $pathoficioLiberacion = $request->file('oficioLiberacion')->store('archivosServidor', 'public');
+            $item->oficioLiberacion = $pathoficioLiberacion;
+            }
+            if(!empty($request->evidencia)){
+            $pathevidencia = $request->file('evidencia')->store('archivosServidor', 'public');
+            $item->evidencia = $pathevidencia;
+            }
+
         $item->save();
         return redirect('/vistaCreditos');
     }
