@@ -10,9 +10,9 @@
         <li>
             <h3 class="text-center text-white">Sistema <br> ExtraEscolares</h3>
         </li>
-        <li><a href="#DatosPersonalesDelAlumno">Datos Personales <br> Del Alumno</a></li>
-        <li><a href="#Creditos">Creditos</a></li>
-        <li><a href="#NotasDeParticipacion">Notas De <br> Participacion</a></li>
+        <li><a href="/vistaAlumnos#DatosPersonalesDelAlumno">Datos Personales <br> Del Alumno</a></li>
+        <li><a href="/vistaCreditos#Creditos">Creditos</a></li>
+        <li><a href="/vistaNotas#NotasDeParticipacion">Notas De <br> Participacion</a></li>
         <li><a href="/agregarUsuario">Agregar Usuario</a></li>
         <li><a href="{{ route('logout') }}">Cerrar Seccion</a></li>
         <li class="colorBlanco">

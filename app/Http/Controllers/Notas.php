@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Alumno;
+use App\Models\Catalogocarrera;
+use App\Models\Evento;
+use App\Models\Nota;
 use Illuminate\Http\Request;
 
 class Notas extends Controller
@@ -13,7 +17,8 @@ class Notas extends Controller
      */
     public function indexNotas(){
         $titulo = "vista Notas";
-        return view('/notas/vistaNotas', compact('titulo'));     
+        $items = Nota::all();
+        return view('/notas/vistaNotas', compact('titulo','items'));     
     }
 
     /**
@@ -21,9 +26,13 @@ class Notas extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
+    public function createNotas(){
+        $titulo = 'Agregar Datos Notas';
+        $items = Nota::all();
+        $alumnosDatos = Alumno::all();
+        $carreras = Catalogocarrera::all();
+        $eventos = Evento::all();
+        return view('/notas/crearNotas', compact('titulo', 'items','alumnosDatos','carreras','eventos'));
     }
 
     /**
@@ -32,9 +41,20 @@ class Notas extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+    public function storeNotas(Request $request){
+
+        $item = new Nota();
+        $item->nombreAlumnoNotas = $request->nombreAlumnoNotas;
+        $item->apellidoPaternoNotas = $request->apellidoPaternoNotas;
+        $item->apellidoMaternoNotas = $request->apellidoMaternoNotas;
+        $item->noControlNotas = $request->noControlNotas;
+        $item->carreraNotas = $request->carreraNotas;
+        $item->evento = $request->evento;
+        $item->horas = $request->horas;
+        $item->fecha = $request->fecha;
+        $item->save();
+        return redirect('/vistaNotas');
+
     }
 
     /**
@@ -54,9 +74,14 @@ class Notas extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function editNotas($id)
     {
-        //
+        $titulo = 'Editar Datos Notas';
+        $items = Nota::find($id);
+        $alumnosDatos = Alumno::all();
+        $carreras = Catalogocarrera::all();
+        $eventos = Evento::all();
+        return view('/notas/editarNotas', compact('titulo', 'items','alumnosDatos','carreras','eventos'));
     }
 
     /**
@@ -66,9 +91,19 @@ class Notas extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function updateNotas(Request $request, $id)
     {
-        //
+        $item = Nota::find($id);
+        $item->nombreAlumnoNotas = $request->nombreAlumnoNotas;
+        $item->apellidoPaternoNotas = $request->apellidoPaternoNotas;
+        $item->apellidoMaternoNotas = $request->apellidoMaternoNotas;
+        $item->noControlNotas = $request->noControlNotas;
+        $item->carreraNotas = $request->carreraNotas;
+        $item->evento = $request->evento;
+        $item->horas = $request->horas;
+        $item->fecha = $request->fecha;
+        $item->save();
+        return redirect('/vistaNotas');
     }
 
     /**
@@ -77,8 +112,23 @@ class Notas extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroyNotas($id){
+        $item = Nota::find($id);
+        $item->delete();
+        return redirect('/vistaNotas');
+    }
+
+    public function createEventos(){
+        $titulo = 'Agregar Eventos';
+        $items = Evento::all();
+        return view('/notas/crearEventos', compact('titulo', 'items'));
+    }
+
+    public function storeEventos(Request $request)
     {
-        //
+        $item = new Evento();
+        $item->nombreEvento = $request->nombreEvento;
+        $item->save();
+        return redirect('/vistaNotas');
     }
 }

@@ -54,4 +54,12 @@ Route::post('/storeCarpetas', [Creditos::class, 'storeCarpetas']);
 
 //notas
 Route::get('vistaNotas', [Notas::class, 'indexNotas']);
+Route::get('crearNotas', [Notas::class, 'createNotas']);
+Route::post('/storeNotas', [Notas::class, 'storeNotas']);
+Route::get('/editarNotas/{id}', [Notas::class, 'editNotas'])->name('editarNotas');
+Route::put('updateNotas/{id}', [Notas::class, 'updateNotas'])->name('updateNotas');
+
+Route::delete('/destroyNotas/{id}', [Notas::class, 'destroyNotas'])->name('destroyNotas');
+Route::get('crearEventos', [Notas::class, 'createEventos']);
+Route::post('/storeEventos', [Notas::class, 'storeEventos']);
 
