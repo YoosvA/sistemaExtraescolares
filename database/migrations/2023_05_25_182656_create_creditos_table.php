@@ -15,6 +15,11 @@ class CreateCreditosTable extends Migration
     {
         Schema::create('creditos', function (Blueprint $table) {
             $table->id();
+
+            $table->string('nombreAlumnosCreditos');
+            $table->string('apellidoPaternoCreditos');
+            $table->string('apellidoMaternoCreditos');
+
             $table->string('nombreCredito');
             $table->string('mooc')->nullable();
             $table->string('constancia')->nullable();

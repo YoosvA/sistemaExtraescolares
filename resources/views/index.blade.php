@@ -150,7 +150,7 @@
                             <br>
                             <div class="d-grid gap-2 col-4 mt-4 mx-auto">
                                 <!--FALTA COLOCAR LA DIRECCION DONDE VA A ESTAR DIRIGIDO OSVALDO EN EL HREF-->
-                                <a href="/" class="btn colorDeBotonazul rounded-pill border-0">
+                                <a href="/vistaNotas" class="btn colorDeBotonazul rounded-pill border-0">
                                     <h5 class="text-white">Entrar</h5>
                                 </a>
                             </div>

@@ -14,6 +14,9 @@
                             <thead class="text-center">
                                 <tr>
                                     <th>No.</th>
+                                    <th>Nombre</th>
+                                    <th>Apellido Paterno</th>
+                                    <th>Apellido Materno</th>
                                     <th>Credito</th>
                                     <th>Mooc</th>
                                     <th>Constancia</th>
@@ -30,6 +33,9 @@
                                 @foreach ($items as $item)
                                     <tr>
                                         <td>{{ $item->id }}</td>
+                                        <td>{{ $item->nombreAlumnosCreditos }}</td>
+                                        <td>{{ $item->apellidoPaternoCreditos }}</td>
+                                        <td>{{ $item->apellidoMaternoCreditos }}</td>
                                         <td>{{ $item->nombreCredito }}</td>
                                         <td>
                                             @if (!empty($item->mooc))
@@ -92,4 +98,6 @@
             </div>
         </div>
     </div>
+</section>
+</main>
 @endsection

@@ -54,7 +54,7 @@ class AuthController extends Controller
         return redirect('/inicio');
     }
 
-    // public function agregarNuevo(){
+    // public function agregarNuevo(){ 
     //     $item = new User();
     //     $item->name = 'admin';
     //     $item->email = 'admin@gmail.com';

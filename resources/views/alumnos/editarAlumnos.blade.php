@@ -28,12 +28,13 @@
                         </div>
                         <div class="col">
                             <label for="carrera">Carrera</label>
-                            <select name="carrera" id="carrera" class="form-select" value="{{ $items->carrera }}" required>
-                                <option value="" selected>Selecciona una opcion</option>
+                            <select name="carrera" id="carrera" class="form-select" required>
+                                <option value="" selected>Selecciona una opción</option>
                                 @foreach ($carreras as $item)
-                                    <option value="{{ $item->nombre }}">{{ $item->nombre }}</option>
+                                    <option value="{{ $item->nombre }}" @if ($item->nombre == $items->carrera) selected @endif>{{ $item->nombre }}</option>
                                 @endforeach
                             </select>
+                            
                             <label for="fechaNac">Fecha de Nacimiento</label>
                             <input type="date" name="fechaNac" id="fechaNac" class="form-control"
                                 value="{{ $items->fechaNac }}" required>

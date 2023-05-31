@@ -1,6 +1,8 @@
+
 @extends('layouts/main')
 
 @section('contenido')
+<section class="content">
     <div class="container mt-4">
         <h4>Agregar Datos Alumno</h4>
         <a href="/crearAlumnos" class="btn btn-primary mt-3">Agregar Alumno</a>
@@ -59,4 +61,6 @@
             </div>
         </div>
     </div>
+</section>
+</main>
 @endsection

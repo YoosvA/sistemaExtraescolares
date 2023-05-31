@@ -1,6 +1,14 @@
-@extends('layouts/main')
-
-@section('contenido')
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <title>{{$titulo}}</title>
+</head>
+<body>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -76,4 +84,7 @@
             </div>
         </div>
     </div>
-@endsection
+    <script src="{{ asset('js/jquery.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
+</body>
+</html>
