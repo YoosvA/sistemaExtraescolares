@@ -172,12 +172,18 @@
             <!---->
         </section>
     </main>
+    <script src="{{asset('js/mascaraDeCarga/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{asset('js/mascaraDeCarga/jquery.blockUI.js')}}"></script>
+    <script src="{{asset('js/mascaraDeCarga/mascara.js')}}"></script>
+
+
     <script>
         const menu = document.getElementById('menu')
         menu.addEventListener('click', () => {
             menu.classList.toggle('menu-activo');
         })
     </script>
+    
 </body>
 
 </html>

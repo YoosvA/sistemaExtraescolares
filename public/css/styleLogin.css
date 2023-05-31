@@ -1,10 +1,18 @@
 /*HOJA DE ESTILOS PRINCIPAL DEL LOGIN*/
+
+@font-face {
+    font-family: Monserrat;
+    src: url('../funtes/Montserrat-Regular.ttf');
+}
+
+
+@import url("public/fuentes/Montserrat-Regular.ttf");
 .colorTransparente{
     background:rgba(138,221,45,0);
 }
 .TipoDeLetraDeLogint{
     /*Tipo De Letra Para Proyecto*/
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Monserrat;
   background-color: #e9ecef;
   /*Se Coloco Un Color Al Fondo Del Login*/
 }

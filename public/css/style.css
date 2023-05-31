@@ -1,10 +1,18 @@
+@font-face {
+  font-family: Monserrat;
+  src: url('../funtes/Montserrat-Regular.ttf');
+}
+
+
+@import url("public/fuentes/Montserrat-Regular.ttf");
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  font-family: consolas;
+  font-family: Monserrat;
 }
 
 .main {
