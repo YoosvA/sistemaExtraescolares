@@ -23,6 +23,8 @@
                                     <th>Evento</th>
                                     <th>Horas De Participación</th>
                                     <th>Fecha</th>
+                                    <th>Periodo</th>
+                                    <th>Grupo</th>
                                     <th>Generar Nota</th>
                                     <th>Editar</th>
                                     <th>Eliminar</th>
@@ -40,9 +42,12 @@
                                         <td>{{ $item->evento }}</td>
                                         <td>{{ $item->horas }}</td>
                                         <td>{{ $item->fecha }}</td>
+                                        <td>{{ $item->periodo }}</td>
+                                        <td>{{ $item->grupo }}</td>
                                         <td>
-                                            <a href="" class="btn btn-success">Generar PDF</a>
+                                            <a href="{{ route('verPDF', $item->id) }}" class="btn btn-success" target="_blank">Generar PDF</a>
                                         </td>
+                                        
                                         <td>
                                             <br>
                                             <a href="{{ route('editarNotas', $item->id) }}" class="btn btn-warning">Editar</a>

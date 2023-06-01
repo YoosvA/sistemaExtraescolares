@@ -51,9 +51,6 @@
                                 @endforeach
                             </select>
 
-                        </div>
-                        <div class="col">
-
                             <label for="carreraNotas">Carrera</label>
                             <select name="carreraNotas" id="carreraNotas" class="form-select" required>
                                 <option value="" selected>Selecciona una opcion</option>
@@ -61,6 +58,9 @@
                                     <option value="{{ $item->nombre }}" @if ($item->nombre == $items->carreraNotas) selected @endif>{{ $item->nombre }}</option>
                                 @endforeach
                             </select>
+
+                        </div>
+                        <div class="col">
                             
                             <label for="evento">Evento</label>
                             <select name="evento" id="evento" class="form-select" required>
@@ -76,6 +76,12 @@
                             
                             <label for="fecha">Fecha de Participación</label>
                             <input type="date" name="fecha" id="fecha" class="form-control" value="{{ $items->fecha }}" required>
+
+                            <label for="periodo">Periodo Escolar</label>
+                            <input type="text" name="periodo" id="periodo" class="form-control" value="{{ $items->periodo }}" required>
+
+                            <label for="grupo">Grupo</label>
+                            <input type="text" name="grupo" id="grupo" class="form-control" value="{{ $items->grupo }}" required>
                         </div>
                     </div>
                     

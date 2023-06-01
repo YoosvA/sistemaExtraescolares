@@ -63,3 +63,9 @@ Route::delete('/destroyNotas/{id}', [Notas::class, 'destroyNotas'])->name('destr
 Route::get('crearEventos', [Notas::class, 'createEventos']);
 Route::post('/storeEventos', [Notas::class, 'storeEventos']);
 
+// Route::get('/verPDF/{id}', 'NotasController@verPDF')->name('verPDF');
+
+
+Route::get('/verPDF/{id}',[Notas::class,'verPDF'])->name('verPDF');;
+
+

@@ -43,9 +43,6 @@
                                 @endforeach
                             </select>
 
-                        </div>
-                        <div class="col">
-
                             <label for="carreraNotas">Carrera</label>
                             <select name="carreraNotas" id="carreraNotas" class="form-select" required>
                                 <option value="" selected>Selecciona una opcion</option>
@@ -53,6 +50,9 @@
                                     <option value="{{ $carrera->nombre }}">{{ $carrera->nombre }}</option>
                                 @endforeach
                             </select>
+
+                        </div>
+                        <div class="col">
                             
                             <label for="evento">Evento</label>
                             <select name="evento" id="evento" class="form-select" required>
@@ -68,6 +68,14 @@
                             
                             <label for="fecha">Fecha de Participación</label>
                             <input type="date" name="fecha" id="fecha" class="form-control" required>
+
+                            <label for="periodo">Periodo Escolar</label>
+                            <input type="text" name="periodo" id="periodo" class="form-control" required>
+
+                            <label for="grupo">Grupo</label>
+                            <input type="text" name="grupo" id="grupo" class="form-control" required>
+
+                            
                         </div>
                     </div>
 

@@ -23,6 +23,8 @@ class CreateNotasTable extends Migration
             $table->string('evento');
             $table->integer('horas');
             $table->date('fecha');
+            $table->string('periodo');
+            $table->string('grupo');
             $table->timestamps();
         });
     }
