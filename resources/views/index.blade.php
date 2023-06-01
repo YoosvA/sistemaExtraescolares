@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    {{--     <link rel="stylesheet" href="{{ 'css/style.css' }}"> --}}
-    <link rel="stylesheet" href="{{ 'css/all.css' }}">
-    <link rel="stylesheet" href="{{ 'css/sidebar.css' }}">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <title>{{ $titulo }}</title>
-</head>
+    @extends('layouts/main')
 
-<body class="colorDeFondo">
-    @include('sidebar')
+    @section('contenido')
     <div class="container">
         <div class="row">
             <div class="col">
@@ -195,23 +182,5 @@
             </div>
         </div>
     </div>
-    </div>
+    @endsection
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-
-    <script src="{{ asset('js/all.js') }}"></script>
-
-    <script src="{{ asset('js/mascaraDeCarga/jquery-3.2.1.min.js') }}"></script>
-
-    <script src="{{ asset('js/mascaraDeCarga/jquery.blockUI.js') }}"></script>
-
-    <script src="{{ asset('js/mascaraDeCarga/mascara.js') }}"></script>
-
-
-    <script src="{{ asset('js/controller_navbar.js') }}"></script>
-
-</body>
-
-</html>
