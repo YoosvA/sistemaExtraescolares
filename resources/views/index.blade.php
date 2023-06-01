@@ -1,25 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    {{--     <link rel="stylesheet" href="{{ 'css/style.css' }}"> --}}
-    <link rel="stylesheet" href="{{ 'css/all.css' }}">
-    <link rel="stylesheet" href="{{ 'css/sidebar.css' }}">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <title>{{ $titulo }}</title>
-</head>
+    @extends('layouts/main')
 
+<<<<<<< HEAD
 <body class="colorDeFondo">
    @include('sidebar')
+=======
+    @section('contenido')
+>>>>>>> ca4c2977b3394ef6ac8ce28664a71e1e66e9f647
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="col-md-12">
                     <div class="ImagenEnchiladas img-fluid" id="DatosPersonalesDelAlumno">
+<<<<<<< HEAD
                        
                         <main class="main">
                             <div class="menu" id="menu">
@@ -222,6 +215,8 @@
                         >>>>>>> b82bb9dc599783722a7402d32e052fd9642e2652
 
 
+=======
+>>>>>>> ca4c2977b3394ef6ac8ce28664a71e1e66e9f647
                         <!---->
                         <br>
                         <h1>Datos Personales Del Alumno</h1>
@@ -399,6 +394,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         </div>
         </div>
 
@@ -420,3 +416,8 @@
 </body>
 
 </html>
+=======
+    </div>
+    @endsection
+
+>>>>>>> ca4c2977b3394ef6ac8ce28664a71e1e66e9f647

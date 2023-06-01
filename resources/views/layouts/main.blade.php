@@ -8,35 +8,28 @@
     <link rel="stylesheet" href="{{ asset('css/jquery.dataTables.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.dataTables.min.css') }}">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ 'css/sidebar.css' }}">
+    {{-- <link rel="stylesheet" href="{{ 'css/all.css' }}"> --}}
+
     <title>{{ $titulo }}</title>
 </head>
 
-<body class="TipoDeLetraDeLogint">
+<body class="colorDeFondo">
 
-    <main class="main">
-        <div class="menu" id="menu">
-            @include('shared/menu')
-        </div>
-        <div class="content">
-            @yield('contenido')
-        </div>
-    </main>
 
+    @include('shared/menu')
+
+    @yield('contenido')
 
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('js/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }} "></script>
-
-    <script>
-        const menu = document.getElementById('menu')
-        menu.addEventListener('click', () => {
-            menu.classList.toggle('menu-activo');
-        })
-    </script>
+    <script src="{{ asset('js/controller_navbar.js') }}"></script>
+    <script src="{{ asset('js/mascaraDeCarga/jquery.blockUI.js') }}"></script>
+    <script src="{{ asset('js/mascaraDeCarga/mascara.js') }}"></script>
+    {{-- <script src="{{ asset('js/all.js') }}"></script> --}}
 </body>
 
 </html>
