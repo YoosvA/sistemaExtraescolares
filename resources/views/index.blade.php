@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col">
                 <div class="col-md-12">
-                    <div class="ImagenEnchiladas img-fluid" id="DatosPersonalesDelAlumno">
+                    <div id="DatosPersonalesDelAlumno">
                         <!---->
                         <br>
                         <h1>Datos Personales Del Alumno</h1>
