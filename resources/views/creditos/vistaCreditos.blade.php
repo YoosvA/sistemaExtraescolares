@@ -5,7 +5,7 @@
         <h4>Historial Creditos</h4>
         <a href="/crearCreditos" class="btn btn-primary mt-3">Agregar Creditos</a>
         <a href="/crearCarpetas" class="btn btn-info mt-3 ms-2">Agregar Carpeta</a>
-        <a href="" class="btn btn-success mt-3 ms-2">Crear Oficios de Liberacion</a>
+        <a href="/vistaOficios" class="btn btn-success mt-3 ms-2">Crear Oficios de Liberacion</a>
         <a href="/inicio" class="btn btn-danger mt-3 ms-2">Regresar</a>
         
         <div class="row">

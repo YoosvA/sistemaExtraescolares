@@ -5,6 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Creditos;
 use App\Http\Controllers\Notas;
+use App\Http\Controllers\Oficios;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -64,5 +65,14 @@ Route::get('crearEventos', [Notas::class, 'createEventos']);
 Route::post('/storeEventos', [Notas::class, 'storeEventos']);
 
 Route::get('/verPDF/{id}',[Notas::class,'verPDF'])->name('verPDF');;
+
+//oficiosCreditos
+Route::get('vistaOficios', [Oficios::class, 'indexOficios']);
+Route::get('crearOficios', [Oficios::class, 'createOficios']);
+Route::post('/storeOficios', [Oficios::class, 'storeOficios']);
+Route::get('/editarOficios/{id}', [Oficios::class, 'editOficios'])->name('editarOficios');
+Route::put('updateOficios/{id}', [Oficios::class, 'updateOficios'])->name('updateOficios');
+Route::delete('/destroyOficios/{id}', [Oficios::class, 'destroyOficios'])->name('destroyOficios');
+Route::get('/verPDFOficios/{id}',[Oficios::class,'verPDFOficios'])->name('verPDFOficios');;
 
 

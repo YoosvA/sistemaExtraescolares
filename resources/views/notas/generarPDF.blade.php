@@ -142,7 +142,7 @@
             <small><b>ING. ROLDAN AQUINO SEGURA</b>
                 <br>JEFE DEL DEPARTAMENTO DE ACTIVIDADES EXTRAESCOLARES
                 <br><br>
-                _____________________
+                ___________________________
             </small>
         </div>
     </div>
