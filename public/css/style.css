@@ -6,98 +6,12 @@
 
 @import url("public/fuentes/Montserrat-Regular.ttf");
 
-html {
-  scroll-behavior: smooth;
-}
-
+/*Estilos Fuera Del Menu*/
 body {
   margin: 0;
   font-family: Monserrat;
 }
 
-.main {
-  display: flex;
-}
-
-.menu {
-  padding: 20px;
-  padding-top: 20px;
-  padding-right: 40px;
-  background-color: #1b396a;
-
-}
-
-.menu-content{
-  padding-top: 30px;
-  position: sticky;
-  top: 0;
-}
-
-.menu h1 {
-  margin-bottom: 30px;
-}
-
-.menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  margin-bottom: 30px;
-  white-space: nowrap;
-}
-
-.menu a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-
-.content {
-  padding: 50px;
-  text-align: justify;
-}
-
-.menu button {
-  display: none;
-}
-
-@media screen and (max-width: 768px) {
-  .menu {
-    height: 100%;
-    padding: 20px 40px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transform: translateX(-100%);
-    transition: 0.5s;
-  }
-
-  .menu-activo {
-    transform: translateX(0%);
-  }
-
-  .menu button {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    transform: translateX(193px);
-  }
-
-  .menu-content{
-    position: static;
-  }
-  .content {
-    padding: 20px 40px;
-  }
-}
-/*Estilos Fuera Del Menu*/
-.tamañoDeLogoBlanco{
-  width: 5rem;
-  height: 6rem;
-}
 .colorBlanco{
   color: rgb(255, 255, 255);
 }
