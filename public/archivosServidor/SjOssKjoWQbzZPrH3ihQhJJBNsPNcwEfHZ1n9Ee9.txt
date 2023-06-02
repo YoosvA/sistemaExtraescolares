@@ -1,0 +1,27 @@
+que va a llevar en el nap{
+
+	- > Datos Personales Del Alumno
+	- > Creditos
+	- > Notas De Participacion ( Eventos )
+}
+
+- > subir cambios {
+
+	- > git fetch
+	-  > git pull
+	- > git init - > Nota no es necesario
+	- > git add .
+	- > git commit -m "hshd"
+	- > git push
+}
+
+- > tamaño de letras {
+
+- > titulo 
+	- > h2
+	- > h4
+- > Tipo De Letra Que Se Va A Ocupar {
+ Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ }
+
+}

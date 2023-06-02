@@ -23,7 +23,11 @@ body {
   background:rgba(138,221,45,0);
 }
 .colorDeBotonazul{
-  /*Color Que Puedes Ocupar En El Proyecto (Institucional)*/
-  background-color: #1b396a;
+  background: #1b396a;
+  color: #fff;
+}
 
+.colorDeBotonazul:hover{
+  background: #1d4f9e;
+  color: #fff;
 }

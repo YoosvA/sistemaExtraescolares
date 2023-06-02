@@ -289,10 +289,15 @@ body {
   background:rgba(138,221,45,0);
 }
 .colorDeBotonazul{
-  /*Color Que Puedes Ocupar En El Proyecto (Institucional)*/
+  /*Color Que Puedes Ocupar En El ProyeccolorDeBotonazulto (Institucional)*/
   background-color: #1b396a;
-
 }
+
+.colorDeBotonazul:hover{
+  background: #1d4f9e;
+  color: #fff;
+}
+
 .logoBlancoEnSidebar{
   width: 5rem;
   height: 5rem;
