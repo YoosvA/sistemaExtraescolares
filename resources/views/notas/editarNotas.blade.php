@@ -8,14 +8,6 @@
                 <form action="{{ route('updateNotas', $items->id) }}" method="post">
                     @csrf
                     @method('PUT')
-                    {{-- <label for="nombreAlumnosCreditos">Nombre del Alumno</label>
-                    <select name="nombreAlumnosCreditos" id="nombreAlumnosCreditos" class="form-select" required>
-                        <option value="" selected>Selecciona una opcion</option>
-                        @foreach ($alumnosDatos as $item)
-                            <option value="{{ $item->nombre }}" @if ($item->nombre == $items->nombreAlumnosCreditos) selected @endif>{{ $item->nombre }}</option>
-                        @endforeach
-                    </select> --}}
-
                     <div class="row">
                         <div class="col">
 
