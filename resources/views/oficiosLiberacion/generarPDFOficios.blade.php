@@ -11,7 +11,24 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <table class="table border border-dark">
+                    <thead>
+                        <tr>
+                            <th class="table border border-dark"><b><small>Constancia de cumplimiento de actividad Cultural y/o Deportiva</small></b></th>
+                            <td class="table border border-dark"><b><small>Codigo: TecNM-VI-PO-003-05 <hr class="border border-dark"> Revisión: 0</small></b></td>
+                            
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container-fluid p-0">
         <div class="row">
             <div class="col">
                 <h2 class="text-center"><b>CONSTANCIA DE CUMPLIMIENTO DE ACTIVIDAD CULTURAL Y/O DEPORTIVA</b></h2>
@@ -64,32 +81,23 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-6 text-start">
-                <div class="align-middle">
-                    _____________________________
+            <div class="col">
+                    _____________________________ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; _____________________________ 
                     <br>
                     <small>
-                        ING. AQUINO SEGURA ROLDAN
+                        &nbsp; &nbsp;ING. AQUINO SEGURA ROLDAN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ING. AQUINO SEGURA ROLDAN
                         <br>
-                        Nombre y firma del(de la) profesor(a)
+                        &nbsp; &nbsp;Nombre y firma del(de la) profesor(a) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Jefe(a) del Depto. de Actividades 
                         <br>
-                        responsable
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Extraescolares responsable
+                        
                     </small>
-                </div>
-            </div>
-            <div class="col-6 text-end">
-                <div class="align-middle">
-                    _____________________________
-                    <br>
-                    <small>
-                        ING. AQUINO SEGURA ROLDAN
-                        <br>
-                        Jefe(a) del Depto. de Actividades Extraescolares
-                    </small>
-                </div>
             </div>
         </div>
     </div>
+    <br> <br>c.c.p. Jefe (a) de Departamento Correspondiete
+
+    <br> <br> <br> <br> <br> <br> <br> TecnM vi-po-003-05 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Rev. 0
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
