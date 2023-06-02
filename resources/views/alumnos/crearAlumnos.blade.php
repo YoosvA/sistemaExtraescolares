@@ -10,11 +10,11 @@
                 <h2 class="ms-4">Instrucciones</h2>
                 <h5>Ingresa todos los datos que se te piden</h5>
                 <!--Inicio de Card-->
-                <div class="card mt-4 shadow-lg bg-body rounded border-0">
+                <div class="card mt-4 shadow-lg bg-body rounded border-0 rounded-5">
                     <div class="card-body">
                         <!--Contenido Dentro De Card Inicio-->
                         <div class="row">
-                            <div class="col">
+                            <div class="col mt-4 mb-4 ms-4 mx-4">
                                 <form action="/store" method="post">
                                     @csrf
                                     @method('POST')
