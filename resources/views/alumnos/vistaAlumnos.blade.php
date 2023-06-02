@@ -8,7 +8,7 @@
                 <!--Contenido Inicio-->
                 <h1 class="mt-4">Agregar Datos Alumno</h1>
                 <h2 class="ms-4">Intrucciones</h2>
-                <h5>En estos 2 botones tendras opciones donde contendra una de agregar alumno <br>
+                <h5 class="ms-4">En estos 2 botones tendras opciones donde contendra una de agregar alumno <br>
                     donde tienes que meter informacion para agregar un nuevo alumno. <br>
                     el boton de regresar te mostraran el mismo menú que puedes ocupar</h5>
                 <!--Parte De Botones Inicio-->
@@ -21,7 +21,7 @@
                                     <div class="card-body">
                                         <!--Contenido De Boton Agregar Alumno Inicio-->
                                         <div class="d-grid gap-2">
-                                            <a href="/crearAlumnos" class="btn colorDeBoton mt-3 rounded-pill text-white">Agregar Alumno</a>
+                                            <a href="/crearAlumnos" class="btn colorDeBotonazul  mt-3 rounded-pill text-white">Agregar Alumno</a>
                                           </div>
 
                                         <!--Contenido De Boton Agregar Alumno Fin-->
@@ -53,21 +53,21 @@
                             <div class="col mt-4 mb-4 ms-4 mx-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <table class="display responsive nowrap" style="width:100%" id="table">
+                                        <table class="display responsive nowrap text-center" style="width:100%" id="table">
                                             <thead class="text-center">
                                                 <tr>
-                                                    <th>No.</th>
-                                                    <th>Nombre</th>
-                                                    <th>Apellido Paterno</th>
-                                                    <th>Apellido Materno</th>
-                                                    <th>Numero de Control</th>
-                                                    <th>Telefono Celular</th>
-                                                    <th>Carrera</th>
-                                                    <th>Fecha de Nacimiento</th>
-                                                    <th>Escuela de Procedencia</th>
-                                                    <th>Fecha de Ingreso al Tecnologico</th>
-                                                    <th>Editar</th>
-                                                    <th>Eliminar</th>
+                                                    <th class="text-center">No.</th>
+                                                    <th class="text-center">Nombre</th>
+                                                    <th class="text-center">Apellido Paterno</th>
+                                                    <th class="text-center">Apellido Materno</th>
+                                                    <th class="text-center">Numero de Control</th>
+                                                    <th class="text-center">Telefono Celular</th>
+                                                    <th class="text-center">Carrera</th>
+                                                    <th class="text-center">Fecha de Nacimiento</th>
+                                                    <th class="text-center">Escuela de Procedencia</th>
+                                                    <th class="text-center">Fecha de Ingreso al Tecnologico</th>
+                                                    <th class="text-center">Editar</th>
+                                                    <th class="text-center">Eliminar</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -80,20 +80,20 @@
                                                         <td>{{ $item->noControl }}</td>
                                                         <td>{{ $item->telefono }}</td>
                                                         <td>{{ $item->carrera }}</td>
-                                                        <td>{{ $item->fechaNac }}</td>
-                                                        <td>{{ $item->escuelaProcedencia }}</td>
-                                                        <td>{{ $item->fechaIngreso }}</td>
+                                                        <td><br>{{ $item->fechaNac }}<br></td>
+                                                        <td><br>{{ $item->escuelaProcedencia }}<br></td>
+                                                        <td><br>{{ $item->fechaIngreso }}<br></td>
                                                         <td>
                                                             <br>
                                                             <a href="{{ route('editarAlumnos', $item->id) }}"
-                                                                class="btn btn-warning">Editar</a>
+                                                                class="btn btn-warning rounded-pill">Editar</a>
                                                         </td>
                                                         <td>
                                                             <form action="{{ route('destroy', $item->id) }}"
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button class="btn btn-danger">Eliminar</button>
+                                                                <button class="btn btn-danger rounded-pill">Eliminar</button>
                                                             </form>
                                                         </td>
                                                     </tr>

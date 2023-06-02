@@ -61,7 +61,7 @@
                                                             <!---->
                                                             <div class="d-grid gap-2">
                                                                 <button
-                                                                    class="btn colorDeBoton rounded-pill mt-3 text-white">
+                                                                    class="btn colorDeBotonazul rounded-pill mt-3 text-white">
                                                                     Guardar</button>
                                                             </div>
                                                             <!---->
@@ -74,7 +74,7 @@
                                                             <!---->
                                                             <div class="d-grid gap-2">
                                                                 <a href="/vistaAlumnos"
-                                                                    class="btn btn-danger rounded-pill mt-3"> regresar</a>
+                                                                    class="btn btn btn-danger rounded-pill mt-3"> regresar</a>
                                                             </div>
                                                             <!---->
                                                         </div>
