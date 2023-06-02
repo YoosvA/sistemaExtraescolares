@@ -278,6 +278,7 @@ body {
   font-family: Monserrat;
 }
 
+
 .colorBlanco{
   color: rgb(255, 255, 255);
 }
@@ -297,7 +298,10 @@ body {
   background: #1d4f9e;
   color: #fff;
 }
+.colorDeBoton{
 
+  background-color: #1b396a;
+}
 .logoBlancoEnSidebar{
   width: 5rem;
   height: 5rem;
