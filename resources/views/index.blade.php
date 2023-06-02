@@ -11,13 +11,10 @@
                     <br>
                     <h1>Datos Personales Del Alumno</h1>
                     <h2 class="ms-5">Caracteristicas</h2>
-                    <h4 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, id
-                        corporis.
-                        Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
+                    <h4 class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, id
+                        corporis. Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
                         vel tempore incidunt perferendis eos quasi nostrum odit!Lorem ipsum dolor sit amet
-                        consectetur
-                        adipisicing elit. Deserunt, id corporis.
-                        Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
+                        consectetur adipisicing elit. Deserunt, id corporis. Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
                         vel tempore incidunt perferendis eos quasi nostrum odit!</h4>
                     <div class="row">
                         <div class="col-sm-6">
