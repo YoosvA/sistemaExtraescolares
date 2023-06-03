@@ -63,7 +63,7 @@
                             </select>
 
                             <label for="horas">Horas de Participación</label>
-                            <input type="number" name="horas" id="horas" class="form-control" value="{{ $items->horas }}" required>
+                            <input type="number" name="horas" id="horas" class="form-control" value="{{ $items->horas }}" required min="5" max="20" step="5">
 
                             
                             <label for="fecha">Fecha de Participación</label>
