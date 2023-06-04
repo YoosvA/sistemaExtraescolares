@@ -64,7 +64,7 @@
                                                 <div class="card-body">
                                                  <!--Primer Boton Inicio-->
                                                  <div class="d-grid gap-2">
-                                                    <button class="btn colorDeBotonazul rounded-pill mt-3 text-white">Actualizar</button>
+                                                    <button class="btn colorDeBotonazul rounded-pill mt-3 text-white"><i class="fas fa-save"></i> Actualizar</button>
                                                   </div>
                                                  <!--Primer Boton Fin-->
                                                 </div>
@@ -75,7 +75,7 @@
                                                 <div class="card-body">
                                                   <!--Segundo Boton Inicio-->
                                                   <div class="d-grid gap-2">
-                                                    <a href="/vistaAlumnos" class="btn btn btn-danger rounded-pill mt-3">Regresar</a>
+                                                    <a href="/vistaAlumnos" class="btn btn btn-danger rounded-pill mt-3"><i class="fas fa-sign-out-alt"></i> Regresar</a>
                                                   </div>
                                                  <!--Segundo Boton Fin-->
                                                 </div>

@@ -7,34 +7,34 @@
             <div class="col">
                 <!--Contenido Inicio-->
                 <h1 class="mt-4">Agregar Datos Alumno</h1>
-                <h2 class="ms-4">Intrucciones</h2>
-                <h5 class="ms-4">En estos 2 botones tendras opciones donde contendra una de agregar alumno <br>
-                    donde tienes que meter informacion para agregar un nuevo alumno. <br>
-                    el boton de regresar te mostraran el mismo menú que puedes ocupar</h5>
+                <h2 class="ms-4 mt-3">Instrucciones</h2>
+                <h5 class="ms-4">Estos 2 botones tendrán las funciones de agregar alumno
+                    donde ingresaras por medio de un formulario información para agregar un nuevo alumno, El botón de regresar te llevara a la vista principal.
+                </h5>
                 <!--Parte De Botones Inicio-->
+                <div class="card border-0" style="width: 40rem;">
+                    <div class="card-body">
+                        <!--Contenido De Card Botones Dentro Inicio-->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card border-0 text-center">
+                                    <div class="card-body">
+                                        <!--Contenido De Boton Agregar Alumno Inicio-->
+                                        <div class="d-grid gap-2">
+                                            <a href="/crearAlumnos" class="btn colorDeBotonazul  mt-3 rounded-pill text-white">Agregar Alumno</a>
+                                          </div>
 
-
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                    <div class="col">
-                        <div class="card colorTransparente border-0">
-                            <div class="card-body">
-                                <!--Contenido De Boton Agregar Alumno Inicio-->
-                                <div class="d-grid gap-2">
-                                    <a href="/crearAlumnos"
-                                        class="btn colorDeBotonazul  mt-3 rounded-pill text-white">Agregar Alumno</a>
+                                        <!--Contenido De Boton Agregar Alumno Fin-->
+                                    </div>
                                 </div>
-
-                                <!--Contenido De Boton Agregar Alumno Fin-->
                             </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card colorTransparente border-0">
-                            <div class="card-body">
-                                <!--Contenido de Boton Regresar Inicio-->
-                                <div class="d-grid gap-2">
-                                    <a href="/inicio" class="btn btn-danger mt-3 rounded-pill">Regresar</a>
-                                </div>
+                            <div class="col-sm-6">
+                                <div class="card border-0 text-center">
+                                    <div class="card-body">
+                                        <!--Contenido de Boton Regresar Inicio-->
+                                        <div class="d-grid gap-2">
+                                            <a href="/inicio" class="btn btn-danger mt-3 rounded-pill">Regresar</a>
+                                        </div>
 
                                 <!--Contenido de Boton Regresar fin-->
                             </div>
@@ -83,11 +83,11 @@
                                                     <th class="text-center">Apellido Paterno</th>
                                                     <th class="text-center">Apellido Materno</th>
                                                     <th class="text-center">Numero de Control</th>
-                                                    <th class="text-center">Telefono Celular</th>
+                                                    <th class="text-center">Teléfono Celular</th>
                                                     <th class="text-center">Carrera</th>
                                                     <th class="text-center">Fecha de Nacimiento</th>
                                                     <th class="text-center">Escuela de Procedencia</th>
-                                                    <th class="text-center">Fecha de Ingreso al Tecnologico</th>
+                                                    <th class="text-center">Fecha de ingresó al Tecnológico</th>
                                                     <th class="text-center">Editar</th>
                                                     <th class="text-center">Eliminar</th>
                                                 </tr>
@@ -108,15 +108,14 @@
                                                         <td>
                                                             <br>
                                                             <a href="{{ route('editarAlumnos', $item->id) }}"
-                                                                class="btn btn-warning rounded-pill">Editar</a>
+                                                                class="btn btn-warning rounded-pill"><i class="fas fa-user-edit"></i> Editar</a>
                                                         </td>
                                                         <td>
                                                             <form action="{{ route('destroy', $item->id) }}"
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button
-                                                                    class="btn btn-danger rounded-pill">Eliminar</button>
+                                                                <button class="btn btn-danger rounded-pill">Eliminar</button>
                                                             </form>
                                                         </td>
                                                     </tr>

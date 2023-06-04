@@ -71,8 +71,8 @@
                         </div>
                     </div>
 
-                    <button class="btn btn-primary mt-3"> Guardar</button>
-                    <a href="/vistaOficios" class="btn btn-info mt-3"> regresar</a>
+                    <button class="btn btn-primary mt-3"><i class="fas fa-save"></i> Guardar</button>
+                    <a href="/vistaOficios" class="btn btn-info mt-3"><i class="fas fa-sign-out-alt"></i> regresar</a>
                 </form>
             </div>
         </div>

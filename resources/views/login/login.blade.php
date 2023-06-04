@@ -40,7 +40,7 @@
                                         <form action="{{ route('logear') }}" method="post">
                                             @csrf
                                             @method('POST')
-                                            <h2 class="text-center">Sistema Extra Escolares</h2>
+                                            <h2 class="text-center">Sistema Extraescolares</h2>
                                             <h4><img src="{{ asset('img/user.svg') }}" alt=""> Usuario</h4>
                                             <input type="text" class="form-control text-center rounded-pill mt-2 mb-2" name="user"
                                                 required placeholder="Usuario" aria-label="Usuario">
@@ -69,7 +69,7 @@
                                                 <!--Contenido De Boton Color Azul Inicio-->
                                                 <div class="text-center d-grid gap-2 col-6 mx-auto  mt-3 ">
                                                     <button class="btn colorDeBoton rounded-pill">
-                                                        <h5 class="text-white">Entrar</h5>
+                                                        <h5 class="text-white"><i class="fas fa-sign-in-alt"></i> Ingresar</h5>
                                                     </button>
                                                 </div>
                                                 <!--Contenido De Boton Color Azul Fin-->

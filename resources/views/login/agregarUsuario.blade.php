@@ -63,8 +63,8 @@
                                 <div class="card-body">
                                     <div class="d-grid gap-2 col-6 mx-auto">
                                         <button
-                                            class="btn btn-primary rounded-pill mt-3 mx-5 text-white">Guardar</button>
-                                        <a href="/" class="btn btn-success rounded-pill mt-3">regresar</a>
+                                            class="btn btn-primary rounded-pill mt-3 mx-5 text-white"><i class="fas fa-save"></i> Guardar</button>
+                                        <a href="/" class="btn btn-success rounded-pill mt-3"><i class="fas fa-sign-out-alt"></i> regresar</a>
                                     </div>
                                 </div>
                             </div>

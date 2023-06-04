@@ -63,7 +63,7 @@
                             </select>
 
                             <label for="horas">Horas de Participación</label>
-                            <input type="number" name="horas" id="horas" class="form-control" value="{{ $items->horas }}" required>
+                            <input type="number" name="horas" id="horas" class="form-control" value="{{ $items->horas }}" required min="5" max="20" step="5">
 
                             
                             <label for="fecha">Fecha de Participación</label>
@@ -77,8 +77,8 @@
                         </div>
                     </div>
                     
-                    <button class="btn btn-warning mt-3">Actualizar</button>
-                    <a href="/vistaNotas" class="btn btn-info mt-3">Regresar</a>
+                    <button class="btn btn-warning mt-3"><i class="fas fa-save"></i> Actualizar</button>
+                    <a href="/vistaNotas" class="btn btn-info mt-3"><i class="fas fa-sign-out-alt"></i> Regresar</a>
                 </form>
             </div>
         </div>

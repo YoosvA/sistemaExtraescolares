@@ -63,7 +63,7 @@
                             </select>
 
                             <label for="horas">Horas de Participación</label>
-                            <input type="number" name="horas" id="horas" class="form-control" required>
+                            <input type="number" name="horas" id="horas" class="form-control" required min="5" max="20" step="5">
 
                             
                             <label for="fecha">Fecha de Participación</label>
@@ -79,8 +79,8 @@
                         </div>
                     </div>
 
-                    <button class="btn btn-primary mt-3"> Guardar</button>
-                    <a href="/vistaNotas" class="btn btn-info mt-3"> regresar</a>
+                    <button class="btn btn-primary mt-3"><i class="fas fa-save"></i> Guardar</button>
+                    <a href="/vistaNotas" class="btn btn-info mt-3"><i class="fas fa-sign-out-alt"></i> regresar</a>
                 </form>
             </div>
         </div>
