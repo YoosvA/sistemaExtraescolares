@@ -66,7 +66,6 @@
                     <h4 class="mt-3">Evidencia</h4>
                     <input type="file" name="evidencia" id="evidencia" class="form-control">
 
-<<<<<<< HEAD
                     <h4 class="mt-3">Carpeta Fisica</h4>
                     <select name="carpeta" id="carpeta" class="form-select text-center shadow-lg bg-body rounded" required>
                         <option value="" selected>Selecciona una opcion</option>
@@ -75,21 +74,6 @@
                         @endforeach
                     </select>
                 </div>
-=======
-                            <label for="carpeta">Carpeta Fisica</label>
-                            <select name="carpeta" id="carpeta" class="form-select" required>
-                                <option value="" selected>Selecciona una opcion</option>
-                                @foreach ($carpetas as $carpeta)
-                                    <option value="{{ $carpeta->nombreCarpeta }}">{{ $carpeta->nombreCarpeta }}</option>
-                                @endforeach
-                            </select>
-                        </div>
-                    </div>
-
-                    <button class="btn btn-primary mt-3"><i class="fas fa-save"></i> Guardar</button>
-                    <a href="/vistaCreditos" class="btn btn-info mt-3"><i class="fas fa-sign-out-alt"></i> regresar</a>
-                </form>
->>>>>>> 49ddf0203a5f73d28f1a461eb36d5cc998aa3d0e
             </div>
 
             <button class="btn btn-primary mt-3"> Guardar</button>

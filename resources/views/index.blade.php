@@ -11,15 +11,7 @@
                     <br>
                     <h1>Datos Personales Del Alumno</h1>
                     <h2 class="ms-5">Caracteristicas</h2>
-<<<<<<< HEAD
-                    <h5 class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, id
-                        corporis. Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
-                        vel tempore incidunt perferendis eos quasi nostrum odit!Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Deserunt, id corporis. Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
-                        vel tempore incidunt perferendis eos quasi nostrum odit!</h5>
-=======
                     <h4 class="text-justify">En esta vista podras Agregar,eliminar o Editar los datos de los estudiantes</h4>
->>>>>>> 49ddf0203a5f73d28f1a461eb36d5cc998aa3d0e
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="card border-0 colorTransparente">

@@ -12,7 +12,7 @@
                     donde ingresaras por medio de un formulario información para agregar un nuevo alumno, El botón de regresar te llevara a la vista principal.
                 </h5>
                 <!--Parte De Botones Inicio-->
-                <div class="card border-0" style="width: 40rem;">
+                <div class="card border-0">
                     <div class="card-body">
                         <!--Contenido De Card Botones Dentro Inicio-->
                         <div class="row">
