@@ -60,7 +60,7 @@
         <div class="item mt-2 mb-2">
             <a href="/vistaAlumnos" title="Datos Personales Del Alumno">
                 <div class="ico text-center">
-                <i class="fa-solid fa-house"></i>
+                {{-- <i class="fa-solid fa-house"></i> --}}
                 </div>
                 <div class="title">
                     <h4> Datos personales <br> del Alumno </h4>
@@ -70,7 +70,7 @@
         <div class="item mt-2 mb-2">
             <a href="/vistaCreditos" title="Creditos">
                 <div class="ico text-center">
-                <i class="fa-solid fa-shop"></i>
+                {{-- <i class="fa-solid fa-shop"></i> --}}
                 </div>
                 <div class="title">
                     <h4>Créditos</h4>
@@ -80,7 +80,7 @@
         <div class="item mt-2 mb-2">
             <a href="/vistaNotas" title="Notas De Participacion">
                 <div class="ico text-center">
-                <i class="fa-solid fa-kitchen-set"></i>
+                {{-- <i class="fa-solid fa-kitchen-set"></i> --}}
                 </div>
                 <div class="title">
                     <h4>Notas de <br> Participación </h4>
@@ -90,7 +90,7 @@
         <div class="item mt-2 mb-2">
             <a href="/agregarUsuario" title="Informacion Empresa">
                 <div class="ico text-center">
-                <i class="fa-solid fa-circle-info"></i>
+                {{-- <i class="fa-solid fa-circle-info"></i> --}}
                 </div>
                 <div class="title">
                     <h4>Agregar Usuario</h4>
@@ -100,7 +100,7 @@
         <div class="item mt-2 mb-2">
             <a href="{{ route('logout') }}" title="Quejas Servicio">
                 <div class="ico text-center">
-                <i class="fa-solid fa-paper-plane"></i>
+                {{-- <i class="fa-solid fa-paper-plane"></i> --}}
                 </div>
                 <div class="title">
                     <h4>Cerrar Sesión</h4>
