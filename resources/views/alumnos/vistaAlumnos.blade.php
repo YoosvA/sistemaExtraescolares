@@ -21,7 +21,7 @@
                                     <div class="card-body">
                                         <!--Contenido De Boton Agregar Alumno Inicio-->
                                         <div class="d-grid gap-2">
-                                            <a href="/crearAlumnos" class="btn colorDeBotonazul  mt-3 rounded-pill text-white">Agregar Alumno</a>
+                                            <a href="/crearAlumnos" class="btn colorDeBotonazul  mt-3 rounded-pill text-white"><i class="fas fa-user-plus"></i> Agregar Alumno</a>
                                           </div>
 
                                         <!--Contenido De Boton Agregar Alumno Fin-->
@@ -33,7 +33,7 @@
                                     <div class="card-body">
                                         <!--Contenido de Boton Regresar Inicio-->
                                         <div class="d-grid gap-2">
-                                            <a href="/inicio" class="btn btn-danger mt-3 rounded-pill">Regresar</a>
+                                            <a href="/inicio" class="btn btn-danger mt-3 rounded-pill"><i class="fas fa-sign-out-alt"></i> Regresar</a>
                                         </div>
 
                                         <!--Contenido de Boton Regresar fin-->
@@ -86,14 +86,14 @@
                                                         <td>
                                                             <br>
                                                             <a href="{{ route('editarAlumnos', $item->id) }}"
-                                                                class="btn btn-warning rounded-pill">Editar</a>
+                                                                class="btn btn-warning rounded-pill"><i class="fas fa-user-edit"></i> Editar</a>
                                                         </td>
                                                         <td>
                                                             <form action="{{ route('destroy', $item->id) }}"
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button class="btn btn-danger rounded-pill">Eliminar</button>
+                                                                <button class="btn btn-danger rounded-pill"><i class="fas fa-trash"></i> Eliminar</button>
                                                             </form>
                                                         </td>
                                                     </tr>

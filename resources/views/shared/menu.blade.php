@@ -37,7 +37,7 @@
 <!-- sidemenu para computadoras -->
 <div id="sidemenu" class="menu-collapsed tipo-letra">
     <div id="header">
-        <div id="title"><h5 class="text-center">Bienvenido(a): {{ Auth::user()->user }}</h5></div>
+        <div id="title"><h5 class="text-center"><i class="fas fa-user-circle"></i> {{ Auth::user()->user }}</h5></div>
         <div class="text-center" id="menu-btn">
             <img src="{{ asset('img/IconoDeMenuNav.svg') }}" alt="">
         </div>
@@ -61,6 +61,7 @@
             <a href="/vistaAlumnos" title="Datos Personales Del Alumno">
                 <div class="ico text-center">
                 {{-- <i class="fa-solid fa-house"></i> --}}
+                <i class="fas fa-user"></i>
                 </div>
                 <div class="title">
                     <h4> Datos personales <br> del Alumno </h4>
@@ -71,6 +72,7 @@
             <a href="/vistaCreditos" title="Creditos">
                 <div class="ico text-center">
                 {{-- <i class="fa-solid fa-shop"></i> --}}
+                <i class="far fa-sticky-note"></i>
                 </div>
                 <div class="title">
                     <h4>Créditos</h4>
@@ -81,6 +83,7 @@
             <a href="/vistaNotas" title="Notas De Participacion">
                 <div class="ico text-center">
                 {{-- <i class="fa-solid fa-kitchen-set"></i> --}}
+                <i class="fas fa-sticky-note"></i>
                 </div>
                 <div class="title">
                     <h4>Notas de <br> Participación </h4>
@@ -88,9 +91,10 @@
             </a>
         </div>
         <div class="item mt-2 mb-2">
-            <a href="/agregarUsuario" title="Informacion Empresa">
+            <a href="/agregarUsuario" title="Agregar Usuario">
                 <div class="ico text-center">
                 {{-- <i class="fa-solid fa-circle-info"></i> --}}
+                <i class="fas fa-user-plus"></i>
                 </div>
                 <div class="title">
                     <h4>Agregar Usuario</h4>
@@ -98,9 +102,10 @@
             </a>
         </div>
         <div class="item mt-2 mb-2">
-            <a href="{{ route('logout') }}" title="Quejas Servicio">
+            <a href="{{ route('logout') }}" title="Cerrar Sesión">
                 <div class="ico text-center">
                 {{-- <i class="fa-solid fa-paper-plane"></i> --}}
+                <i class="fas fa-sign-out-alt"></i>
                 </div>
                 <div class="title">
                     <h4>Cerrar Sesión</h4>

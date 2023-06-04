@@ -3,10 +3,10 @@
 @section('contenido')
     <div class="container mt-4">
         <h4>Historial Creditos</h4>
-        <a href="/crearCreditos" class="btn btn-primary mt-3">Agregar Creditos</a>
-        <a href="/crearCarpetas" class="btn btn-info mt-3 ms-2">Agregar Carpeta</a>
-        <a href="/vistaOficios" class="btn btn-success mt-3 ms-2">Crear Oficios de Liberacion</a>
-        <a href="/inicio" class="btn btn-danger mt-3 ms-2">Regresar</a>
+        <a href="/crearCreditos" class="btn btn-primary mt-3"><i class="fas fa-user-plus"></i> Agregar Creditos</a>
+        <a href="/crearCarpetas" class="btn btn-info mt-3 ms-2"><i class="fas fa-folder-plus"></i> Agregar Carpeta</a>
+        <a href="/vistaOficios" class="btn btn-success mt-3 ms-2"><i class="fas fa-sticky-note"></i> Crear Oficios de Liberacion</a>
+        <a href="/inicio" class="btn btn-danger mt-3 ms-2"><i class="fas fa-sign-out-alt"></i> Regresar</a>
         
         <div class="row">
             <div class="col mt-4">
@@ -41,21 +41,21 @@
                                         <td>{{ $item->nombreCredito }}</td>
                                         <td>
                                             @if (!empty($item->mooc))
-                                            <a class="btn btn-dark" href="{{ asset($item->mooc) }}" target="_blank">Mostrar</a>
+                                            <a class="btn btn-dark" href="{{ asset($item->mooc) }}" target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                             @else
                                                 No se ha agregado el archivo
                                             @endif
                                         </td>
                                         <td>
                                             @if (!empty($item->constancia))
-                                            <a class="btn btn-dark" href="{{ asset($item->constancia) }}" target="_blank">Mostrar</a>
+                                            <a class="btn btn-dark" href="{{ asset($item->constancia) }}" target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                             @else
                                                 No se ha agregado el archivo
                                             @endif
                                         </td>
                                         <td>
                                             @if (!empty($item->oficioLiberacion))
-                                            <a class="btn btn-dark" href="{{ asset($item->oficioLiberacion) }}" target="_blank">Mostrar</a>
+                                            <a class="btn btn-dark" href="{{ asset($item->oficioLiberacion) }}" target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                             @else
                                                 No se ha agregado el archivo
                                             @endif
@@ -63,7 +63,7 @@
                                         </td>
                                         <td>
                                             @if (!empty($item->evidencia))
-                                            <a class="btn btn-dark" href="{{ asset($item->evidencia) }}" target="_blank">Mostrar</a>
+                                            <a class="btn btn-dark" href="{{ asset($item->evidencia) }}" target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                             @else
                                                 No se ha agregado el archivo
                                             @endif
@@ -82,13 +82,13 @@
                                         <td> {{ $item->created_at }} </td>
                                         <td>
                                             <br>
-                                            <a href="{{ route('editarCreditos', $item->id) }}" class="btn btn-warning">Editar</a>
+                                            <a href="{{ route('editarCreditos', $item->id) }}" class="btn btn-warning"><i class="fas fa-pen-square"></i> Editar</a>
                                         </td>
                                         <td>
                                             <form action="{{ route('destroyCreditos', $item->id) }}" method="POST">
                                                 @csrf
                                                 @method('DELETE')
-                                                <button class="btn btn-danger">Eliminar</button>
+                                                <button class="btn btn-danger"><i class="fas fa-trash"></i> Eliminar</button>
                                             </form>
                                         </td>
                                     </tr>

@@ -65,8 +65,8 @@
                             
                         </div>
                     </div>
-                    <button class="btn btn-warning mt-3">Actualizar</button>
-                    <a href="/vistaCreditos" class="btn btn-info mt-3">Regresar</a>
+                    <button class="btn btn-warning mt-3"><i class="fas fa-save"></i>Actualizar</button>
+                    <a href="/vistaCreditos" class="btn btn-info mt-3"><i class="fas fa-sign-out-alt"></i> Regresar</a>
                 </form>
             </div>
         </div>
