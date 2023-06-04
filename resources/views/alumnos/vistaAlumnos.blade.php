@@ -1,7 +1,7 @@
 @extends('layouts/main')
 
 @section('contenido')
-<!--Inicio De Container-->
+    <!--Inicio De Container-->
     <div class="container mt-4">
         <div class="row">
             <div class="col">
@@ -12,48 +12,70 @@
                     donde tienes que meter informacion para agregar un nuevo alumno. <br>
                     el boton de regresar te mostraran el mismo menú que puedes ocupar</h5>
                 <!--Parte De Botones Inicio-->
-                <div class="card border-0" style="width: 40rem;">
-                    <div class="card-body">
-                        <!--Contenido De Card Botones Dentro Inicio-->
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="card border-0 text-center">
-                                    <div class="card-body">
-                                        <!--Contenido De Boton Agregar Alumno Inicio-->
-                                        <div class="d-grid gap-2">
-                                            <a href="/crearAlumnos" class="btn colorDeBotonazul  mt-3 rounded-pill text-white">Agregar Alumno</a>
-                                          </div>
 
-                                        <!--Contenido De Boton Agregar Alumno Fin-->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="card border-0 text-center">
-                                    <div class="card-body">
-                                        <!--Contenido de Boton Regresar Inicio-->
-                                        <div class="d-grid gap-2">
-                                            <a href="/inicio" class="btn btn-danger mt-3 rounded-pill">Regresar</a>
-                                        </div>
 
-                                        <!--Contenido de Boton Regresar fin-->
-                                    </div>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card colorTransparente border-0">
+                            <div class="card-body">
+                                <!--Contenido De Boton Agregar Alumno Inicio-->
+                                <div class="d-grid gap-2">
+                                    <a href="/crearAlumnos"
+                                        class="btn colorDeBotonazul  mt-3 rounded-pill text-white">Agregar Alumno</a>
                                 </div>
+
+                                <!--Contenido De Boton Agregar Alumno Fin-->
                             </div>
                         </div>
-                        <!--Contenido De Card Botones Fin-->
                     </div>
+                    <div class="col">
+                        <div class="card colorTransparente border-0">
+                            <div class="card-body">
+                                <!--Contenido de Boton Regresar Inicio-->
+                                <div class="d-grid gap-2">
+                                    <a href="/inicio" class="btn btn-danger mt-3 rounded-pill">Regresar</a>
+                                </div>
+
+                                <!--Contenido de Boton Regresar fin-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Contenido Basio Inicio-->
+                    <div class="col">
+                        <div class="card colorTransparente border-0">
+                            <div class="card-body">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Contenido Basio Fin-->
+                    <!--Card Contenido Basio Inicio-->
+                    <div class="col">
+                        <div class="card colorTransparente border-0">
+                            <div class="card-body">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Contenido Basio Fin-->
                 </div>
+
+
+
+
+
+
+
                 <!--Parte De Botones Fin-->
-                <!--Contenido Card Inicio-->   
+                <!--Contenido Card Inicio-->
                 <div class="card shadow-lg bg-body rounded border-0 rounded-5">
                     <div class="card-body">
                         <!--Contenido De Informacion Card Inicio-->
                         <div class="row">
                             <div class="col mt-4 mb-4 ms-4 mx-4">
+                                <!--Dentro De Una Card Esta La Tabla-->
                                 <div class="card">
                                     <div class="card-body">
-                                        <table class="display responsive nowrap text-center" style="width:100%" id="table">
+                                        <table class="display responsive nowrap text-center" style="width:100%"
+                                            id="table">
                                             <thead class="text-center">
                                                 <tr>
                                                     <th class="text-center">No.</th>
@@ -93,7 +115,8 @@
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button class="btn btn-danger rounded-pill">Eliminar</button>
+                                                                <button
+                                                                    class="btn btn-danger rounded-pill">Eliminar</button>
                                                             </form>
                                                         </td>
                                                     </tr>
@@ -111,5 +134,5 @@
             </div>
         </div>
     </div>
-<!--Fin De Card-->
+    <!--Fin De Card-->
 @endsection

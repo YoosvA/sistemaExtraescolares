@@ -306,3 +306,61 @@ body {
   width: 5rem;
   height: 5rem;
 }
+/*COLORES DE BOTONES DE MOSTRAR EN LA TABLA DE CREDITOS*/
+/*1*/
+.colorBoton1{
+  background-color: #90e0ef;
+
+}
+.colorBoton1:hover{
+  background: #90e0ef;
+  color: #fff;
+}
+/*1*/
+/*2*/
+.colorBoton2{
+ background: #48cae4;
+}
+.colorBoton2:hover{
+  background: #48cae4;
+  color: #fff;
+}
+/*2*/
+/*3*/
+.colorBoton3{
+background: #0096c7;
+}
+.colorBoton3:hover{
+  background: #0096c7;
+  color: #fff;
+}
+/*3*/
+/*4*/
+.colorBoton4{
+  background: #0077b6;
+  }
+  .colorBoton4:hover{
+    background: #0077b6;
+    color: #fff;
+  }
+/*4*/
+/*5*/
+.colorBoton5{
+  background: #023e8a;
+  }
+  .colorBoton5:hover{
+    background: #023e8a;
+    color: #fff;
+  }
+/*5*/
+.colorDeFondo{
+  background-color: #e9ecef;
+}
+/*TamañoDeImgGif*/
+.TamañoDe1gif{
+    height: 20rem;
+}
+.TamañoDe2gif{
+  height: 20rem;
+  width: 25rem;
+}
