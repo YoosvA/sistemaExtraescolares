@@ -134,7 +134,7 @@
                                                                         @csrf
                                                                         @method('PUT')
                                                                         <button type="submit"
-                                                                            class="btn colorBoton5 rounded-pill text-white {{ $item->estado === 'Liberado' ? '' : '' }}">
+                                                                            class="btn btn-primary rounded-pill text-white {{ $item->estado === 'Liberado' ? 'btn btn-success' : 'btn btn-primary' }}">
                                                                             {{ $item->estado ?: 'En proceso' }}
                                                                         </button>
                                                                     </form>
