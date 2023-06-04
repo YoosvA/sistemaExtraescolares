@@ -48,7 +48,7 @@
         </div>
         <div class="text-center" id="name">
             <div>
-                <h2>Sistema <br> ExtraEscolares</h2>
+                <h2> Sistema <br> Extraescolares </h2>
                 
                <span>
 
@@ -58,32 +58,32 @@
     </div>
     <div id="menu-items">
         <div class="item mt-2 mb-2">
-            <a href="#DatosPersonalesDelAlumno" title="Datos Personales Del Alumno">
+            <a href="/vistaAlumnos" title="Datos Personales Del Alumno">
                 <div class="ico text-center">
                 <i class="fa-solid fa-house"></i>
                 </div>
                 <div class="title">
-                    <h4>Datos Personales <br> Del Alumno</h4>
+                    <h4> Datos personales <br> del Alumno </h4>
                 </div>
             </a>
         </div>
         <div class="item mt-2 mb-2">
-            <a href="#Creditos" title="Creditos">
+            <a href="/vistaCreditos" title="Creditos">
                 <div class="ico text-center">
                 <i class="fa-solid fa-shop"></i>
                 </div>
                 <div class="title">
-                    <h4>Creditos</h4>
+                    <h4>Créditos</h4>
                 </div>
             </a>
         </div>
         <div class="item mt-2 mb-2">
-            <a href="#NotasDeParticipacion" title="Notas De Participacion">
+            <a href="/vistaNotas" title="Notas De Participacion">
                 <div class="ico text-center">
                 <i class="fa-solid fa-kitchen-set"></i>
                 </div>
                 <div class="title">
-                    <h4>Notas De <br> Participacion</h4>
+                    <h4>Notas de <br> Participación </h4>
                 </div>
             </a>
         </div>
@@ -103,7 +103,7 @@
                 <i class="fa-solid fa-paper-plane"></i>
                 </div>
                 <div class="title">
-                    <h4>cerrar seccion</h4>
+                    <h4>Cerrar Sesión</h4>
                 </div>
             </a>
         </div>

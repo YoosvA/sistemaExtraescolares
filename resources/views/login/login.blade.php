@@ -40,7 +40,7 @@
                                         <form action="{{ route('logear') }}" method="post">
                                             @csrf
                                             @method('POST')
-                                            <h2 class="text-center">Sistema Extra Escolares</h2>
+                                            <h2 class="text-center">Sistema Extraescolares</h2>
                                             <h4><img src="{{ asset('img/user.svg') }}" alt=""> Usuario</h4>
                                             <input type="text" class="form-control text-center rounded-pill mt-2 mb-2" name="user"
                                                 required placeholder="Usuario" aria-label="Usuario">
