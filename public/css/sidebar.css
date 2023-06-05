@@ -364,3 +364,98 @@ background: #0096c7;
   height: 20rem;
   width: 25rem;
 }
+
+/*Estilo De Boton GuardarBoton De Carpeta  Creditos Agregar*/
+/*Boton1*/
+.guardarBoton {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #023e8a;
+  color: #fff;
+ }
+ 
+ .guardarBoton:hover {
+  transform: translateY(-3px);
+    background: #023e8a;
+    color: #fff;
+ }
+ 
+ .guardarBoton:active {
+  transform: translateY(-1px);
+  box-shadow: #023e8a;
+ }
+ 
+ .guardarBoton::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .guardarBoton::after {
+  background-color: #fff;
+ }
+ 
+ .guardarBoton:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+ /*Boton2*/
+ .RegresarBoton {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #ff0000;
+  color: #fff;
+ }
+ 
+ .RegresarBoton:hover {
+  transform: translateY(-3px);
+    background: #ff0000;
+    color: #fff;
+ }
+ 
+ .RegresarBoton:active {
+  transform: translateY(-1px);
+  box-shadow: #ff0000;
+ }
+ 
+ .RegresarBoton::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .RegresarBoton::after {
+  background-color: #fff;
+ }
+ 
+ .RegresarBoton:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+/*Tamaño De Img Circular En Agregar Carpeta Siempre Tendras Unas secciones Basias*/
+.TamañoDeImgCarpeta{
+  height: 30rem;
+  width: 30rem;
+}
