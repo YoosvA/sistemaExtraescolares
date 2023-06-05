@@ -71,22 +71,22 @@
                                             <!--Contenido De Botones Dentro De Un Card Inicio-->
                                     <div class="row">
                                         <div class="col-sm-6">
-                                          <div class="card">
+                                          <div class="card border-0">
                                             <div class="card-body">
                                                 <!--Contenido De Boton Inicio-->
                                                 <div class="d-grid gap-2">
-                                                    <button class="btn btn-warning mt-3"><i class="fas fa-save"></i>Actualizar</button>
+                                                    <button class="btn guardarBoton mt-4 rounded-pill"><i class="fas fa-save"></i> Actualizar</button>
                                                   </div>
                                                 <!--Contenido De Boton Fin-->
                                             </div>
                                           </div>
                                         </div>
                                         <div class="col-sm-6">
-                                          <div class="card">
+                                          <div class="card border-0">
                                             <div class="card-body">
                                                 <!--Contenido De Boton Inicio-->
                                                 <div class="d-grid gap-2">
-                                                    <a href="/vistaCreditos" class="btn btn-info mt-3"><i class="fas fa-sign-out-alt"></i> Regresar</a>
+                                                    <a href="/vistaCreditos" class="btn RegresarBoton mt-4 rounded-pill"><i class="fas fa-sign-out-alt"></i> Regresar</a>
                                                 </div>
                                               <!--Contenido De Boton Fin-->
                                             </div>
