@@ -18,7 +18,7 @@
                             <div class="card-body">
                                 <!---->
                                 <div class="d-grid gap-2">
-                                    <a href="/crearCreditos" class="btn colorDeBotonazul mt-3 rounded-pill text-white">Agregar Creditos</a>
+                                    <a href="/crearCreditos" class="btn colorDeBotonazul mt-3 rounded-pill text-white"><i class="fas fa-plus"></i> Agregar Creditos</a>
                                 </div>
                                 <!---->
                             </div>
@@ -29,7 +29,7 @@
                             <div class="card-body">
                                 <!---->
                                 <div class="d-grid gap-2">
-                                    <a href="/crearCarpetas" class="btn colorDeBotonazul mt-3 rounded-pill text-white">Agregar Carpeta</a>
+                                    <a href="/crearCarpetas" class="btn colorDeBotonazul mt-3 rounded-pill text-white"><i class="fas fa-folder-plus"></i> Agregar Carpeta</a>
                                 </div>
                                 <!---->
                             </div>
@@ -40,7 +40,7 @@
                             <div class="card-body">
                                 <!---->
                                 <div class="d-grid gap-2">
-                                    <a href="/vistaOficios" class="btn colorDeBotonazul mt-3 rounded-pill text-white">Crear Oficios de
+                                    <a href="/vistaOficios" class="btn colorDeBotonazul mt-3 rounded-pill text-white"><i class="fas fa-clipboard"></i> Crear Oficios de
                                         Liberacion</a>
                                 </div>
                                 <!---->
@@ -52,7 +52,7 @@
                             <div class="card-body">
                                 <!---->
                                 <div class="d-grid gap-2">
-                                    <a href="/inicio" class="btn btn-danger mt-3 rounded-pill text-white">Regresar</a>
+                                    <a href="/inicio" class="btn btn-danger mt-3 rounded-pill text-white"><i class="fas fa-sign-out-alt"></i> Regresar</a>
                                 </div>
                                 <!---->
                             </div>
@@ -98,7 +98,7 @@
                                                                 <td>
                                                                     @if (!empty($item->mooc))
                                                                         <a class="btn colorBoton1 rounded-pill text-white" href="{{ asset($item->mooc) }}"
-                                                                            target="_blank">Mostrar</a>
+                                                                            target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                                                     @else
                                                                         No se ha agregado el archivo
                                                                     @endif
@@ -106,7 +106,7 @@
                                                                 <td>
                                                                     @if (!empty($item->constancia))
                                                                         <a class="btn colorBoton2 rounded-pill text-white" href="{{ asset($item->constancia) }}"
-                                                                            target="_blank">Mostrar</a>
+                                                                            target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                                                     @else
                                                                         No se ha agregado el archivo
                                                                     @endif
@@ -114,7 +114,7 @@
                                                                 <td>
                                                                     @if (!empty($item->oficioLiberacion))
                                                                         <a class="btn colorBoton3 rounded-pill text-white" href="{{ asset($item->oficioLiberacion) }}"
-                                                                            target="_blank">Mostrar</a>
+                                                                            target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                                                     @else
                                                                         No se ha agregado el archivo
                                                                     @endif
@@ -123,7 +123,7 @@
                                                                 <td>
                                                                     @if (!empty($item->evidencia))
                                                                         <a class="btn colorBoton4 rounded-pill text-white" href="{{ asset($item->evidencia) }}"
-                                                                            target="_blank">Mostrar</a>
+                                                                            target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                                                     @else
                                                                         No se ha agregado el archivo
                                                                     @endif
@@ -143,14 +143,14 @@
                                                                 <td>
                                                                     <br>
                                                                     <a href="{{ route('editarCreditos', $item->id) }}"
-                                                                        class="btn btn-warning rounded-pill text-white">Editar</a>
+                                                                        class="btn btn-warning rounded-pill text-white"><i class="fas fa-edit"></i> Editar</a>
                                                                 </td>
                                                                 <td>
                                                                     <form action="{{ route('destroyCreditos', $item->id) }}"
                                                                         method="POST">
                                                                         @csrf
                                                                         @method('DELETE')
-                                                                        <button class="btn btn-danger rounded-pill text-white">Eliminar</button>
+                                                                        <button class="btn btn-danger rounded-pill text-white"><i class="fas fa-trash"></i> Eliminar</button>
                                                                     </form>
                                                                 </td>
                                                             </tr>

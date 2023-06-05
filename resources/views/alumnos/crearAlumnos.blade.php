@@ -66,7 +66,7 @@
                                                             <div class="d-grid gap-2">
                                                                 <button
                                                                     class="btn guardarBoton rounded-pill mt-3 text-white ">
-                                                                    <i class="fas fa-yin-yang"></i>    Guardar</button>
+                                                                    <i class="fas fa-save"></i> Guardar</button>
                                                             </div>
                                                             <!---->
                                                         </div>
