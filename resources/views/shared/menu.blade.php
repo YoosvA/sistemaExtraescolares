@@ -91,13 +91,25 @@
             </a>
         </div>
         <div class="item mt-2 mb-2">
-            <a href="/agregarUsuario" title="Agregar Usuario">
+            <a href="/agregarUsuario" title="Agregar Usuarios">
                 <div class="ico text-center">
                 {{-- <i class="fa-solid fa-circle-info"></i> --}}
                 <i class="fas fa-user-plus"></i>
                 </div>
                 <div class="title">
-                    <h4>Agregar Usuario</h4>
+                    <h4>Agregar Usuarios</h4>
+                </div>
+            </a>
+        </div>
+
+        <div class="item mt-2 mb-2">
+            <a href="/listadoUsuarios" title="Listado Usuarios">
+                <div class="ico text-center">
+                {{-- <i class="fa-solid fa-circle-info"></i> --}}
+                <i class="fas fa-list"></i>
+                </div>
+                <div class="title">
+                    <h4>Listado Usuarios</h4>
                 </div>
             </a>
         </div>

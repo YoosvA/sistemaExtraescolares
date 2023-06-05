@@ -33,6 +33,11 @@ Route::get('/inicio', [Controller::class, 'index'])->name('inicio');
 Route::get('/agregarUsuario', [AuthController::class, 'createUser']);
 Route::post('/agregarNuevo', [AuthController::class, 'agregarNuevo']);
 
+Route::get('listadoUsuarios', [AuthController::class, 'ListadoUsuarios']);
+Route::get('/editarUsuarios/{id}', [AuthController::class, 'editUsuarios'])->name('editarUsuarios');
+Route::put('updateUsuarios/{id}', [AuthController::class, 'updateUsuarios'])->name('updateUsuarios');
+Route::delete('/destroyUsuarios/{id}', [AuthController::class, 'destroyUsuarios'])->name('destroyUsuarios');
+
 //datosAlumnos
 Route::get('/vistaAlumnos', [Alumnos::class, 'index']);
 Route::get('crearAlumnos', [Alumnos::class, 'create']);

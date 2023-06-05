@@ -63,4 +63,38 @@ class AuthController extends Controller
     //     $item->save();
     //     return $item;
     // }
+
+    public function ListadoUsuarios(){
+        $titulo = 'Listado Usuarios';
+        $items = User::all();
+        return view('/login/listadoUsuarios', compact('titulo','items'));
+
+    }
+
+    public function editUsuarios($id)
+    {
+        $titulo = 'Editar Usuarios';
+        $items = User::find($id);
+        return view('/login/editarUsuarios', compact('titulo', 'items'));
+    }
+
+    public function updateUsuarios(Request $request, $id)
+    {
+        $item = User::find($id);
+        $item->name = $request->name;
+        $item->email = $request->email;
+        $item->user = $request->user;
+        $item->password = Hash::make($request->password);
+        $item->save();
+        return redirect('/listadoUsuarios');
+    }
+
+    public function destroyUsuarios($id){
+        $item = User::find($id);
+        $item->delete();
+        return redirect('/listadoUsuarios');
+    }
+
+
+
 }
