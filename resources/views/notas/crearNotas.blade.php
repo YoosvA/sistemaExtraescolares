@@ -54,21 +54,32 @@
                                         @endforeach
                                     </select>
 
-                                    <h4 class="mt-3">Evento</h4>
-                                    <select name="evento" id="evento"
+                                    <h4 class="mt-3">Carrera</h4>
+                                    <select name="carreraNotas" id="carreraNotas"
                                         class="form-select text-center shadow-sm bg-body rounded rounded-pill" required>
                                         <option value="" selected>Selecciona una opcion</option>
-                                        @foreach ($eventos as $evento)
-                                            <option value="{{ $evento->nombreEvento }}">{{ $evento->nombreEvento }}</option>
+                                        @foreach ($carreras as $carrera)
+                                            <option value="{{ $carrera->nombre }}">{{ $carrera->nombre }}</option>
                                         @endforeach
                                     </select>
 
+
+
                             </div>
                             <div class="col mt-4 mb-4 ms-4 mx-4">
+                                <h4 class="mt-3">Evento</h4>
+                                <select name="evento" id="evento"
+                                    class="form-select text-center shadow-sm bg-body rounded rounded-pill" required>
+                                    <option value="" selected>Selecciona una opcion</option>
+                                    @foreach ($eventos as $evento)
+                                        <option value="{{ $evento->nombreEvento }}">{{ $evento->nombreEvento }}</option>
+                                    @endforeach
+                                </select>
+
                                 <h4>Horas de Participación</h4>
                                 <input type="number" name="horas" id="horas"
                                     class="form-control text-center shadow-sm bg-body rounded rounded-pill"
-                                    placeholder="Horas de Participación" aria-label="Horas de Participación" required>
+                                    placeholder="Horas de Participación" aria-label="Horas de Participación" required min="5" max="20" step="5">
 
 
                                 <h4 class="mt-3">Fecha de Participación</h4>
