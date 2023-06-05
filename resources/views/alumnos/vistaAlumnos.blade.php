@@ -12,12 +12,12 @@
                     donde ingresaras por medio de un formulario información para agregar un nuevo alumno, El botón de regresar te llevara a la vista principal.
                 </h5>
                 <!--Parte De Botones Inicio-->
-                <div class="card border-0">
+                <div class="card border-0 colorTransparente">
                     <div class="card-body">
                         <!--Contenido De Card Botones Dentro Inicio-->
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="card border-0 text-center">
+                                <div class="card border-0 text-center colorTransparente">
                                     <div class="card-body">
                                         <!--Contenido De Boton Agregar Alumno Inicio-->
                                         <div class="d-grid gap-2">
@@ -29,7 +29,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="card border-0 text-center">
+                                <div class="card border-0 text-center colorTransparente">
                                     <div class="card-body">
                                         <!--Contenido de Boton Regresar Inicio-->
                                         <div class="d-grid gap-2">
