@@ -10,7 +10,7 @@
                 <h5 class="ms-5">Ingresa todos los datos que se te piden... </h5>
                 <!--Contenido Texto Arriba-->
                 <!--Contenid De Card Inicio-->
-                <div class="card">
+                <div class="card border-0 mt-4 rounded-5 shadow-lg bg-body rounded">
                     <div class="card-body">
                         <!---->
                         <form action="{{ route('updateNotas', $items->id) }}" method="post">
@@ -20,7 +20,7 @@
                                 <div class="col mt-4 mb-4 ms-4 mx-4">
 
                                     <h4>Nombre del Alumno</h4>
-                                    <select name="nombreAlumnoNotas" id="nombreAlumnoNotas" class="form-select" required>
+                                    <select name="nombreAlumnoNotas" id="nombreAlumnoNotas" class="form-select text-center shadow-sm bg-body rounded rounded-pill" required>
                                         <option value="" selected>Selecciona una opcion</option>
                                         @foreach ($alumnosDatos as $item)
                                             <option
@@ -30,7 +30,7 @@
                                     </select>
 
                                     <h4 class="mt-3">Apellido Paterno</h4>
-                                    <select name="apellidoPaternoNotas" id="apellidoPaternoNotas" class="form-select"
+                                    <select name="apellidoPaternoNotas" id="apellidoPaternoNotas" class="form-select text-center shadow-sm bg-body rounded rounded-pill"
                                         required>
                                         <option value="" selected>Selecciona una opcion</option>
                                         @foreach ($alumnosDatos as $item)
@@ -41,7 +41,7 @@
                                     </select>
 
                                     <h4 class="mt-3">Apellido Materno</h4>
-                                    <select name="apellidoMaternoNotas" id="apellidoMaternoNotas" class="form-select"
+                                    <select name="apellidoMaternoNotas" id="apellidoMaternoNotas" class="form-select text-center shadow-sm bg-body rounded rounded-pill"
                                         required>
                                         <option value="" selected>Selecciona una opcion</option>
                                         @foreach ($alumnosDatos as $item)
@@ -52,7 +52,7 @@
                                     </select>
 
                                     <h4 class="mt-3">No. Control</h4>
-                                    <select name="noControlNotas" id="noControlNotas" class="form-select" required>
+                                    <select name="noControlNotas" id="noControlNotas" class="form-select text-center shadow-sm bg-body rounded rounded-pill" required>
                                         <option value="" selected>Selecciona una opcion</option>
                                         @foreach ($alumnosDatos as $item)
                                             <option value="{{ $item->noControl }}"
@@ -62,7 +62,7 @@
                                     </select>
 
                                     <h4 class="mt-3">Carrera</h4>
-                                    <select name="carreraNotas" id="carreraNotas" class="form-select" required>
+                                    <select name="carreraNotas" id="carreraNotas" class="form-select text-center shadow-sm bg-body rounded rounded-pill" required>
                                         <option value="" selected>Selecciona una opcion</option>
                                         @foreach ($carreras as $item)
                                             <option value="{{ $item->nombre }}"
@@ -75,7 +75,7 @@
                                 <div class="col mt-4 mb-4 ms-4 mx-4">
 
                                     <h4>Evento</h4>
-                                    <select name="evento" id="evento" class="form-select" required>
+                                    <select name="evento" id="evento" class="form-select text-center shadow-sm bg-body rounded rounded-pill" required>
                                         <option value="" selected>Selecciona una opcion</option>
                                         @foreach ($eventos as $item)
                                             <option value="{{ $item->nombreEvento }}"
@@ -85,30 +85,30 @@
                                     </select>
 
                                     <h4 class="mt-3">Horas de Participación</h4>
-                                    <input type="number" name="horas" id="horas" class="form-control"
+                                    <input type="number" name="horas" id="horas" class="form-control text-center shadow-sm bg-body rounded rounded-pill"
                                         value="{{ $items->horas }}" required min="5" max="20" step="5">
 
 
                                     <h4 class="mt-3">Fecha de Participación</h4>
-                                    <input type="date" name="fecha" id="fecha" class="form-control"
+                                    <input type="date" name="fecha" id="fecha" class="form-control text-center shadow-sm bg-body rounded rounded-pill"
                                         value="{{ $items->fecha }}" required>
 
                                     <h4 class="mt-3">Periodo Escolar</h4>
-                                    <input type="text" name="periodo" id="periodo" class="form-control"
+                                    <input type="text" name="periodo" id="periodo" class="form-control text-center shadow-sm bg-body rounded rounded-pill"
                                         value="{{ $items->periodo }}" required>
 
                                     <h4 class="mt-3">Grupo</h4>
-                                    <input type="text" name="grupo" id="grupo" class="form-control"
-                                        value="{{ $items->grupo }}" required>
+                                    <input type="text" name="grupo" id="grupo" class="form-control text-center shadow-sm bg-body rounded rounded-pill"
+                                        value="{{ $items->grupo }}" placeholder="Grupo" aria-label="Grupo" required>
                                 </div>
                                 <!--Contenido De Card Botones Inicio-->
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <div class="card">
+                                        <div class="card border-0">
                                             <div class="card-body">
                                                 <!--Contenido De Boton Inicio-->
                                                 <div class="d-grid gap-2">
-                                                    <button class="btn btn-warning mt-3"><i class="fas fa-save"></i>
+                                                    <button class="btn guardarBoton mt-3 rounded-pill"><i class="fas fa-save"></i>
                                                         Actualizar</button>
                                                 </div>
                                                 <!--Contenido De Boton Fin-->
@@ -116,11 +116,11 @@
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
-                                        <div class="card">
+                                        <div class="card border-0">
                                             <div class="card-body">
                                                 <!--Contenido De Boton Inicio-->
                                                 <div class="d-grid gap-2">
-                                                    <a href="/vistaNotas" class="btn btn-info mt-3"><i
+                                                    <a href="/vistaNotas" class="btn RegresarBoton mt-3 rounded-pill"><i
                                                             class="fas fa-sign-out-alt"></i> Regresar</a>
                                                 </div>
                                                 <!--Contenido De Boton Fin-->

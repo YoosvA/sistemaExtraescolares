@@ -43,10 +43,11 @@
                                             </div>
                                           </div>
                                         </div>
+                                        <div class="text-center">
+                                          <img src="{{ asset('img/TecnmCircular.png') }}" class="TamañoDeImgCarpeta" alt="">
+                                         </div>
                                       </div>
-                                    <!--Contenido Card 2 Botones Fin--> 
-
-                                    
+                                    <!--Contenido Card 2 Botones Fin-->           
                                 </form>
                             </div>
                         </div>
