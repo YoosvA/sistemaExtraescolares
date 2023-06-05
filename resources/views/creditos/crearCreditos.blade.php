@@ -79,7 +79,7 @@
 
                                             <h4 class="mt-3">Carpeta Fisica</h4>
                                             <select name="carpeta" id="carpeta"
-                                                class="form-select text-center shadow-lg bg-body rounded" required>
+                                                class="form-select text-center shadow-lg bg-body rounded-pill" required>
                                                 <option value="" selected>Selecciona una opcion</option>
                                                 @foreach ($carpetas as $carpeta)
                                                     <option value="{{ $carpeta->nombreCarpeta }}">
