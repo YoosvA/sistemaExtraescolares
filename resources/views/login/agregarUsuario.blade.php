@@ -6,7 +6,7 @@
             <div class="col">
                 <!--Contenido De Informacion Que Esta Dentro De Un Card Inicio-->
                 <div
-                    class="card position-absolute top-50 start-50 translate-middle shadow-lg bg-body rounded rounded border-0 rounded-5">
+                    class="card shadow-lg bg-body rounded rounded border-0 rounded-5 mt-4">
                     <div class="card-body text-center">
                         <!--Contenido Donde Se Coloco Una Imagen Y Titulo Inicio-->
                         <img src="{{ asset('img/TecnmCircular.png') }}" class="tamañoDeImgTecnmCircular img-fluid"
@@ -21,40 +21,34 @@
                                 <div class="col">
                                     <div class="card border-0">
                                         <div class="card-body">
+                                            <!---->
                                             <h4>Nombre Completo</h4>
                                             <input type="text" class="form-control text-center rounded-pill mt-3 mb-3"
                                                 name="name" id="name" required placeholder="Nombre Completo"
                                                 aria-label="Nombre Completo">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card border-0">
-                                        <div class="card-body">
-                                            <h4>Email</h4>
-                                            <input type="email" class="form-control text-center rounded-pill mt-3 mb-3"
-                                                name="email" id="email" required placeholder="Email"
-                                                aria-label="Email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card border-0">
-                                        <div class="card-body">
+                                            <!---->
                                             <h4>Usuario</h4>
                                             <input type="text" class="form-control text-center rounded-pill mt-3 mb-3"
                                                 name="user" id="user" required placeholder="Usuario"
                                                 aria-label="Usuario">
+                                            <!---->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card border-0">
                                         <div class="card-body">
+                                            <!---->
+                                            <h4>Email</h4>
+                                            <input type="email" class="form-control text-center rounded-pill mt-3 mb-3"
+                                                name="email" id="email" required placeholder="Email"
+                                                aria-label="Email">
+                                            <!---->
                                             <h4>Contraseña</h4>
                                             <input type="password" class="form-control text-center rounded-pill mt-3 mb-3"
                                                 name="password" id="password" required placeholder="Contraseña"
                                                 aria-label="Contraseña">
+                                            <!---->
                                         </div>
                                     </div>
                                 </div>
