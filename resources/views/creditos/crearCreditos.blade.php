@@ -96,7 +96,7 @@
                                                                 <!--Contenido De Boton Inicio-->
                                                                 <button
                                                                     class="btn colorDeBotonazul text-white mt-3 rounded-pill">
-                                                                    Guardar</button>
+                                                                    <i class="fas fa-save"></i> Guardar</button>
                                                                 <!--Contenido De Boton Fin-->
                                                             </div>
                                                             <!--Contenido De Card Boton Fin 1-->
@@ -110,7 +110,7 @@
                                                             <div class="d-grid gap-2">
                                                                 <!--Contenido De Boton Inicio-->
                                                                 <a href="/vistaCreditos"
-                                                                    class="btn btn-danger mt-3 rounded-pill"> regresar</a>
+                                                                    class="btn btn-danger mt-3 rounded-pill"><i class="fas fa-sign-out-alt"></i> regresar</a>
                                                                 <!--Contenido De Boton Fin-->
                                                             </div>
                                                             <!--Contenido De Card Boton Fin 2-->
