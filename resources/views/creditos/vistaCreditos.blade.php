@@ -122,7 +122,7 @@
                                                                 </td>
                                                                 <td>
                                                                     @if (!empty($item->evidencia))
-                                                                      <br>  <a class="btn colorBoton4 rounded-pill text-white" href="{{ asset($item->evidencia) }}"
+                                                                        <a class="btn colorBoton4 rounded-pill text-white" href="{{ asset($item->evidencia) }}"
                                                                             target="_blank">Mostrar</a>
                                                                     @else
                                                                         No se ha agregado el archivo
