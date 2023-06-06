@@ -15,7 +15,8 @@
                                 <div class="card border-0 colorTransparente">
                                     <div class="card-body">
                                         <h2 class="mt-4 mb-2 text-center">INSTRUCCIONES</h2>
-                                        <h5 class="text-center mt-2">En tos 3 botones tendras opciones donde contendran diferentes vistas...</h5>
+                                        <h5 class="text-center mt-2">En tos 3 botones tendras opciones donde contendran
+                                            diferentes vistas...</h5>
                                         <!--Contenido Inicio Boton-->
                                         <div class="d-grid gap-2 mt-2 mb-2">
                                             <a href="/inicio" class="btn RegresarBoton mt-3 rounded-pill"><i
@@ -28,20 +29,28 @@
                             <div class="col-sm-6">
                                 <div class="card border-0 colorTransparente">
                                     <div class="card-body">
-                                        <div class="text-center">
-                                            <img src="img/TecnmCircular.png" class="tamañoDeImgTecnmCircular" alt="">
-                                            <br>
+                                        <!----->
+                                        <div
+                                            class="card position-absolute top-0 start-50 translate-midde rounded-circle shadow-lg bg-body rounded border-0">
+                                            <div class="card-body">
+                                                <img src="{{ asset('img/TecnmCircular.png') }}"
+                                                    class="tamañoDeImgTecnmCircular img-fluid "alt="">
+                                            </div>
                                         </div>
+                                        <!----->
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!--Contenido De Boton Regresar Dentro De Un Card Fin-->
-                        <h1 class="text-center">Contenido De Datos En La Tabla</h1>
+                        <br>
+                        <h1 class="text-center mt-4">Contenido De Datos En La Tabla</h1>
+                        <br>
                         <!--Contenido Dentro De Card Inicio-->
                         <div class="card mt-4 mb-4 ms-4 mx-4 shadow-sm bg-body rounded rounded-4 text-center">
                             <div class="card-body">
-                                <table class="display responsive nowrap mt-4 text-center shadow-sm bg-body rounded" style="width:100%" id="table">
+                                <table class="display responsive nowrap mt-4 text-center shadow-sm bg-body rounded"
+                                    style="width:100%" id="table">
                                     <thead class="text-center">
                                         <tr>
                                             <th class="text-center">No.</th>
