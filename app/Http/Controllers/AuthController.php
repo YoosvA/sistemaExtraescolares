@@ -91,6 +91,11 @@ class AuthController extends Controller
 
     public function destroyUsuarios($id){
         $item = User::find($id);
+            // Verificar si el usuario a borrar es el mismo que está logeado
+        if ($item->id === auth()->user()->id) {
+        // no puede borrar el usuario que esta en sesion
+        return redirect()->back();
+        }
         $item->delete();
         return redirect('/listadoUsuarios');
     }
