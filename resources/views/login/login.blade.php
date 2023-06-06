@@ -13,6 +13,9 @@
 <!--Se Coloco El Tipo De Letra Global En El Diseño Del Login-->
 
 <body class="TipoDeLetraDeLogint">
+    <!--Se Añadio Una Img De Fondo-->
+    <img src="img/imgFondoLogin.svg" class="img-fluid" alt="">
+    <!--Se Añadio Una Img De Fondo-->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -40,42 +43,45 @@
                                         <form action="{{ route('logear') }}" method="post">
                                             @csrf
                                             @method('POST')
-                                            <h2 class="text-center">Sistema Extraescolares</h2>
-                                            <h4><img src="{{ asset('img/user.svg') }}" alt=""> Usuario</h4>
-                                            <input type="text" class="form-control text-center rounded-pill mt-2 mb-2" name="user"
+                                            <h1 class="text-center">Sistema Extraescolares</h1>
+                                            <h4 class="ms-3"><i class="fas fa-user"></i> Usuario</h4>
+                                            <input type="text"
+                                                class="form-control text-center rounded-pill mt-2 mb-2" name="user"
                                                 required placeholder="Usuario" aria-label="Usuario">
-                                            <h4><img src="{{ asset('img/password.svg') }}" alt="">
-                                                Contraseña</label>
-                                                <input type="password" class="form-control text-center rounded-pill mt-2 mb-2" name="password"
-                                                    id="password" required placeholder="Contraseña" aria-label="Contraseña">
-                                                <!--Parte De Boton De Mostrar Contraseña Inicio (Se Utilizo JS)-->
-                                                <input type="checkbox" id="showPassword">
-                                                <label for="showPassword">
-                                                    <h5>Mostrar contraseña</h5>
-                                                </label>
-                                                <script>
-                                                    const passwordInput = document.getElementById('password');
-                                                    const showPasswordCheckbox = document.getElementById('showPassword');
+                                            <h4 class="ms-3 mt-3"><i class="fas fa-key"></i> Contraseña</h4>
+                                            <input type="password"
+                                                class="form-control text-center rounded-pill mt-2 mb-2" name="password"
+                                                id="password" required placeholder="Contraseña"
+                                                aria-label="Contraseña">
+                                            <!--Parte De Boton De Mostrar Contraseña Inicio (Se Utilizo JS)-->
+                                            <input type="checkbox" id="showPassword">
+                                            <label for="showPassword">
+                                                <h5>Mostrar contraseña</h5>
+                                            </label>
+                                            <script>
+                                                const passwordInput = document.getElementById('password');
+                                                const showPasswordCheckbox = document.getElementById('showPassword');
 
-                                                    showPasswordCheckbox.addEventListener('change', function() {
-                                                        if (showPasswordCheckbox.checked) {
-                                                            passwordInput.type = 'text';
-                                                        } else {
-                                                            passwordInput.type = 'password';
-                                                        }
-                                                    });
-                                                </script>
-                                                <!--Parte De Boton De Mostrar Contraseña Fin (Se Utilizo JS)-->
-                                                <!--Contenido De Boton Color Azul Inicio-->
-                                                <div class="text-center d-grid gap-2 col-6 mx-auto  mt-3 ">
-                                                    <button class="btn colorDeBoton rounded-pill">
-                                                        <h5 class="text-white"><i class="fas fa-sign-in-alt"></i> Ingresar</h5>
-                                                    </button>
-                                                </div>
-                                                <!--Contenido De Boton Color Azul Fin-->
-                                                <hr>
-                                                <!--Nota: - > Nombre De Equipo-->
-                                                <h5 class="text-center mt-2">Creative Code</h5>
+                                                showPasswordCheckbox.addEventListener('change', function() {
+                                                    if (showPasswordCheckbox.checked) {
+                                                        passwordInput.type = 'text';
+                                                    } else {
+                                                        passwordInput.type = 'password';
+                                                    }
+                                                });
+                                            </script>
+                                            <!--Parte De Boton De Mostrar Contraseña Fin (Se Utilizo JS)-->
+                                            <!--Contenido De Boton Color Azul Inicio-->
+                                            <div class="text-center d-grid gap-2 col-6 mx-auto  mt-3 ">
+                                                <button class="btn guardarBoton rounded-pill">
+                                                    <h5 class="text-white"><i class="fas fa-sign-in-alt"></i> Ingresar
+                                                    </h5>
+                                                </button>
+                                            </div>
+                                            <!--Contenido De Boton Color Azul Fin-->
+                                            <hr>
+                                            <!--Nota: - > Nombre De Equipo-->
+                                            <h5 class="text-center mt-2">Creative Code</h5>
                                         </form>
                                         <!--Contenido De Input (User Y Password) Fin-->
                                     </div>
@@ -89,10 +95,10 @@
             </div>
         </div>
     </div>
-     <!--Contenido De Link De Js y Igualmente Contiene La Mascara De Carga Inicio-->   
-    <script src="{{('js/mascaraDeCarga/jquery-3.2.1.min.js')}}"></script>
-    <script src="{{('js/mascaraDeCarga/jquery.blockUI.js')}}"></script>
-    <script src="{{('js/mascaraDeCarga/mascara.js')}}"></script>
+    <!--Contenido De Link De Js y Igualmente Contiene La Mascara De Carga Inicio-->
+    <script src="{{ 'js/mascaraDeCarga/jquery-3.2.1.min.js' }}"></script>
+    <script src="{{ 'js/mascaraDeCarga/jquery.blockUI.js' }}"></script>
+    <script src="{{ 'js/mascaraDeCarga/mascara.js' }}"></script>
     <script src="{{ mix('js/app.js') }}"></script>
     <!--Contenido De Link De Js y Igualmente Contiene La Mascara De Carga Fin-->
 </body>
