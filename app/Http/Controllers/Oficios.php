@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 
 use Dompdf\Dompdf;
 use Dompdf\Options;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class Oficios extends Controller
 {
@@ -61,6 +62,7 @@ class Oficios extends Controller
         $item->creditoEstudiante = $request->creditoEstudiante;
         $item->periodoEstudiante = $request->periodoEstudiante;
         $item->save();
+        Alert::success('Realizado', '¡Los datos para generar el oficio de liberación se agregaron correctamente!');
         return redirect('/vistaOficios');
     }
 
@@ -109,6 +111,7 @@ class Oficios extends Controller
         $item->creditoEstudiante = $request->creditoEstudiante;
         $item->periodoEstudiante = $request->periodoEstudiante;
         $item->save();
+        Alert::success('Realizado', '¡Los datos para generar el oficio de liberación se actualizaron correctamente!');
         return redirect('/vistaOficios');
     }
 
@@ -122,6 +125,7 @@ class Oficios extends Controller
     {
         $item = Oficio::find($id);
         $item->delete();
+        Alert::success('Realizado', '¡Los datos para generar el oficio de liberación se eliminaron correctamente!');
         return redirect('/vistaOficios');
     }
 

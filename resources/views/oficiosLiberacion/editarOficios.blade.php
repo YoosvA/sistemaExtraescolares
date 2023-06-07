@@ -22,11 +22,12 @@
         
                             <h4>Nombre del Alumno</h4>
                             <select name="nombreEstudiante" id="nombreEstudiante" class="form-select text-center shadow-sm bg-body rounded rounded-pill" required>
-                                <option value="" selected>Selecciona una opcion</option>
+                                <option value="" selected>Selecciona una opción</option>
                                 @foreach ($alumnosDatos as $item)
-                                    <option value="{{ $item->nombre }}"@if ($item->nombre == $items->nombreEstudiante) selected @endif>{{ $item->nombre }}</option>
+                                    <option value="{{ $item->nombre }}" @if ($item->nombre == $items->nombreEstudiante) selected @endif>{{ $item->nombre }}</option>
                                 @endforeach
                             </select>
+                            
         
                             <h4 class="mt-3">Apellido Paterno</h4>
                             <select name="apellidoPatEstudiante" id="apellidoPatEstudiante" class="form-select text-center shadow-sm bg-body rounded rounded-pill" required>

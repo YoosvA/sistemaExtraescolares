@@ -55,7 +55,7 @@ class Alumnos extends Controller
         $item->escuelaProcedencia = $request->escuelaProcedencia;
         $item->fechaIngreso = $request->fechaIngreso;
         $item->save();
-        Alert::success('Guardado', '¡Los datos del alumno han sido agregados correctamente!');
+        Alert::success('Realizado', '¡Los datos del alumno han sido agregados correctamente!');
         return redirect('/vistaAlumnos');
     }
 
@@ -102,6 +102,7 @@ class Alumnos extends Controller
         $item->escuelaProcedencia = $request->escuelaProcedencia;
         $item->fechaIngreso = $request->fechaIngreso;
         $item->save();
+        Alert::success('Realizado', 'Los datos del alumno se han actualizado correctamente');
         return redirect('/vistaAlumnos');
     }
 
@@ -115,7 +116,7 @@ class Alumnos extends Controller
     {
         $item = Alumno::find($id);
         $item->delete();
-        Alert::success('Realizado', 'Los datos se han eliminado correctamente');
+        Alert::success('Realizado', 'Los datos del alumno se han eliminado correctamente');
         return redirect('/vistaAlumnos');
     }
 }

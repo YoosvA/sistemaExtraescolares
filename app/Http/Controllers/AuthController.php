@@ -37,9 +37,12 @@ class AuthController extends Controller
 
     public function logout()
     {
+        $nombreUsuario = Auth::user()->user;
         Auth::logout();
         Session::flush();
+        Alert::success('¡Hasta luego '. $nombreUsuario . '!', 'Has cerrado sesión' );
         return redirect()->route('auth-login');
+
     }
 
 
@@ -57,6 +60,7 @@ class AuthController extends Controller
         $item->user = $request->user;
         $item->password = Hash::make($request->password);
         $item->save();
+        Alert::success('Realizado', '¡El usuario se agrego correctamente!');
         return redirect('/inicio');
     }
 
@@ -92,6 +96,7 @@ class AuthController extends Controller
         $item->user = $request->user;
         $item->password = Hash::make($request->password);
         $item->save();
+        Alert::success('Realizado', '¡Los datos del usuario se actualizaron correctamente!');
         return redirect('/listadoUsuarios');
     }
 
@@ -100,9 +105,11 @@ class AuthController extends Controller
             // Verificar si el usuario a borrar es el mismo que está logeado
         if ($item->id === auth()->user()->id) {
         // no puede borrar el usuario que esta en sesion
+            Alert::error('Error al eliminar usuario', 'No puedes eliminar un usuario que esta logeado');
         return redirect()->back();
         }
         $item->delete();
+        Alert::success('Realizado', '¡El usuario se elimino correctamente!');
         return redirect('/listadoUsuarios');
     }
 

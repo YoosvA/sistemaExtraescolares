@@ -7,7 +7,7 @@ use App\Models\Carpeta;
 use App\Models\Catalogocredito;
 use App\Models\Credito;
 use Illuminate\Http\Request;
-
+use RealRashid\SweetAlert\Facades\Alert;
 
 class Creditos extends Controller
 {
@@ -82,6 +82,7 @@ class Creditos extends Controller
         }
         
         $item->save();
+        Alert::success('Realizado', '¡Los datos y archivos del alumno se agregaron correctamente!');
         return redirect('/vistaCreditos');
     }
 
@@ -151,6 +152,7 @@ class Creditos extends Controller
             }
 
         $item->save();
+        Alert::success('Realizado', '¡Los datos y archivos del alumno se actualizaron correctamente!');
         return redirect('/vistaCreditos');
     }
 
@@ -164,6 +166,7 @@ class Creditos extends Controller
     {
         $item = Credito::find($id);
         $item->delete();
+        Alert::success('Realizado', '¡Los datos y archivos del alumno se eliminaron correctamente!');
         return redirect('/vistaCreditos');
     }
 
@@ -177,6 +180,7 @@ class Creditos extends Controller
         }
 
         $item->save();
+        Alert::success('Realizado', '¡El estado ha sido actualizado correctamente!');
         return redirect()->back();
     }
     
@@ -191,6 +195,7 @@ class Creditos extends Controller
         $item = new Carpeta();
         $item->nombreCarpeta = $request->nombreCarpeta;
         $item->save();
+        Alert::success('Realizado', '¡La carpeta se agrego correctamente!');
         return redirect('/vistaCreditos');
     }
 }

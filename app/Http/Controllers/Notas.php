@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 use Dompdf\Dompdf;
 use Dompdf\Options;
-
+use RealRashid\SweetAlert\Facades\Alert;
 
 class Notas extends Controller
 {
@@ -63,6 +63,7 @@ class Notas extends Controller
         $item->periodo = $request->periodo;
         $item->grupo = $request->grupo;
         $item->save();
+        Alert::success('Realizado', '¡Los datos de alumno para generar la nota de participación se agregaron correctamente!');
         return redirect('/vistaNotas');
 
     }
@@ -115,6 +116,7 @@ class Notas extends Controller
         $item->periodo = $request->periodo;
         $item->grupo = $request->grupo;
         $item->save();
+        Alert::success('Realizado', '¡Los datos de alumno para generar la nota de participación se actualizaron correctamente!');
         return redirect('/vistaNotas');
     }
 
@@ -127,6 +129,7 @@ class Notas extends Controller
     public function destroyNotas($id){
         $item = Nota::find($id);
         $item->delete();
+        Alert::success('Realizado', '¡Los datos de alumno para generar la nota de participación se eliminaron correctamente!');
         return redirect('/vistaNotas');
     }
 
@@ -141,6 +144,7 @@ class Notas extends Controller
         $item = new Evento();
         $item->nombreEvento = $request->nombreEvento;
         $item->save();
+        Alert::success('Realizado', '¡El evento se agrego correctamente!');
         return redirect('/vistaNotas');
     }
 
