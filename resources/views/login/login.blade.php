@@ -16,6 +16,7 @@
     <!--Se Añadio Una Img De Fondo-->
     <img src="img/imgFondoLogin.svg" class="img-fluid" alt="">
     <!--Se Añadio Una Img De Fondo-->
+    @include('sweetalert::alert')
     <div class="container">
         <div class="row">
             <div class="col">
@@ -150,6 +151,7 @@
     <script src="{{ 'js/mascaraDeCarga/jquery.blockUI.js' }}"></script>
     <script src="{{ 'js/mascaraDeCarga/mascara.js' }}"></script>
     <script src="{{ mix('js/app.js') }}"></script>
+
     <!--Contenido De Link De Js y Igualmente Contiene La Mascara De Carga Fin-->
 </body>
 

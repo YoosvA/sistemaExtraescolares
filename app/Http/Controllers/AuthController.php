@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class AuthController extends Controller
 {
@@ -29,6 +30,7 @@ class AuthController extends Controller
         if (Auth::attempt($credenciales)) {
             return redirect()->route('inicio');
         } else {
+            Alert::error('Error de inicio de sesión', 'Las credenciales son incorrectas o el usuario no esta dado de alta');
             return back()->withInput($credenciales);
         }
     }
