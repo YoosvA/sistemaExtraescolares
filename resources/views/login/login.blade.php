@@ -54,22 +54,72 @@
                                                 id="password" required placeholder="Contraseña"
                                                 aria-label="Contraseña">
                                             <!--Parte De Boton De Mostrar Contraseña Inicio (Se Utilizo JS)-->
-                                            <input type="checkbox" id="showPassword">
-                                            <label for="showPassword">
-                                                <h5>Mostrar contraseña</h5>
+                                            <input type="checkbox" id="showPasswordToggle" class="toggle-checkbox">
+                                            <label for="showPasswordToggle" class="toggle-label">
+                                                <div class="toggle-inner"></div>
+                                                <div class="toggle-switch"></div>
                                             </label>
+
                                             <script>
                                                 const passwordInput = document.getElementById('password');
-                                                const showPasswordCheckbox = document.getElementById('showPassword');
+                                                const showPasswordToggle = document.getElementById('showPasswordToggle');
 
-                                                showPasswordCheckbox.addEventListener('change', function() {
-                                                    if (showPasswordCheckbox.checked) {
+                                                showPasswordToggle.addEventListener('change', function() {
+                                                    if (showPasswordToggle.checked) {
                                                         passwordInput.type = 'text';
                                                     } else {
                                                         passwordInput.type = 'password';
                                                     }
                                                 });
                                             </script>
+
+                                            <style>
+                                                .toggle-checkbox {
+                                                    display: none;
+                                                }
+
+                                                .toggle-label {
+                                                    display: inline-block;
+                                                    width: 50px;
+                                                    height: 25px;
+                                                    background-color: #ccc;
+                                                    border-radius: 15px;
+                                                    position: relative;
+                                                    cursor: pointer;
+                                                }
+
+                                                .toggle-inner {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                    background-color: #fff;
+                                                    border-radius: 50%;
+                                                    position: absolute;
+                                                    top: 2.5px;
+                                                    left: 2.5px;
+                                                    transition: transform 0.3s ease;
+                                                }
+
+                                                .toggle-switch {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                    background-color: #aaa;
+                                                    border-radius: 50%;
+                                                    position: absolute;
+                                                    top: 2.5px;
+                                                    left: 27.5px;
+                                                    transition: background-color 0.3s ease;
+                                                }
+
+                                                .toggle-checkbox:checked+.toggle-label .toggle-inner {
+                                                    transform: translateX(25px);
+                                                }
+
+                                                .toggle-checkbox:checked+.toggle-label .toggle-switch {
+                                                    background-color: #0b0862;
+                                                }
+                                            </style>
+
+
                                             <!--Parte De Boton De Mostrar Contraseña Fin (Se Utilizo JS)-->
                                             <!--Contenido De Boton Color Azul Inicio-->
                                             <div class="text-center d-grid gap-2 col-6 mx-auto  mt-3 ">
