@@ -485,3 +485,12 @@ background: #0096c7;
  /*  height: 22em; Si le quitamos el tamaño va a agarrar el que guste */
 /* } */
 
+/*Tamaño de redes sociales*/
+.tamañoDeImgRedesSociales{
+  width: 18rem;
+  height: 18rem;
+}
+.tamaño{
+  width: 20rem;
+  height: 20rem;
+}
