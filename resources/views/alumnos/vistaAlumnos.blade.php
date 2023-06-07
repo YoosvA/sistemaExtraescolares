@@ -6,75 +6,87 @@
         <div class="row">
             <div class="col">
                 <!--Contenido Inicio-->
-                <h1 class="mt-4">Agregar Datos Alumno</h1>
-                <h2 class="ms-4 mt-3">Instrucciones</h2>
-                <h5 class="ms-4">Estos 2 botones tendrán las funciones de agregar alumno
-                    donde ingresaras por medio de un formulario información para agregar un nuevo alumno, El botón de regresar te llevara a la vista principal.
-                </h5>
-                <!--Parte De Botones Inicio-->
-                <div class="card border-0 colorTransparente">
+                <!--Contenido Card Inicio-->
+                <br><br>
+                <div class="card shadow-lg bg-body rounded border-0 rounded-5 mt-4">
                     <div class="card-body">
-                        <!--Contenido De Card Botones Dentro Inicio-->
+                        <!--Inicio-->
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="card border-0 text-center colorTransparente">
+                                <div class="card colorTransparente border-0">
                                     <div class="card-body">
-                                        <!--Contenido De Boton Agregar Alumno Inicio-->
-                                        <div class="d-grid gap-2">
-                                            <a href="/crearAlumnos" class="btn colorDeBotonazul  mt-3 rounded-pill text-white"><i class="fas fa-user-plus"></i> Agregar Alumno</a>
-                                          </div>
+                                        <!--Contenido Texto Inicio-->
+                                        <h1 class="ms-4 mt-4">Agregar Datos Alumno</h1>
+                                        <h2 class="ms-4 mt-3">Instrucciones</h2>
+                                        <br>
+                                        <h5 class="ms-4">Estos 2 botones tendrán las funciones de agregar alumno
+                                            donde ingresaras por medio de un formulario información para agregar un nuevo
+                                            alumno, El
+                                            botón de regresar te llevara a la vista principal.</h5>
+                                        <!--Boton Inicio-->
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="card colorTransparente border-0">
+                                                    <div class="card-body">
+                                                        <!---->
+                                                        <div class="d-grid gap-2">
+                                                            <a href="/crearAlumnos"
+                                                                class="btn guardarBoton  mt-3 rounded-pill text-white"><i
+                                                                    class="fas fa-user-plus"></i> Agregar Alumno</a>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="card colorTransparente border-0">
+                                                    <div class="card-body">
+                                                        <!---->
+                                                        <div class="d-grid gap-2">
+                                                            <a href="/inicio" class="btn RegresarBoton mt-3 rounded-pill"><i
+                                                                    class="fas fa-sign-out-alt"></i> Regresar</a>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                        <!--Contenido De Boton Agregar Alumno Fin-->
+                                        <!--Boton Inicio-->
+                                        <!--Contenido De Card Botones Dentro Inicio-->
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="card border-0 text-center colorTransparente">
-                                    <div class="card-body">
-                                        <!--Contenido de Boton Regresar Inicio-->
-                                        <div class="d-grid gap-2">
-                                            <a href="/inicio" class="btn btn-danger mt-3 rounded-pill"><i class="fas fa-sign-out-alt"></i> Regresar</a>
+                                <div class="card ms-4 colorTransparente border-0">
+                                    <div class="card-body ms-4">
+                                        <!--Img Inicio-->
+                                        <!----->
+                                        <div class="card rounded-pill tamañoDeLogoVistaAlumno ms-4 shadow-lg bg-body rounded border-0">
+                                            <div class="card-body">
+                                                <div class="text-center">
+                                                    <br>
+                                                    <img src="{{ asset('img/TecnmCircular.png') }}"
+                                                    class="tamañoDeVistaAlumnoImg img-fluid "alt="">
+                                                </div>
+                                            </div>
                                         </div>
-
-                                <!--Contenido de Boton Regresar fin-->
+                                        <!----->
+                                        <!--Img Fin-->
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Card Contenido Basio Inicio-->
-                    <div class="col">
-                        <div class="card colorTransparente border-0">
-                            <div class="card-body">
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Contenido Basio Fin-->
-                    <!--Card Contenido Basio Inicio-->
-                    <div class="col">
-                        <div class="card colorTransparente border-0">
-                            <div class="card-body">
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Contenido Basio Fin-->
-                </div>
+                        <!--Contenido De Card Botones Dentro Fin-->
+                        <!--Contenido Texto Fin-->
 
-
-
-
-
-
-
-                <!--Parte De Botones Fin-->
-                <!--Contenido Card Inicio-->
-                <div class="card shadow-lg bg-body rounded border-0 rounded-5">
-                    <div class="card-body">
                         <!--Contenido De Informacion Card Inicio-->
                         <div class="row">
                             <div class="col mt-4 mb-4 ms-4 mx-4">
                                 <!--Dentro De Una Card Esta La Tabla-->
-                                <div class="card">
+                                <div class="card shadow-sm bg-body rounded rounded-4 text-center">
                                     <div class="card-body">
-                                        <table class="display responsive nowrap text-center" style="width:100%"
+                                        <table class="display responsive nowrap text-center shadow-sm bg-body rounded" style="width:100%"
                                             id="table">
                                             <thead class="text-center">
                                                 <tr>
@@ -108,14 +120,16 @@
                                                         <td>
                                                             <br>
                                                             <a href="{{ route('editarAlumnos', $item->id) }}"
-                                                                class="btn btn-warning rounded-pill"><i class="fas fa-user-edit"></i> Editar</a>
+                                                                class="btn btn-warning rounded-pill"><i
+                                                                    class="fas fa-user-edit"></i> Editar</a>
                                                         </td>
                                                         <td>
                                                             <form action="{{ route('destroy', $item->id) }}"
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button class="btn btn-danger rounded-pill"><i class="fas fa-trash"></i> Eliminar</button>
+                                                                <button class="btn btn-danger rounded-pill"><i
+                                                                        class="fas fa-trash"></i> Eliminar</button>
                                                             </form>
                                                         </td>
                                                     </tr>

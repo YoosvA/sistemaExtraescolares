@@ -40,7 +40,7 @@
 <!-- sidemenu para computadoras -->
 <div id="sidemenu" class="menu-collapsed tipo-letra">
     <div id="header">
-        <div id="title"><h5>{{ Auth::user()->user }}</h5></div>
+        <div id="title" class="text-center"><h5>{{ Auth::user()->user }}</h5></div>
         <div class="text-center" id="menu-btn">
             <img src="{{ asset('img/IconoDeMenuNav.svg') }}" alt="">
         </div>
