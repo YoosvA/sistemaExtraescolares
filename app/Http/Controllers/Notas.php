@@ -19,6 +19,10 @@ class Notas extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct() {
+        $this->middleware(['auth'])->only(['indexNotas','createNotas','editNotas','createEventos','verPDF']);
+    }
+
     public function indexNotas(){
         $titulo = "vista Notas";
         $items = Nota::all();
