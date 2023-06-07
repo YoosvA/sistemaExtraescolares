@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Alumno;
 use App\Models\Catalogocarrera;
 use Illuminate\Http\Request;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class Alumnos extends Controller
 {
@@ -13,6 +14,11 @@ class Alumnos extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct() {
+        $this->middleware(['auth'])->only(['index','create','edit']);
+    }
+
     public function index(){
         $titulo = "Datos Alumnos";
         $items = Alumno::all();
@@ -49,6 +55,7 @@ class Alumnos extends Controller
         $item->escuelaProcedencia = $request->escuelaProcedencia;
         $item->fechaIngreso = $request->fechaIngreso;
         $item->save();
+        Alert::success('Guardado', '¡Los datos del alumno han sido agregados correctamente!');
         return redirect('/vistaAlumnos');
     }
 
@@ -108,6 +115,7 @@ class Alumnos extends Controller
     {
         $item = Alumno::find($id);
         $item->delete();
+        Alert::success('Realizado', 'Los datos se han eliminado correctamente');
         return redirect('/vistaAlumnos');
     }
 }

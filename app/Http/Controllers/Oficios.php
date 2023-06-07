@@ -18,6 +18,10 @@ class Oficios extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct() {
+        $this->middleware(['auth'])->only(['indexOficios','createOficios','editOficios','verPDFOficios']);
+    }
+
     public function indexOficios()
     {
         $titulo = "vista Oficios de Liberación";

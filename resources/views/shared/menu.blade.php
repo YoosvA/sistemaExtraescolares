@@ -2,7 +2,7 @@
 <!-- nabvar para dispositivos moviles -->
 <nav class="navbar navbar-expand-lg navbar-light bg-moles tipo-letra" id="nav-menu">
     <div class="container text-center">
-        <a class="navbar-brand text-white" href="/"><img src="{{ asset('img/LOGO_TECNM_BLANCO.png') }}" width="30px" height="30px" alt="">
+        <a class="navbar-brand text-white" href="/inicio"><img src="{{ asset('img/LOGO_TECNM_BLANCO.png') }}" width="30px" height="30px" alt="">
          <br>  Sistema ExtraEscolares</a>
         <button class="navbar-toggler position-relative" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -14,16 +14,19 @@
             <ul class="navbar-nav mt-4">
                 <div class="">
                 <li class="nav-item  mt-1 mb-1">
-                        <a class="btn btn-moles btn-block" href="#DatosPersonalesDelAlumno">Datos Personales <br> Del Alumno</a>
+                        <a class="btn btn-moles btn-block" href="/vistaAlumnos">Datos Personales <br> Del Alumno</a>
                     </li>
                     <li class="nav-item  mt-1 mb-1">
-                        <a class="btn btn-moles btn-block" href="#Creditos">Creditos</a>
+                        <a class="btn btn-moles btn-block" href="/vistaCreditos">Creditos</a>
                     </li>
                     <li class="nav-item  mt-1 mb-1">
-                        <a class="btn btn-moles btn-block" href="#NotasDeParticipacion">Notas De <br> Participacion</a>
+                        <a class="btn btn-moles btn-block" href="/vistaNotas">Notas De <br> Participacion</a>
                     </li>
                     <li class="nav-item  mt-1 mb-1">
                         <a class="btn btn-moles btn-block" href="/agregarUsuario">Agregar Usuario</a>
+                    </li>
+                    <li class="nav-item  mt-1 mb-1">
+                        <a class="btn btn-moles btn-block" href="/listadoUsuarios">Listado Usuarios</a>
                     </li>
                     <li class="nav-item  mt-1 mb-1">
                         <a class="btn btn-moles btn-block" href="{{ route('logout') }}">Cerrar Seccion</a>
@@ -44,7 +47,7 @@
     </div>
     <div id="profile">
         <div class="text-center" id="photo">
-            <a href="#"><img src="{{ asset('img/LOGO_TECNM_BLANCO.png') }}"  title="Inicio"></a>
+            <a href="/inicio"><img src="{{ asset('img/LOGO_TECNM_BLANCO.png') }}"  title="Inicio"></a>
         </div>
         <div class="text-center" id="name">
             <div>

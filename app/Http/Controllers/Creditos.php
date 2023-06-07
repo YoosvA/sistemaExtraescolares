@@ -16,6 +16,10 @@ class Creditos extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct() {
+        $this->middleware(['auth'])->only(['indexCreditos','crearCreditos','editCreditos','createCarpetas']);
+    }
+
     public function indexCreditos()
     {
         $titulo = "Creditos";

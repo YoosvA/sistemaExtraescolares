@@ -15,6 +15,8 @@
 </head>
 
 <body class="colorDeFondo">
+    
+    @include('sweetalert::alert')
 
 
     @include('shared/menu')
