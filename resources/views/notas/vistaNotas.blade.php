@@ -84,7 +84,7 @@
                                                 <td>{{ $item->apellidoMaternoNotas }}</td>
                                                 <td>{{ $item->noControlNotas }}</td>
                                                 <td>{{ $item->carreraNotas }}</td>
-                                                <td><br> {{ $item->evento }}</td>
+                                                <td> {{ $item->evento }}</td>
                                                 <td><br>{{ $item->horas }}</td>
                                                 <td><br>{{ $item->fecha }}</td>
                                                 <td><br>{{ $item->periodo }}</td>
