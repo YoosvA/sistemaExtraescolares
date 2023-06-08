@@ -241,7 +241,7 @@
                             <div class="card-body">
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
-                                    <a href="https://www.youtube.com/channel/UCXJVuz9lnFc03mObS-0wYOg/videos"><img
+                                    <a href="https://www.youtube.com/channel/UCXJVuz9lnFc03mObS-0wYOg/videos" target="_blank"><img
                                             src="{{ asset('img/YouTube.jpg') }}"
                                             class="tamañoDeImgRedesSociales rounded-circle" alt=""></a>
                                 </div>
@@ -255,7 +255,7 @@
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
                                     <a
-                                        href="https://www.facebook.com/tecnmcampusmilpaaltaii/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"><img
+                                        href="https://www.facebook.com/tecnmcampusmilpaaltaii/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0" target="_blank"><img
                                             src="{{ asset('img/Facebook.png') }}" class="tamañoDeImgRedesSociales"
                                             alt=""></a>
                                 </div>
@@ -268,7 +268,7 @@
                             <div class="card-body">
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
-                                    <a href="https://milpaalta2.tecnm.mx/"><img src="{{ asset('img/ITMAII.png') }}"
+                                    <a href="https://milpaalta2.tecnm.mx/" target="_blank"><img src="{{ asset('img/ITMAII.png') }}"
                                             class="tamañoDeImgRedesSociales" alt=""></a>
                                 </div>
                                 <!--Contenido De Img Fin-->
