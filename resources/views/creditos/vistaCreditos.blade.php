@@ -18,7 +18,7 @@
                             <div class="card-body">
                                 <!---->
                                 <div class="d-grid gap-2">
-                                    <a href="/crearCreditos" class="btn colorDeBotonazul mt-3 rounded-pill text-white"><i class="fas fa-plus"></i> Agregar Creditos</a>
+                                    <a href="/crearCreditos" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-plus"></i> Agregar Creditos</a>
                                 </div>
                                 <!---->
                             </div>
@@ -29,7 +29,7 @@
                             <div class="card-body">
                                 <!---->
                                 <div class="d-grid gap-2">
-                                    <a href="/crearCarpetas" class="btn colorDeBotonazul mt-3 rounded-pill text-white"><i class="fas fa-folder-plus"></i> Agregar Carpeta</a>
+                                    <a href="/crearCarpetas" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-folder-plus"></i> Agregar Carpeta</a>
                                 </div>
                                 <!---->
                             </div>
@@ -40,7 +40,7 @@
                             <div class="card-body">
                                 <!---->
                                 <div class="d-grid gap-2">
-                                    <a href="/vistaOficios" class="btn colorDeBotonazul mt-3 rounded-pill text-white"><i class="fas fa-clipboard"></i> Crear Oficios de
+                                    <a href="/vistaOficios" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-clipboard"></i> Crear Oficios de
                                         Liberacion</a>
                                 </div>
                                 <!---->
@@ -52,7 +52,7 @@
                             <div class="card-body">
                                 <!---->
                                 <div class="d-grid gap-2">
-                                    <a href="/inicio" class="btn btn-danger mt-3 rounded-pill text-white"><i class="fas fa-sign-out-alt"></i> Regresar</a>
+                                    <a href="/inicio" class="btn RegresarBoton mt-3 rounded-pill text-white"><i class="fas fa-sign-out-alt"></i> Regresar</a>
                                 </div>
                                 <!---->
                             </div>
@@ -65,10 +65,10 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col mt-4 mb-4 ms-4 mx-4 text-center">
-                                        <div class="card">
+                                        <div class="card shadow-sm bg-body rounded rounded-4 text-center">
                                             <div class="card-body">
                                                 <!--Contenido De Table Inicio-->
-                                                <table class="display responsive nowrap mt-4" style="width:100%" id="table">
+                                                <table class="display responsive nowrap mt-4 text-center shadow-sm bg-body rounded" style="width:100%" id="table">
                                                     <thead class="text-center">
                                                         <tr>
                                                             <th class="text-center">No.</th>
