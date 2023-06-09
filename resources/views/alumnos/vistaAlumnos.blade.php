@@ -120,7 +120,7 @@
                                                         <td>
                                                             <br>
                                                             <a href="{{ route('editarAlumnos', $item->id) }}"
-                                                                class="btn btn-warning rounded-pill"><i
+                                                                class="btn EditarBoton rounded-pill"><i
                                                                     class="fas fa-user-edit"></i> Editar</a>
                                                         </td>
                                                         <td>
@@ -128,7 +128,7 @@
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button class="btn btn-danger rounded-pill"><i
+                                                                <button class="btn RegresarBoton rounded-pill"><i
                                                                         class="fas fa-trash"></i> Eliminar</button>
                                                             </form>
                                                         </td>

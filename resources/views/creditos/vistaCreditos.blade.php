@@ -5,64 +5,68 @@
         <div class="row">
             <div class="col">
                 <!--Contenido De Container Inicio-->
-                <h1 class="mt-4">Creditos</h1>
-                <h2 class="ms-5">Instrucciones</h2>
-                <h5 class="ms-5">En estos 4 botones tendras opciones donde contendra una de agregar creditos,
-                    agregar carpeta y crear oficios de liberacion y regresar el menu por si te equivocas al tomar
-                    una desicion.
-                </h5>
-                <!--Contenido De Card Botones Inicio Son 4-->
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                    <div class="col">
-                        <div class="card border-0 colorTransparente">
-                            <div class="card-body">
-                                <!---->
-                                <div class="d-grid gap-2">
-                                    <a href="/crearCreditos" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-plus"></i> Agregar Creditos</a>
-                                </div>
-                                <!---->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0 colorTransparente">
-                            <div class="card-body">
-                                <!---->
-                                <div class="d-grid gap-2">
-                                    <a href="/crearCarpetas" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-folder-plus"></i> Agregar Carpeta</a>
-                                </div>
-                                <!---->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0 colorTransparente">
-                            <div class="card-body">
-                                <!---->
-                                <div class="d-grid gap-2">
-                                    <a href="/vistaOficios" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-clipboard"></i> Crear Oficios de
-                                        Liberacion</a>
-                                </div>
-                                <!---->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0 colorTransparente">
-                            <div class="card-body">
-                                <!---->
-                                <div class="d-grid gap-2">
-                                    <a href="/inicio" class="btn RegresarBoton mt-3 rounded-pill text-white"><i class="fas fa-sign-out-alt"></i> Regresar</a>
-                                </div>
-                                <!---->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Contenido De Card Botones Fin Son 4-->
                     <!--Contenido De Card Tabla Inicio-->
                         <div class="card shadow-lg bg-body rounded border-0 rounded-5">
                             <div class="card-body">
+                                <!--Texto Principal-->
+                                <h1 class="mt-4">Creditos</h1>
+                                <h2 class="ms-5">Instrucciones</h2>
+                                <h5 class="ms-5">En estos 4 botones tendras opciones donde contendra una de agregar creditos,
+                                    agregar carpeta y crear oficios de liberacion y regresar el menu por si te equivocas al tomar
+                                    una desicion.
+                                </h5>
+                                <!--Contenido De Card Botones Inicio Son 4-->
+                                <div class="row row-cols-1 row-cols-md-4 g-4">
+                                    <div class="col">
+                                        <div class="card border-0 colorTransparente">
+                                            <div class="card-body">
+                                                <!---->
+                                                <div class="d-grid gap-2">
+                                                    <a href="/crearCreditos" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-plus"></i> Agregar Creditos</a>
+                                                </div>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card border-0 colorTransparente">
+                                            <div class="card-body">
+                                                <!---->
+                                                <div class="d-grid gap-2">
+                                                    <a href="/crearCarpetas" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-folder-plus"></i> Agregar Carpeta</a>
+                                                </div>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card border-0 colorTransparente">
+                                            <div class="card-body">
+                                                <!---->
+                                                <div class="d-grid gap-2">
+                                                    <a href="/vistaOficios" class="btn guardarBoton mt-3 rounded-pill text-white"><i class="fas fa-clipboard"></i> Crear Oficios de
+                                                        Liberacion</a>
+                                                </div>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card border-0 colorTransparente">
+                                            <div class="card-body">
+                                                <!---->
+                                                <div class="d-grid gap-2">
+                                                    <a href="/inicio" class="btn RegresarBoton mt-3 rounded-pill text-white"><i class="fas fa-sign-out-alt"></i> Regresar</a>
+                                                </div>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Contenido De Card Botones Fin Son 4-->
+
+
+
                                 <div class="row">
                                     <div class="col mt-4 mb-4 ms-4 mx-4 text-center">
                                         <div class="card shadow-sm bg-body rounded rounded-4 text-center">
