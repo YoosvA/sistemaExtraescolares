@@ -40,7 +40,7 @@
                                                 <!--Contenido De Img Fin-->
                                             </div>
                                         </div>
-                                        <!--Card Donde Contiene Img Inicio--></a>
+                                        <!--Card Donde Contiene Img Inicio-->
                                     </div>
                                 </div>
                             </div>
