@@ -165,6 +165,7 @@
 
                                                         </td>
                                                         <td>
+                                                            <br>
                                                             @if (!empty($item->evidencia))
                                                                 <a class="btn colorBoton4 rounded-pill text-white"
                                                                     href="{{ asset($item->evidencia) }}" target="_blank"><i

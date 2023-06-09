@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('librerias/fontawesome/css/all.css') }}">
     <link rel="stylesheet" href="{{ asset('css/styleLogin.css') }}">
+    <link rel="shortcut icon" href="{{asset('img/creativeCode.png')}}" type="image/x-icon">
     <title>{{ $titulo }}</title>
 </head>
 <!--Se Coloco El Tipo De Letra Global En El Diseño Del Login-->

@@ -80,7 +80,7 @@
                                                         class="btn EditarBoton"><i class="fas fa-user-edit"></i> Editar</a>
                                                 </td>
                                                 <td>
-                                                    <br>
+                                                    
                                                     <form action="{{ route('destroyUsuarios', $item->id) }}" method="POST">
                                                         @csrf
                                                         @method('DELETE')
