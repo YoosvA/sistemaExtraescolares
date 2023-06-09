@@ -179,8 +179,9 @@
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('PUT')
+                                                                <!--Color De Botones Cambiamos - > btn btn-success = pdfBoton - > btn btn-primary = CambioDeColorAzul-->
                                                                 <button type="submit"
-                                                                    class="btn btn-primary rounded-pill text-white {{ $item->estado === 'Liberado' ? 'btn btn-success' : 'btn btn-primary' }}">
+                                                                    class="btn btn-primary rounded-pill text-white {{ $item->estado === 'Liberado' ? 'pdfBoton' : 'CambioDeColorAzul' }}">
                                                                     {{ $item->estado ?: 'En proceso' }}
                                                                 </button>
                                                             </form>
@@ -189,7 +190,7 @@
                                                         <td>
                                                             <br>
                                                             <a href="{{ route('editarCreditos', $item->id) }}"
-                                                                class="btn btn-warning rounded-pill text-white"><i
+                                                                class="btn EditarBoton rounded-pill text-white"><i
                                                                     class="fas fa-edit"></i> Editar</a>
                                                         </td>
                                                         <td>
@@ -197,7 +198,7 @@
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button class="btn btn-danger rounded-pill text-white"><i
+                                                                <button class="btn RegresarBoton rounded-pill text-white"><i
                                                                         class="fas fa-trash"></i> Eliminar</button>
                                                             </form>
                                                         </td>
