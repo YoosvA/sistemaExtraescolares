@@ -36,9 +36,9 @@
                                             <div class="card border-0 colorTransparente">
                                                 <div class="card-body">
                                                     <!--Inicio-->
-                                                    <h4 class="ms-3"><i class="fas fa-user"></i> Nombre del Alumno</h4>
+                                                    <h4 class="text-center"><i class="fas fa-user"></i> Nombre del Alumno</h4>
                                                     <select name="nombreAlumnosCreditos" id="nombreAlumnosCreditos"
-                                                        class="form-select text-center shadow-sm  bg-body rounded-pill"
+                                                        class="form-select text-center shadow-sm  bg-body rounded-pill mt-3"
                                                         required>
                                                         <option value="" selected>Selecciona una opcion</option>
                                                         @foreach ($alumnosDatos as $datos)
@@ -47,9 +47,9 @@
                                                         @endforeach
                                                     </select>
                                                     <!---->
-                                                    <h4 class="mt-3 ms-3"><i class="fas fa-chalkboard-teacher"></i> Credito</h4>
+                                                    <h4 class="mt-3 text-center"><i class="fas fa-chalkboard-teacher"></i> Credito</h4>
                                                     <select name="nombreCredito" id="nombreCredito"
-                                                        class="form-select text-center shadow-sm  bg-body rounded-pill"
+                                                        class="form-select text-center shadow-sm  bg-body rounded-pill mt-3"
                                                         required>
                                                         <option value="" selected>Selecciona una opcion</option>
                                                         @foreach ($creditosrol as $creditos)
@@ -58,9 +58,9 @@
                                                         @endforeach
                                                     </select>
                                                     <!---->
-                                                    <h4 class="mt-3 ms-3"><i class="fas fa-print"></i> Oficio de Liberación</h4>
+                                                    <h4 class="mt-3 text-center"><i class="fas fa-print"></i> Oficio de Liberación</h4>
                                                     <input type="file" name="oficioLiberacion" id="oficioLiberacion"
-                                                        class="form-control  text-center shadow-sm  bg-body rounded-pill">
+                                                        class="form-control  text-center shadow-sm  bg-body rounded-pill text-center mt-3">
                                                     <!---->
                                                     <!--Fin-->
                                                 </div>
@@ -70,9 +70,9 @@
                                             <div class="card border-0 colorTransparente">
                                                 <div class="card-body">
                                                     <!--Inicio-->
-                                                    <h4 class="ms-3"><i class="fas fa-user"></i> Apellido Paterno</h4>
+                                                    <h4 class="text-center"><i class="fas fa-user"></i> Apellido Paterno</h4>
                                                     <select name="apellidoPaternoCreditos" id="apellidoPaternoCreditos"
-                                                        class="form-select text-center shadow-sm  bg-body rounded-pill"
+                                                        class="form-select text-center shadow-sm  bg-body rounded-pill mt-3"
                                                         required>
                                                         <option value="" selected>Selecciona una opcion</option>
                                                         @foreach ($alumnosDatos as $datos)
@@ -81,13 +81,13 @@
                                                         @endforeach
                                                     </select>
                                                     <!---->
-                                                    <h4 class="mt-3 ms-3"><i class="fas fa-id-card-alt"></i> Mooc</h4>
+                                                    <h4 class="mt-3 text-center"><i class="fas fa-id-card-alt"></i> Mooc</h4>
                                                     <input type="file" name="mooc" id="mooc"
-                                                        class="form-control text-center shadow-sm  bg-body rounded-pill">
+                                                        class="form-control text-center shadow-sm  bg-body rounded-pill mt-3">
                                                     <!---->
-                                                    <h4 class="mt-3 ms-3"><i class="fas fa-file-signature"></i> Evidencia</h4>
+                                                    <h4 class="mt-3 text-center"><i class="fas fa-file-signature"></i> Evidencia</h4>
                                                     <input type="file" name="evidencia" id="evidencia"
-                                                        class="form-control text-center shadow-sm  bg-body rounded-pill">
+                                                        class="form-control text-center shadow-sm  bg-body rounded-pill mt-3">
                                                     <!---->
                                                     <!--Fin-->
                                                 </div>
@@ -97,9 +97,9 @@
                                             <div class="card border-0 colorTransparente">
                                                 <div class="card-body">
                                                     <!--Inicio-->
-                                                    <h4 class="ms-3"><i class="fas fa-user"></i> Apellido Materno</h4>
+                                                    <h4 class="text-center"><i class="fas fa-user"></i> Apellido Materno</h4>
                                                     <select name="apellidoMaternoCreditos" id="apellidoMaternoCreditos"
-                                                        class="form-select text-center shadow-sm  bg-body rounded-pill"
+                                                        class="form-select text-center shadow-sm  bg-body rounded-pill mt-3"
                                                         required>
                                                         <option value="" selected>Selecciona una opcion</option>
                                                         @foreach ($alumnosDatos as $datos)
@@ -108,13 +108,13 @@
                                                         @endforeach
                                                     </select>
                                                     <!---->
-                                                    <h4 class="mt-3 ms-3"><i class="fas fa-id-card"></i> Constancia</h4>
+                                                    <h4 class="mt-3 text-center"><i class="fas fa-id-card"></i> Constancia</h4>
                                                     <input type="file" name="constancia" id="constancia"
-                                                        class="form-control text-center shadow-sm  bg-body rounded-pill">
+                                                        class="form-control text-center shadow-sm  bg-body rounded-pill mt-3">
                                                     <!---->
-                                                    <h4 class="mt-3 ms-3"><i class="fas fa-folder-open"></i> Carpeta Fisica</h4>
+                                                    <h4 class="mt-3 text-center"><i class="fas fa-folder-open"></i> Carpeta Fisica</h4>
                                                     <select name="carpeta" id="carpeta"
-                                                        class="form-select text-center shadow-lg bg-body rounded-pill"
+                                                        class="form-select text-center shadow-lg bg-body rounded-pill mt-3"
                                                         required>
                                                         <option value="" selected>Selecciona una opcion</option>
                                                         @foreach ($carpetas as $carpeta)
@@ -138,7 +138,7 @@
                                                     <!--Contenido De Card Boton Inicio 1-->
                                                     <div class="d-grid gap-2">
                                                         <!--Contenido De Boton Inicio-->
-                                                        <button class="btn guardarBoton text-white mt-3 rounded-pill">
+                                                        <button class="btn guardarBoton text-white rounded-pill">
                                                             <i class="fas fa-save"></i> Guardar</button>
                                                         <!--Contenido De Boton Fin-->
                                                     </div>
@@ -153,7 +153,7 @@
                                                     <div class="d-grid gap-2">
                                                         <!--Contenido De Boton Inicio-->
                                                         <a href="/vistaCreditos"
-                                                            class="btn RegresarBoton mt-3 rounded-pill"><i
+                                                            class="btn RegresarBoton rounded-pill"><i
                                                                 class="fas fa-sign-out-alt"></i> regresar</a>
                                                         <!--Contenido De Boton Fin-->
                                                     </div>
