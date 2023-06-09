@@ -138,7 +138,7 @@
                                                         <td>{{ $item->nombreCredito }}</td>
                                                         <td>
                                                             @if (!empty($item->mooc))
-                                                                <a class="btn colorBoton1 rounded-pill text-white"
+                                                                <a class="btn MostrarUno rounded-pill text-white"
                                                                     href="{{ asset($item->mooc) }}" target="_blank"><i
                                                                         class="fas fa-eye"></i> Mostrar</a>
                                                             @else
@@ -147,7 +147,7 @@
                                                         </td>
                                                         <td>
                                                             @if (!empty($item->constancia))
-                                                                <a class="btn colorBoton2 rounded-pill text-white"
+                                                                <a class="btn MostrarDos rounded-pill text-white"
                                                                     href="{{ asset($item->constancia) }}" target="_blank"><i
                                                                         class="fas fa-eye"></i> Mostrar</a>
                                                             @else
@@ -156,7 +156,7 @@
                                                         </td>
                                                         <td>
                                                             @if (!empty($item->oficioLiberacion))
-                                                                <a class="btn colorBoton3 rounded-pill text-white"
+                                                                <a class="btn MostrarTres rounded-pill text-white"
                                                                     href="{{ asset($item->oficioLiberacion) }}"
                                                                     target="_blank"><i class="fas fa-eye"></i> Mostrar</a>
                                                             @else
@@ -167,7 +167,7 @@
                                                         <td>
                                                             <br>
                                                             @if (!empty($item->evidencia))
-                                                                <a class="btn colorBoton4 rounded-pill text-white"
+                                                                <a class="btn MostrarCuatro rounded-pill text-white"
                                                                     href="{{ asset($item->evidencia) }}" target="_blank"><i
                                                                         class="fas fa-eye"></i> Mostrar</a>
                                                             @else

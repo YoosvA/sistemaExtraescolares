@@ -605,7 +605,190 @@ background: #0096c7;
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
    }
+ /*Efectos De Botones De Colores De Mostrar Inicio*/
+ /*Boton6*/
+ .MostrarUno {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #90e0ef;
+  color: #fff;
+ }
  
+ .MostrarUno:hover {
+  transform: translateY(-3px);
+    background: #90e0ef;
+    color: #fff;
+ }
+ 
+ .MostrarUno:active {
+  transform: translateY(-1px);
+  box-shadow: #90e0ef;
+ }
+ 
+ .MostrarUno::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .MostrarUno::after {
+  background-color: #fff;
+ }
+ 
+ .MostrarUno:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+ /*Boton6*/
+  /*Boton7*/
+  .MostrarDos {
+    position: relative;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    background: #48cae4;
+    color: #fff;
+   }
+   
+   .MostrarDos:hover {
+    transform: translateY(-3px);
+      background: #48cae4;
+      color: #fff;
+   }
+   
+   .MostrarDos:active {
+    transform: translateY(-1px);
+    box-shadow: #48cae4;
+   }
+   
+   .MostrarDos::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   .MostrarDos::after {
+    background-color: #fff;
+   }
+   
+   .MostrarDos:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+   /*Boton7*/
+    /*Boton8*/
+ .MostrarTres {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #0096c7;
+  color: #fff;
+ }
+ 
+ .MostrarTres:hover {
+  transform: translateY(-3px);
+    background: #0096c7;
+    color: #fff;
+ }
+ 
+ .MostrarTres:active {
+  transform: translateY(-1px);
+  box-shadow: #0096c7;
+ }
+ 
+ .MostrarTres::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .MostrarTres::after {
+  background-color: #fff;
+ }
+ 
+ .MostrarTres:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+ /*Boton8*/
+  /*Boton9*/
+  .MostrarCuatro {
+    position: relative;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    background: #0077b6;
+    color: #fff;
+   }
+   
+   .MostrarCuatro:hover {
+    transform: translateY(-3px);
+      background: #0077b6;
+      color: #fff;
+   }
+   
+   .MostrarCuatro:active {
+    transform: translateY(-1px);
+    box-shadow: #0077b6;
+   }
+   
+   .MostrarCuatro::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   .MostrarCuatro::after {
+    background-color: #fff;
+   }
+   
+   .MostrarCuatro:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+   /*Boton9*/
+ /*Efectos De Botones De Colores De Mostrar Fin*/
+
+
 /*Tamaño De Img Circular En Agregar Carpeta Siempre Tendras Unas secciones Basias*/
 .TamañoDeImgCarpeta{
   height: 30rem;

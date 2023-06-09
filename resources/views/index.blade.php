@@ -235,14 +235,14 @@
                     <!--Fin-->
                 </div>
                 <!--Botones De Redes Sociales Inicio-->
-                <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
                     <div class="col">
                         <div class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
                             <div class="card-body">
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
-                                    <a href="https://www.youtube.com/channel/UCXJVuz9lnFc03mObS-0wYOg/videos" target="_blank"><img
-                                            src="{{ asset('img/YouTube.jpg') }}"
+                                    <a href="https://www.youtube.com/channel/UCXJVuz9lnFc03mObS-0wYOg/videos"
+                                        target="_blank"><img src="{{ asset('img/YouTube.jpg') }}"
                                             class="tamañoDeImgRedesSociales rounded-circle" alt=""></a>
                                 </div>
                                 <!--Contenido De Img Fin-->
@@ -254,10 +254,9 @@
                             <div class="card-body">
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
-                                    <a
-                                        href="https://www.facebook.com/tecnmcampusmilpaaltaii/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0" target="_blank"><img
-                                            src="{{ asset('img/Facebook.png') }}" class="tamañoDeImgRedesSociales"
-                                            alt=""></a>
+                                    <a href="https://www.facebook.com/tecnmcampusmilpaaltaii/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
+                                        target="_blank"><img src="{{ asset('img/Facebook.png') }}"
+                                            class="tamañoDeImgRedesSociales" alt=""></a>
                                 </div>
                                 <!--Contenido De Img Fin-->
                             </div>
@@ -268,8 +267,22 @@
                             <div class="card-body">
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
-                                    <a href="https://milpaalta2.tecnm.mx/" target="_blank"><img src="{{ asset('img/ITMAII.png') }}"
-                                            class="tamañoDeImgRedesSociales" alt=""></a>
+                                    <a href="https://milpaalta2.tecnm.mx/" target="_blank"><img
+                                            src="{{ asset('img/ITMAII.png') }}" class="tamañoDeImgRedesSociales"
+                                            alt=""></a>
+                                </div>
+                                <!--Contenido De Img Fin-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
+                            <div class="card-body">
+                                <!--Contenido De Img Inicio IMG-> DE INSTAGRAM FALTA MODIFICAR LA DIRECCION-->
+                                <div class="text-center">
+                                    <a href="https://milpaalta2.tecnm.mx/" target="_blank"><img
+                                            src="{{ asset('img/LogoInstagram.webp') }}"
+                                            class="tamañoDeImgRedesSociales rounded-circle" alt=""></a>
                                 </div>
                                 <!--Contenido De Img Fin-->
                             </div>
