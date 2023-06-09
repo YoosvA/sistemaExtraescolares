@@ -107,7 +107,7 @@
                                                 <td>{{ $item->apellidoMatEstudiante }}</td>
                                                 <td>{{ $item->noControlEstudiante }}</td>
                                                 <td>{{ $item->carreraEstudiante }}</td>
-                                                <td><br>{{ $item->creditoEstudiante }}</td>
+                                                <td>{{ $item->creditoEstudiante }}</td>
                                                 <td><br>{{ $item->periodoEstudiante }}</td>
                                                 <td><br>{{ $item->created_at }}</td>
 

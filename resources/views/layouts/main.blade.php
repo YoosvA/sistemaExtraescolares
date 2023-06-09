@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.dataTables.min.css') }}">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{{asset('css/sidebar.css') }}">
+    <link rel="shortcut icon" href="{{asset('img/creativeCode.png')}}" type="image/x-icon">
     {{-- <link rel="stylesheet" href="{{ 'css/all.css' }}"> --}}
 
     <title>{{ $titulo }}</title>
