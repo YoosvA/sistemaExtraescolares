@@ -30,13 +30,13 @@
                                             <!---->
                                             <h4 class="ms-3"><i class="fas fa-user"></i> Nombre Completo</h4>
                                             <input type="text"
-                                                class="form-control text-center rounded-pill mt-3 shadow-sm bg-body rounded"
+                                                class="form-control text-center rounded-pill shadow-sm bg-body rounded mt-3"
                                                 name="name" id="name" required placeholder="Nombre Completo"
                                                 aria-label="Nombre Completo">
                                             <!---->
-                                            <h4 class=" ms-3 mt-4"><i class="fas fa-users-cog"></i> Usuario</h4>
+                                            <h4 class=" ms-3 mt-3"><i class="fas fa-users-cog"></i> Usuario</h4>
                                             <input type="text"
-                                                class="form-control text-center rounded-pill mt-3 shadow-sm bg-body rounded"
+                                                class="form-control text-center rounded-pill shadow-sm bg-body rounded mt-3"
                                                 name="user" id="user" required placeholder="Usuario"
                                                 aria-label="Usuario">
                                             <!---->
@@ -49,13 +49,13 @@
                                             <!---->
                                             <h4 class="ms-3"><i class="fas fa-envelope"></i> Email</h4>
                                             <input type="email"
-                                                class="form-control text-center rounded-pill mt-3 shadow-sm bg-body rounded"
+                                                class="form-control text-center rounded-pill shadow-sm bg-body rounded mt-3"
                                                 name="email" id="email" required placeholder="Email"
                                                 aria-label="Email">
                                             <!---->
-                                            <h4 class="ms-3 mt-4"><i class="fas fa-key"></i> Contraseña</h4>
+                                            <h4 class="ms-3 mt-3"><i class="fas fa-key"></i> Contraseña</h4>
                                             <input type="password"
-                                                class="form-control text-center rounded-pill mt-3 shadow-sm bg-body rounded"
+                                                class="form-control text-center rounded-pill shadow-sm bg-body rounded mt-3"
                                                 name="password" id="password" required placeholder="Contraseña"
                                                 aria-label="Contraseña">
                                             <!---->
@@ -91,9 +91,8 @@
                                 </div>
                             </div>
                             <!--Contenido De Botones Card Dentro Fin-->
-
-
                         </form>
+                        <br>
                         <!--Contenido De Input Que Estan Dentro De Diferentes Card En Orden Fin-->
                     </div>
                 </div>

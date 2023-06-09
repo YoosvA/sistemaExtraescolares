@@ -6,12 +6,15 @@
     <div class="row">
         <div class="col">
             <!--Contenido Dentro Del Container Inicio-->
-            <h1 class="mt-4">Editar Datos Oficios</h1>
-            <h2 class="ms-5">Instrucciones</h2>
-            <h5 class="ms-5">Ingresa todos los datos que se te piden..</h5>
            <!--Texto Arriba Instrucciones-->
          <div class="card shadow-lg bg-body rounded rounded-5 border-0 mt-4">
             <div class="card-body">
+                <!--Contenido De Texto Inicio-->
+                <h1 class="mt-4 text-center">Editar Datos Oficios</h1>
+                <h2 class="ms-5 text-center">Instrucciones</h2>
+                <h5 class="ms-5 text-center">Ingresa todos los datos que se te piden..</h5>
+                <!--Contenido De Texto Fin-->
+
                 <!--Contenido Dentro De Card Inicio-->
                 <form action="{{ route('updateOficios', $items->id) }}" method="post">
                     @csrf
@@ -100,6 +103,7 @@
                                         <!--Contenido De Boton Fin Regresar-->
                                     </div>
                                   </div>
+                                 
                                 </div>
                               </div>
                             <!--Contenido Dentro De 2 Card Botones Fin-->

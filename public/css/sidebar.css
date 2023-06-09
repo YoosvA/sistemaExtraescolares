@@ -471,6 +471,108 @@ background: #0096c7;
   height: 20rem;
   width: 20rem;
 }
+ /*Boton3*/
+ .EditarBoton {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #ffd60a;
+  color: #fff;
+ }
+ 
+ .EditarBoton:hover {
+  transform: translateY(-3px);
+    background: #ffd60a;
+    color: #fff;
+ }
+ 
+ .EditarBoton:active {
+  transform: translateY(-1px);
+  box-shadow: #ffd60a;
+ }
+ 
+ .EditarBoton::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .EditarBoton::after {
+  background-color: #fff;
+ }
+ 
+ .EditarBoton:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+
+ /*Boton4*/
+ .pdfBoton {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #38b000;
+  color: #fff;
+ }
+ 
+ .pdfBoton:hover {
+  transform: translateY(-3px);
+    background: #38b000;
+    color: #fff;
+ }
+ 
+ .pdfBoton:active {
+  transform: translateY(-1px);
+  box-shadow: #38b000;
+ }
+ 
+ .pdfBoton::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .pdfBoton::after {
+  background-color: #fff;
+ }
+ 
+ .pdfBoton:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+/*Tamaño De Img Circular En Agregar Carpeta Siempre Tendras Unas secciones Basias*/
+.TamañoDeImgCarpeta{
+  height: 30rem;
+  width: 30rem;
+}
+.tamañoDeImgTecnmCircular{
+  height: 15rem;
+  width: 15rem;
+}
+.tamañoDeImgTecnmCircularprueba{
+  height: 20rem;
+  width: 20rem;
+}
 /*Fondo De Div*/
 /* .divFondoPrimero { */
   /*Nota

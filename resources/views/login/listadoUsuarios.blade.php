@@ -77,14 +77,14 @@
                                                 <td>
                                                     
                                                     <a href="{{ route('editarUsuarios', $item->id) }}"
-                                                        class="btn btn-warning"><i class="fas fa-user-edit"></i> Editar</a>
+                                                        class="btn EditarBoton"><i class="fas fa-user-edit"></i> Editar</a>
                                                 </td>
                                                 <td>
                                                     <br>
                                                     <form action="{{ route('destroyUsuarios', $item->id) }}" method="POST">
                                                         @csrf
                                                         @method('DELETE')
-                                                        <button class="btn btn-danger"><i class="fas fa-trash"></i>
+                                                        <button class="btn RegresarBoton"><i class="fas fa-trash"></i>
                                                             Eliminar</button>
                                                     </form>
                                                 </td>
