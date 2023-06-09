@@ -57,7 +57,6 @@
                                             <th class="text-center">Nombre Completo</th>
                                             <th class="text-center">Correo</th>
                                             <th class="text-center">Usuario</th>
-                                            <th class="text-center">Contraseña</th>
                                             <th class="text-center">Creacion</th>
                                             <th class="text-center">Actualizado</th>
                                             <th class="text-center">Editar</th>
@@ -71,13 +70,12 @@
                                                 <td>{{ $item->name }}</td>
                                                 <td>{{ $item->email }}</td>
                                                 <td>{{ $item->user }}</td>
-                                                <td>{{ $item->password }}</td>
-                                                <td><br>{{ $item->created_at }}</td>
-                                                <td><br>{{ $item->updated_at }}</td>
+                                                <td>{{ $item->created_at }}</td>
+                                                <td>{{ $item->updated_at }}</td>
 
 
                                                 <td>
-                                                    <br>
+                                                    
                                                     <a href="{{ route('editarUsuarios', $item->id) }}"
                                                         class="btn btn-warning"><i class="fas fa-user-edit"></i> Editar</a>
                                                 </td>

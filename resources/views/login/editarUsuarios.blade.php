@@ -18,7 +18,7 @@
                             <!--Card Donde Contiene Una Img Fin-->
                         </div>
                         <br><br><br><br>
-                        <h1 class="ms-5 mt-4">Editar Usuarios </h1>
+                        <h1 class="ms-5 mt-4">Editar Usuario </h1>
                         <h2 class="ms-5 mt-2 mb-4">Instrucciones</h2>
                         <h5 class="ms-5">Ingresa todos los datos que se te piden..</h5>
                         <!--Contenido De Adentro Card Inicio-->
