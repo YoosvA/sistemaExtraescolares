@@ -66,13 +66,13 @@
                                                         Numero de Control</h4>
                                                     <input type="text" name="noControl" id="noControl"
                                                         class="form-control rounded-pill text-center shadow-sm  bg-body mt-3"
-                                                        value="{{ $items->noControl }}" required>
+                                                        value="{{ $items->noControl }}" required pattern="[0-9]+" title="Ingrese solo números" maxlength="9">
                                                     <!---->
                                                     <h4 class="text-center mt-3"><i class="fas fa-phone"></i> Numero de
                                                         Celular</h4>
                                                     <input type="text" name="telefono" id="telefono"
                                                         class="form-control rounded-pill text-center shadow-sm  bg-body mt-3"
-                                                        value="{{ $items->telefono }}" required>
+                                                        value="{{ $items->telefono }}" required pattern="[0-9]+" title="Ingrese solo números" maxlength="10">
                                                     <!---->
                                                     <h4 class="text-center mt-3"><i class="fas fa-balance-scale-left"></i>
                                                         Carrera</h4>
