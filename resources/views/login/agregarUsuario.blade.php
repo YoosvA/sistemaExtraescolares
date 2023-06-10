@@ -57,7 +57,7 @@
                                             <input type="password"
                                                 class="form-control text-center rounded-pill shadow-sm bg-body rounded mt-3"
                                                 name="password" id="password" required placeholder="Contraseña"
-                                                aria-label="Contraseña">
+                                                aria-label="Contraseña" minlength="4" maxlength="12">
                                             <!---->
                                         </div>
                                     </div>
