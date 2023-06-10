@@ -45,7 +45,8 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="mt-3 text-center"><i class="fas fa-sort-amount-down"></i> No. Control</h4>
+                                            <h4 class="mt-3 text-center"><i class="fas fa-sort-amount-down"></i> No. Control
+                                            </h4>
                                             <select name="noControlNotas" id="noControlNotas"
                                                 class="form-select text-center shadow-sm bg-body rounded rounded-pill mt-3"
                                                 required>
@@ -58,7 +59,8 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="mt-3 text-center"><i class="fas fa-user-clock"></i> Horas de Participación</h4>
+                                            <h4 class="mt-3 text-center"><i class="fas fa-user-clock"></i> Horas de
+                                                Participación</h4>
                                             <input type="number" name="horas" id="horas"
                                                 class="form-control text-center shadow-sm bg-body rounded rounded-pill mt-3"
                                                 value="{{ $items->horas }}" required min="5" max="20"
@@ -88,7 +90,8 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="mt-3 text-center"><i class="fas fa-balance-scale-left"></i> Carrera</h4>
+                                            <h4 class="mt-3 text-center"><i class="fas fa-balance-scale-left"></i> Carrera
+                                            </h4>
                                             <select name="carreraNotas" id="carreraNotas"
                                                 class="form-select text-center shadow-sm bg-body rounded rounded-pill mt-3"
                                                 required>
@@ -101,7 +104,8 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="mt-3 text-center"><i class="fas fa-calendar-check"></i> Fecha de Participación</h4>
+                                            <h4 class="mt-3 text-center"><i class="fas fa-calendar-check"></i> Fecha de
+                                                Participación</h4>
                                             <input type="date" name="fecha" id="fecha"
                                                 class="form-control text-center shadow-sm bg-body rounded rounded-pill mt-3"
                                                 value="{{ $items->fecha }}" required>
@@ -147,7 +151,8 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="mt-3 text-center"><i class="fas fa-calendar-alt"></i> Periodo Escolar</h4>
+                                            <h4 class="mt-3 text-center"><i class="fas fa-calendar-alt"></i> Periodo Escolar
+                                            </h4>
                                             <input type="text" name="periodo" id="periodo"
                                                 class="form-control text-center shadow-sm bg-body rounded rounded-pill mt-3"
                                                 value="{{ $items->periodo }}" required>

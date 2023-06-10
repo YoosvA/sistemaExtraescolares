@@ -9,7 +9,7 @@
                 <div class="card shadow-lg  bg-body rounded border-0 rounded-5">
                     <div class="card-body">
                         <!--Texto Arriba Informacion-->
-                        <h1 class="text-center">Notas de Participacion</h1>
+                        <h1 class="text-center mt-4">Notas de Participacion</h1>
 
                         <!--Texto Principal Inicio-->
                         <div class="row">
