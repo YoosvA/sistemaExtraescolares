@@ -14,9 +14,12 @@
                                 <div class="card colorTransparente border-0">
                                     <div class="card-body">
                                         <br><br>
-                                        <h1 class="text-center mt-2">Generar Oficio de Liberación (Credito)</h1>
+                                        <h1 class="text-center mt-2">Generar Oficio de Liberación (Crédito)</h1>
                                         <h2 class="mt-2 mb-2">Instrucciones</h2>
-                                        <h5 class="mt-2">Ingresa todos los datos que se te piden</h5>
+                                        <h5 class="mt-2">En el botón de “agregar” ingresaremos los datos del alumno para 
+                                            generar el Oficio de Liberación por medio de un formulario y al agregarse ese 
+                                            registró se mostrara en esta vista un botón con el icono de “PDF” donde podremos 
+                                            ver descargar el archivo.</h5>
                                         <!--Seccion De Botones Inicio-->
                                         <div class="row">
                                             <div class="col-sm-6">
@@ -90,7 +93,7 @@
                                             <th class="text-center">Apellido Materno</th>
                                             <th class="text-center">Numero de Control</th>
                                             <th class="text-center">Carrera</th>
-                                            <th class="text-center">Credito</th>
+                                            <th class="text-center">Crédito</th>
                                             <th class="text-center">Periodo Escolar</th>
                                             <th class="text-center">Fecha</th>
                                             <th class="text-center">Generar Oficio</th>

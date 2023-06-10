@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{{asset('css/sidebar.css') }}">
     <link rel="shortcut icon" href="{{asset('img/creativeCode.png')}}" type="image/x-icon">
-    {{-- <link rel="stylesheet" href="{{ 'css/all.css' }}"> --}}
-
     <title>{{ $titulo }}</title>
 </head>
 
@@ -32,7 +30,7 @@
     <script src="{{ asset('js/controller_navbar.js') }}"></script>
     <script src="{{ asset('js/mascaraDeCarga/jquery.blockUI.js') }}"></script>
     <script src="{{ asset('js/mascaraDeCarga/mascara.js') }}"></script>
-    {{-- <script src="{{ asset('js/all.js') }}"></script> --}}
+
 </body>
 
 </html>

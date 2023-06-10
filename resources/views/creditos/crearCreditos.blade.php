@@ -20,9 +20,10 @@
                         <!--Contenido De Img Fin-->
                         <!--Contenido De Texto Inicio-->
                         <br><br><br><br><br>
-                        <h1 class="text-center mt-4">Agregar Creditos</h1>
+                        <h1 class="text-center mt-4">Agregar Créditos</h1>
                         <h2 class="ms-5">Instrucciones</h2>
-                        <h5 class="ms-5">Ingresa todos los datos que se te piden...</h5>
+                        <h5 class="ms-5">Deberás llenar todos los datos del estudiante que se te piden a excepción 
+                            de los archivos los cuales los podrás ingresar en el momento que desees por medio de editar.</h5>
                         <!--Contenido De Texto Fin-->
                         <!--Contenido Dentro De Card Inicio-->
                         <div class="row">
@@ -47,7 +48,7 @@
                                                         @endforeach
                                                     </select>
                                                     <!---->
-                                                    <h4 class="mt-3 text-center"><i class="fas fa-chalkboard-teacher"></i> Credito</h4>
+                                                    <h4 class="mt-3 text-center"><i class="fas fa-chalkboard-teacher"></i> Crédito</h4>
                                                     <select name="nombreCredito" id="nombreCredito"
                                                         class="form-select text-center shadow-sm  bg-body rounded-pill mt-3"
                                                         required>
@@ -112,7 +113,7 @@
                                                     <input type="file" name="constancia" id="constancia"
                                                         class="form-control text-center shadow-sm  bg-body rounded-pill mt-3">
                                                     <!---->
-                                                    <h4 class="mt-3 text-center"><i class="fas fa-folder-open"></i> Carpeta Fisica</h4>
+                                                    <h4 class="mt-3 text-center"><i class="fas fa-folder-open"></i> Carpeta Física</h4>
                                                     <select name="carpeta" id="carpeta"
                                                         class="form-select text-center shadow-lg bg-body rounded-pill mt-3"
                                                         required>

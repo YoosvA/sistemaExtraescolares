@@ -20,7 +20,7 @@
                                             <br><br><br>
                                             <h1 class="text-center">Agregar Carpetas</h1>
                                             <h2 class="text-center">Instrucciones</h2>
-                                            <h5 class="text-center">Ingresa Todos Los Datos Que Se Te Piden</h5>
+                                            <h5 class="text-center">Ingresa el nombre de la carpeta física que deseas agregar.</h5>
                                             <!--Contenido Dentro De Un Card Inicio-->
                                             <h4 class="text-center"><i class="fas fa-file-signature"></i> Nombre Carpeta
                                             </h4>

@@ -280,7 +280,7 @@
                             <div class="card-body">
                                 <!--Contenido De Img Inicio IMG-> DE INSTAGRAM FALTA MODIFICAR LA DIRECCION-->
                                 <div class="text-center">
-                                    <a href="https://milpaalta2.tecnm.mx/" target="_blank"><img
+                                    <a href="https://www.instagram.com/tecnmcampusmilpaalta2/?hl=es-la" target="_blank"><img
                                             src="{{ asset('img/LogoInstagram.webp') }}"
                                             class="tamañoDeImgRedesSociales rounded-circle" alt=""></a>
                                 </div>

@@ -16,13 +16,12 @@
                                 <div class="card colorTransparente border-0">
                                     <div class="card-body">
                                         <!--Contenido Texto Inicio-->
-                                        <h1 class="ms-4 mt-4">Agregar Datos Alumno</h1>
-                                        <h2 class="ms-4 mt-3">Instrucciones</h2>
+                                        <h1 class="ms-4 mt-4">Agregar Datos del Alumno</h1>
+                                        <h2 class="ms-4 mt-4">Instrucciones</h2>
                                         <br>
-                                        <h5 class="ms-4">Estos 2 botones tendrán las funciones de agregar alumno
-                                            donde ingresaras por medio de un formulario información para agregar un nuevo
-                                            alumno, El
-                                            botón de regresar te llevara a la vista principal.</h5>
+                                        <h5 class="ms-4">En el botón de “agregar alumno” te llevara a una vista en 
+                                            dónde podrás agregar los datos del alumno por medio de un formulario y 
+                                            el botón de “regresar” te llevara al menú principal.</h5>
                                         <!--Boton Inicio-->
                                         <div class="row">
                                             <div class="col-sm-6">

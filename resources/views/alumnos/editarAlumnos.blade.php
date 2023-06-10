@@ -19,9 +19,9 @@
                         <!--Contenido De Img Fin-->
                         <!--Contenido Texto-->
                         <br><br><br><br>
-                        <h1 class="text-center">Editar Datos Alumno </h1>
+                        <h1 class="text-center">Editar Datos del Alumno </h1>
                         <h2>Instrucciones</h2>
-                        <h5>Ingresa todos los datos que se te piden..</h5>
+                        <h5>Actualiza los datos del estudiante en el siguiente formulario.</h5>
                         <!--Contenido De Adentro Card Inicio-->
                         <div class="row">
                             <div class="col ms-4 mx-4">
@@ -110,7 +110,7 @@
                                                     <!---->
                                                     <h4 class="text-center mt-3"><i class="fas fa-calendar-alt"></i>
                                                         Fecha
-                                                        de Ingreso al Tecnologico</h4>
+                                                        de Ingreso al Tecnológico</h4>
                                                     <input type="date" name="fechaIngreso" id="fechaIngreso"
                                                         class="form-control rounded-pill text-center shadow-sm  bg-body mt-3"
                                                         value="{{ $items->fechaIngreso }}" required>

@@ -16,9 +16,10 @@
                                     <div class="card-body">
                                         <!---->
                                         <br><br><br>
-                                        <h1 class="mt-4 text-center">Editar Datos Oficios</h1>
-                                        <h2 class="ms-5 text-center">Instrucciones</h2>
-                                        <h5 class="ms-5 text-center">Ingresa todos los datos que se te piden..</h5>
+                                        <h1 class="ms-5 mt-4 text-center">Editar Datos Oficios de Liberación</h1>
+                                        <h2 class="ms-5 mt-3 text-center">Instrucciones</h2>
+                                        <h5 class="ms-5 mt-3 text-center">Actualiza los datos del estudiante para generar el Oficio 
+                                            de Liberación por medio de este formulario. </h5>
                                         <!---->
                                     </div>
                                 </div>
@@ -68,7 +69,7 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="text-center mt-3"><i class="fas fa-sort-amount-down"></i> No. Control</h4>
+                                            <h4 class="text-center mt-3"><i class="fas fa-sort-amount-down"></i> Numero de Control</h4>
                                             <select name="noControlEstudiante" id="noControlEstudiante"
                                                 class="form-select text-center shadow-sm bg-body rounded rounded-pill mt-3"
                                                 required>
@@ -146,7 +147,7 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="text-center mt-3"><i class="fas fa-id-card-alt"></i> Credito</h4>
+                                            <h4 class="text-center mt-3"><i class="fas fa-id-card-alt"></i> Crédito</h4>
                                             <select name="creditoEstudiante" id="creditoEstudiante"
                                                 class="form-select text-center shadow-sm bg-body rounded rounded-pill mt-3"
                                                 required>
