@@ -124,7 +124,7 @@
 
                                             <!--Parte De Boton De Mostrar Contraseña Fin (Se Utilizo JS)-->
                                             <!--Contenido De Boton Color Azul Inicio-->
-                                            <div class="text-center d-grid gap-2 col-6 mx-auto  mt-3 ">
+                                            <div class="text-center d-grid gap-2  mt-3 ">
                                                 <button class="btn guardarBoton rounded-pill">
                                                     <h5 class="text-white"><i class="fas fa-sign-in-alt"></i> Ingresar
                                                     </h5>
