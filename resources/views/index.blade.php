@@ -9,14 +9,16 @@
                 <br><br><br>
                     <div class="card colorTransparente border-0">
                         <div class="card-body">
-                            <h1 class="text-center">Sistemas Extraescolares</h1>
+                            <br><br>
+                            <h1 class="text-center"> <b>SISTEMA EXTRAESCOLARES</b> </h1>
                             <!---->
                             <div class="row">
                                 <div class="col-sm-6">
                                   <div class="card colorTransparente border-0">
                                     <div class="card-body">
+                                        <br><br>
                                         <!---->
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hf3RXUpe06A" class="border-0 rounded-3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Hf3RXUpe06A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                         <!---->
                                     </div>
                                   </div>
@@ -24,24 +26,25 @@
                                 <div class="col-sm-6">
                                   <div class="card colorTransparente border-0">
                                     <div class="card-body">
-                                        <h2 class="text-center">Instituto Tecnologico De Milpa Alta II</h2>
-                                        <h4 class="">El origen de los Institutos Tecnológicos se remonta a finales de la década de los 50’s, pero en la CDMX los Institutos tecnológicos nacieron por decreto presidencial el 24 de julio de 2014 por el presidente Enrique Peña Nieto constituyendose así el Tecnológico Nacional de México (TNM) que tiene adscritos a 266 Institutos Tecnológicos, unidades y centros de investigación, docencia y desarrollo de educación superior tecnológica.</h4>
+                                        <br>
+                                        <h1 class="text-center mt-2 mb-4"> <b>Instituto Tecnologico De Milpa Alta II</b> </h1>
+                                        <h4 class="text-justify">El origen de los Institutos Tecnológicos se remonta a finales de la década de los 50’s, pero en la CDMX los Institutos tecnológicos nacieron por decreto presidencial el 24 de julio de 2014 por el presidente Enrique Peña Nieto constituyendose así el Tecnológico Nacional de México (TNM) <br>Que tiene adscritos a 266 Institutos Tecnológicos, unidades y centros de investigación, docencia y desarrollo de educación superior tecnológica.</h4>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             <!---->
                         </div>
-                        <h4 class="text-center">El Instituto Tecnológico de Milpa Alta II (ITMA II) es un plantel de reciente creación dentro del sistema educativo implementado en la CDMX por la entonces Dirección General de Educación Superior Tecnológica (DGEST), y que consistió en la apertura de 12 Institutos Tecnológicos en la capital del país.</h4>
+                        <h4 class="text-center text-justify ">El Instituto Tecnológico de Milpa Alta II (ITMA II) es un plantel de reciente creación dentro del sistema educativo implementado en la CDMX por la entonces Dirección General de Educación Superior Tecnológica (DGEST), y que consistió en la apertura de 12 Institutos Tecnológicos en la capital del país.</h4>
                     </div>
                 <!---->
 
-
+                    <br><br><br>
                 <!--Inicio-->
                 <div class="col-md-12">
                     <div id="DatosPersonalesDelAlumno">
                         <!---->
-                        <br>
+                        <br><br><br><br><br>
                         <!---->
                         <div data-aos="fade-left" data-aos-duration="4000" class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
