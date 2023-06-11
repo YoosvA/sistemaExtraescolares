@@ -9,14 +9,13 @@
                 <div class="card shadow-lg  bg-body rounded border-0 rounded-5">
                     <div class="card-body">
                         <!--Contenido De Boton Regresar Dentro De Un Card Inicio-->
-                        <h1 class=" text-center mt-4">Listado Usuarios</h1>
+                        
                         <div class="row mt-2 mb-4 ms-4 mx-4">
                             <div class="col-sm-6">
                                 <div class="card border-0 colorTransparente">
                                     <div class="card-body">
                                         <h2 class="mt-4 mb-2 text-center">INSTRUCCIONES</h2>
-                                        <h5 class="text-center mt-2">En tos 3 botones tendras opciones donde contendran
-                                            diferentes vistas...</h5>
+                                        <h5 class="text-center mt-2">A continuación, se muestra un listado de todos los usuarios creados:</h5>
                                         <!--Contenido Inicio Boton-->
                                         <div class="d-grid gap-2 mt-2 mb-2">
                                             <a href="/inicio" class="btn RegresarBoton mt-3 rounded-pill"><i
@@ -44,7 +43,7 @@
                         </div>
                         <!--Contenido De Boton Regresar Dentro De Un Card Fin-->
                         <br>
-                        <h1 class="text-center mt-4">Contenido De Datos En La Tabla</h1>
+                        <h1 class="text-center mt-4">Listado Usuarios</h1>
                         <br>
                         <!--Contenido Dentro De Card Inicio-->
                         <div class="card mt-4 mb-4 ms-4 mx-4 shadow-sm bg-body rounded rounded-4 text-center">
@@ -57,8 +56,8 @@
                                             <th class="text-center">Nombre Completo</th>
                                             <th class="text-center">Correo</th>
                                             <th class="text-center">Usuario</th>
-                                            <th class="text-center">Creacion</th>
-                                            <th class="text-center">Actualizado</th>
+                                            <th class="text-center">Fecha de Creación</th>
+                                            <th class="text-center">Fecha de Actualización</th>
                                             <th class="text-center">Editar</th>
                                             <th class="text-center">Eliminar</th>
                                         </tr>
@@ -75,7 +74,7 @@
 
 
                                                 <td>
-                                                    
+                                                    <br>
                                                     <a href="{{ route('editarUsuarios', $item->id) }}"
                                                         class="btn EditarBoton"><i class="fas fa-user-edit"></i> Editar</a>
                                                 </td>

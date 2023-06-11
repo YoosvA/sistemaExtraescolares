@@ -24,7 +24,7 @@
                                                     <!---->
                                                     <h1 class="mt-4 text-center">Agregar Evento</h1>
                                                     <h2 class="text-center mt-2 mb-2">Instrucciones</h2>
-                                                    <h5 class="ms-5">Ingresa todos los datos que se te piden</h5>
+                                                    <h5 class="ms-5">Agrega el nombre del evento con el cual se darán horas de participación.</h5>
                                                     <!--Contenido De Texto Informacion-->
                                                     <br>
                                                     <h4 class="text-center"><i class="fas fa-calendar-check"></i> Nombre del

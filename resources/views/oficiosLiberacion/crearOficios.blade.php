@@ -22,7 +22,9 @@
                         <!-- Contendio De Texto-->
                         <h1 class="mt-4 text-center">Agregar Datos Para Oficio de Liberación</h1>
                         <h2 class="ms-5 mt-3 text-center">Instrucciones</h2>
-                        <h5 class="ms-5 mt-3 text-center">Ingresa todos los datos que se te piden...</h5>
+                        <h5 class="ms-5 mt-3 text-center">Ingresa todos los datos del estudiante que se te piden por 
+                            <br>
+                            medio de este formulario para generar el Oficio de Liberación.</h5>
                         <!--Contenido De Texto-->
                         <form action="/storeOficios" method="post">
                             @csrf
@@ -62,7 +64,7 @@
                                         @endforeach
                                     </select>
 
-                                    <h4 class="ms-3 mt-3"><i class="fas fa-sort-amount-down"></i> No. Control</h4>
+                                    <h4 class="ms-3 mt-3"><i class="fas fa-sort-amount-down"></i> Numero de control</h4>
                                     <select name="noControlEstudiante" id="noControlEstudiante"
                                         class="form-select rounded-pill text-center shadow-sm bg-body rounded mt-3"
                                         required>
@@ -87,7 +89,7 @@
                                         @endforeach
                                     </select>
 
-                                    <h4 class="ms-3 mt-3"><i class="fas fa-paste"></i> Credito</h4>
+                                    <h4 class="ms-3 mt-3"><i class="fas fa-paste"></i> Crédito</h4>
                                     <select name="creditoEstudiante" id="creditoEstudiante"
                                         class="form-select rounded-pill text-center shadow-sm bg-body rounded mt-3"
                                         required>

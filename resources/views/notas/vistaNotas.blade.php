@@ -9,7 +9,7 @@
                 <div class="card shadow-lg  bg-body rounded border-0 rounded-5">
                     <div class="card-body">
                         <!--Texto Arriba Informacion-->
-                        <h1 class="text-center mt-4">Notas de Participacion</h1>
+                        <h1 class="text-center mt-4">Notas de Participación</h1>
 
                         <!--Texto Principal Inicio-->
                         <div class="row">
@@ -18,7 +18,10 @@
                                     <div class="card-body">
                                         <br><br><br>
                                         <h2 class="mt-2 mb-2">Instrucciones</h2>
-                                        <h5>En tos 3 botones tendras opciones donde contendran diferentes vistas...</h5>
+                                        <h5>En el botón de “agregar datos” ingresaras toda la información del alumno por medio
+                                             de un formulario, en el botón de “agregar evento” se ingresarán los eventos contemplados
+                                              para las generar las notas de participación. Al agregar un registro te aparecerá un botón 
+                                              con el incono de “PDF” donde se podrá generar la nota de participación. </h5>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +109,7 @@
                                             <th class="text-center">Evento</th>
                                             <th class="text-center">Horas De Participación</th>
                                             <th class="text-center">Fecha</th>
-                                            <th class="text-center">Periodo</th>
+                                            <th class="text-center">Periodo Escolar</th>
                                             <th class="text-center">Grupo</th>
                                             <th class="text-center">Generar Nota</th>
                                             <th class="text-center">Editar</th>

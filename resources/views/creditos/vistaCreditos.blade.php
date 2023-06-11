@@ -14,13 +14,13 @@
                                 <div class="card colorTransparente border-0">
                                     <div class="card-body">
                                         <br>
-                                        <h1 class="text-center mt-4">Creditos</h1>
+                                        <h1 class="text-center mt-4">Créditos</h1>
                                         <h2 class="mt-2 mb-2">Instrucciones</h2>
-                                        <h5 class="mt-4">En estos 4 botones tendras opciones donde contendra una de
-                                            agregar creditos,
-                                            agregar carpeta y crear oficios de liberacion y regresar el menu por si te
-                                            equivocas al tomar
-                                            una desicion.
+                                        <h5 class="mt-4">En el botón de “agregar créditos” podrás agregar 
+                                            archivos y datos del alumno que se verán reflejados en esta vista,
+                                             en el botón de “agregar carpeta” podrás agregar el nombre de la carpeta 
+                                             física en la que se encuentran dichos archivos y en “crear oficios de liberación” 
+                                             se podrá generar los oficios de liberación en formato PDF.
                                         </h5>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@
                                         <div class="d-grid gap-2">
                                             <a href="/crearCreditos"
                                                 class="btn guardarBoton mt-3 rounded-pill text-white"><i
-                                                    class="fas fa-plus"></i> Agregar Creditos</a>
+                                                    class="fas fa-plus"></i> Agregar Créditos</a>
                                         </div>
                                         <!---->
                                     </div>
@@ -81,8 +81,8 @@
                                         <!---->
                                         <div class="d-grid gap-2">
                                             <a href="/vistaOficios" class="btn guardarBoton mt-3 rounded-pill text-white"><i
-                                                    class="fas fa-clipboard"></i> Crear Oficios de
-                                                Liberacion</a>
+                                                    class="fas fa-clipboard"></i> 
+                                                    Crear Oficios de Liberación</a>
                                         </div>
                                         <!---->
                                     </div>
@@ -116,12 +116,12 @@
                                                     <th class="text-center">Nombre</th>
                                                     <th class="text-center">Apellido Paterno</th>
                                                     <th class="text-center">Apellido Materno</th>
-                                                    <th class="text-center">Credito</th>
+                                                    <th class="text-center">Crédito</th>
                                                     <th class="text-center">Mooc</th>
                                                     <th class="text-center">Constancia</th>
-                                                    <th class="text-center">Oficio de Liberacion</th>
+                                                    <th class="text-center">Oficio de Liberación</th>
                                                     <th class="text-center">Evidencia</th>
-                                                    <th class="text-center">Carpeta Fisica</th>
+                                                    <th class="text-center">Carpeta Física</th>
                                                     <th class="text-center">Estado</th>
                                                     <th class="text-center">Fecha de Registro</th>
                                                     <th class="text-center">Editar</th>

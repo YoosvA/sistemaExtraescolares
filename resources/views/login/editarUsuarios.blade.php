@@ -20,7 +20,8 @@
                         <br><br><br><br>
                         <h1 class="ms-5 mt-4">Editar Usuario </h1>
                         <h2 class="ms-5 mt-2 mb-4">Instrucciones</h2>
-                        <h5 class="ms-5">Ingresa todos los datos que se te piden..</h5>
+                        <h5 class="ms-5">Aquí podrás editar las credenciales del usuario, además de que podrás 
+                            crear una nueva contraseña en caso de haberla perdido.</h5>
                         <!--Contenido De Adentro Card Inicio-->
                         <div class="row">
                             <div class="col mt-4 mb-4 ms-4 mx-4">

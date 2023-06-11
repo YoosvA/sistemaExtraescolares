@@ -21,7 +21,8 @@
                         <br><br><br><br>
                         <h1 class="text-center mt-4">Editar Notas</h1>
                         <h2 class="mt-2 mb-2">Instrucciones</h2>
-                        <h5>Ingresa todos los datos que se te piden... </h5>
+                        <h5>Actualiza los datos del alumno para generar la nota de 
+                            participación por medio de este formulario. </h5>
                         <!--Contenido Texto Arriba Fin-->
                         <!---->
                         <form action="{{ route('updateNotas', $items->id) }}" method="post">
@@ -45,7 +46,7 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="mt-3 text-center"><i class="fas fa-sort-amount-down"></i> No. Control
+                                            <h4 class="mt-3 text-center"><i class="fas fa-sort-amount-down"></i> Numero de Control
                                             </h4>
                                             <select name="noControlNotas" id="noControlNotas"
                                                 class="form-select text-center shadow-sm bg-body rounded rounded-pill mt-3"

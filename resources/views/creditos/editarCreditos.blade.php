@@ -16,9 +16,10 @@
                                     <div class="card-body">
                                         <br><br>
                                         <!---->
-                                        <h1 class="text-center">Editar Creditos</h1>
+                                        <h1 class="text-center">Editar Créditos</h1>
                                         <h2 class="mt-2 mb-2 text-center">Instrucciones</h2>
-                                        <h5 class="mt-3 text-center">Ingresa todos los datos que se te piden... </h5>
+                                        <h5 class="mt-3 text-center">Actualiza los datos y archivos del estudiante, además de que podrás 
+                                            ingresar los archivos que faltan por medio de este formulario.</h5>
                                         <!---->
                                     </div>
                                 </div>
@@ -69,7 +70,7 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="mt-3 text-center"><i class="fas fa-print"></i> Credito</h4>
+                                            <h4 class="mt-3 text-center"><i class="fas fa-print"></i> Crédito</h4>
                                             <select name="nombreCredito" id="nombreCredito"
                                                 class="form-select text-center rounded-pill shadow-sm bg-body rounded mt-3"
                                                 required>

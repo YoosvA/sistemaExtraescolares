@@ -13,27 +13,19 @@
                         <div class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
                                 <h1 class="text-center">Datos Personales Del Alumno</h1>
-                                <h2 class="mt-2">Caracteristicas</h2>
-                                <h4>En esta vista podras Agregar,eliminar o Editar los datos de los estudiantes</h4>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="card border-0 colorTransparente">
                                             <div class="card-body">
-                                                <h5 class="mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.
-                                                    Deserunt,
-                                                    id corporis.
-                                                    Eveniet praesentium assumenda laudantium deserunt omnis est maxime,
-                                                    rerum
-                                                    rem aliquid
-                                                    vel tempore incidunt perferendis eos quasi nostrum odit!Lorem ipsum
-                                                    dolor
-                                                    sit amet
-                                                    consectetur adipisicing elit. Deserunt, id corporis.
-                                                    Eveniet praesentium assumenda laudantium deserunt omnis est maxime,
-                                                    rerum
-                                                    rem aliquid
-                                                    vel tempore incidunt perferendis eos quasi nostrum odit!</h5>
+                                                <h5 class="mt-4 mb-4">En este apartado se podrán ingresar todos los datos de los estudiantes de 
+                                                    distintas carreras las cuales son: 
+                                                    <br> <br>
+                                                    1- Ingeniería en Sistemas Computacionales
+                                                    <br>
+                                                    2- Ingeniería en Gestión Empresarial
+                                                    <br>
+                                                    3- Ingeniería Industrial
+                                                </h5>
                                                 <!--Parte de boton-->
                                                 <br>
                                                 <div class="d-grid gap-2">
@@ -80,24 +72,7 @@
                         <!---->
                         <div class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
-                                <h1>Creditos</h1>
-                                <h2 class="ms-5">Caracteristicas</h2>
-                                <h5 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-                                    quos
-                                    sequi
-                                    expedita quo odit
-                                    inventore
-                                    neque quisquam praesentium! Eveniet aut mollitia quo vel commodi delectus, natus autem
-                                    ipsa
-                                    recusandae
-                                    voluptas!Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos sequi
-                                    expedita quo
-                                    odit
-                                    inventore
-                                    neque quisquam praesentium! Eveniet aut mollitia quo vel commodi delectus, natus autem
-                                    ipsa
-                                    recusandae
-                                    voluptas!</h5>
+                                <h1>Créditos</h1>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="card border-0 colorTransparente">
@@ -121,21 +96,19 @@
                                     <div class="col-sm-6">
                                         <div class="card border-0 colorTransparente">
                                             <div class="card-body">
-                                                <h5 class="mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.
-                                                    Deserunt,
-                                                    id corporis.
-                                                    Eveniet praesentium assumenda laudantium deserunt omnis est maxime,
-                                                    rerum
-                                                    rem aliquid
-                                                    vel tempore incidunt perferendis eos quasi nostrum odit!Lorem ipsum
-                                                    dolor
-                                                    sit amet
-                                                    consectetur adipisicing elit. Deserunt, id corporis.
-                                                    Eveniet praesentium assumenda laudantium deserunt omnis est maxime,
-                                                    rerum
-                                                    rem aliquid
-                                                    vel tempore incidunt perferendis eos quasi nostrum odit!</h5>
+                                                <h5 class="mt-4 mb-4">En este apartado podrás generar los oficios de liberación de 
+                                                    las distintas actividades extraescolares que se imparten las cuales son:
+                                                    <br><br>
+                                                    1-	Culturales
+                                                    <br>
+                                                    2-	Cívicas
+                                                    <br>
+                                                    3-	Deportivas
+                                                    <br><br>
+                                                    Además de que podrás llevar un registro con todos los datos y documentos del 
+                                                    alumno y saber si su trámite está en proceso o ya fue liberado.
+                                                    
+                                                    </h5>
                                                 <!--Parte de boton-->
                                                 <br>
                                                 <div class="d-grid gap-2">
@@ -161,36 +134,13 @@
                         <!---->
                         <div class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
-                                <h1>Notas De Participacion</h1>
-                                <h2 class="ms-5">Caracteristicas</h2>
-                                <h5 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-                                    id
-                                    corporis.
-                                    Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
-                                    vel tempore incidunt perferendis eos quasi nostrum odit!Lorem ipsum dolor sit amet
-                                    consectetur
-                                    adipisicing elit. Deserunt, id corporis.
-                                    Eveniet praesentium assumenda laudantium deserunt omnis est maxime, rerum rem aliquid
-                                    vel tempore incidunt perferendis eos quasi nostrum odit!</h5>
+                                <h1>Notas De Participación</h1>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="card border-0 colorTransparente">
                                             <div class="card-body">
-                                                <h5 class="mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.
-                                                    Deserunt,
-                                                    id corporis.
-                                                    Eveniet praesentium assumenda laudantium deserunt omnis est maxime,
-                                                    rerum
-                                                    rem aliquid
-                                                    vel tempore incidunt perferendis eos quasi nostrum odit!Lorem ipsum
-                                                    dolor
-                                                    sit amet
-                                                    consectetur adipisicing elit. Deserunt, id corporis.
-                                                    Eveniet praesentium assumenda laudantium deserunt omnis est maxime,
-                                                    rerum
-                                                    rem aliquid
-                                                    vel tempore incidunt perferendis eos quasi nostrum odit!</h5>
+                                                <h5 class="mt-4 mb-4">En este apartado podrás generar las notas de participación por horas de 
+                                                    los estudiantes que participaron en algún evento.</h5>
                                                 <!--Parte de boton-->
                                                 <br>
                                                 <div class="d-grid gap-2">
@@ -280,7 +230,7 @@
                             <div class="card-body">
                                 <!--Contenido De Img Inicio IMG-> DE INSTAGRAM FALTA MODIFICAR LA DIRECCION-->
                                 <div class="text-center">
-                                    <a href="https://milpaalta2.tecnm.mx/" target="_blank"><img
+                                    <a href="https://www.instagram.com/tecnmcampusmilpaalta2/?hl=es-la" target="_blank"><img
                                             src="{{ asset('img/LogoInstagram.webp') }}"
                                             class="tamañoDeImgRedesSociales rounded-circle" alt=""></a>
                                 </div>

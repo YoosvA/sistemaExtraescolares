@@ -17,7 +17,8 @@
                                         <br><br><br><br><br>
                                         <h1 class="text-center">Agregar Datos Notas</h1>
                                         <h2 class="mt-2 mb-2 text-center">Instrucciones</h2>
-                                        <h5 class="mt-2 text-center">Ingresa todos los datos que se te piden...</h5>
+                                        <h5 class="mt-2 text-center">Ingresa toda la información del alumno que se te pide por medio de este 
+                                            formulario para generar el Ofició de Notas de participación.</h5>
                                         <!---->
                                     </div>
                                 </div>
@@ -66,7 +67,7 @@
                                                 @endforeach
                                             </select>
                                             <!---->
-                                            <h4 class="mt-3 text-center"><i class="fas fa-sort-amount-down"></i> No. Control
+                                            <h4 class="mt-3 text-center"><i class="fas fa-sort-amount-down"></i> Numero de Control
                                             </h4>
                                             <select name="noControlNotas" id="noControlNotas"
                                                 class="form-select text-center shadow-sm bg-body rounded rounded-pill mt-3"
