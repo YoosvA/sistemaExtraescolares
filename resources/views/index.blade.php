@@ -7,7 +7,7 @@
                 
                 <!---->
                 <br><br><br>
-                    <div class="card colorTransparente border-0">
+                    <div class="card colorTransparente border-0" data-aos="zoom-in" data-aos-duration="4000">
                         <div class="card-body">
                             <br><br>
                             <h1 class="text-center"> <b>SISTEMA EXTRAESCOLARES</b> </h1>
@@ -16,7 +16,7 @@
                                 <div class="col-sm-6">
                                   <div class="card colorTransparente border-0">
                                     <div class="card-body">
-                                        <br><br>
+                                        <br><br><br><br><br>
                                         <!---->
                                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Hf3RXUpe06A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                         <!---->
