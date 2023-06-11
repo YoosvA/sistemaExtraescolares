@@ -25,6 +25,7 @@
                             <div class="col-sm-6">
                                 <div class="card colorTransparente border-0">
                                     <div class="card-body ms-4">
+                                        <img src="" alt="">
                                         <!--Card Donde Contiene Img Inicio-->
                                         <div class="card rounded-circle tamaño shadow-lg bg-body rounded border-0 ms-4">
                                             <div class="card-body">
