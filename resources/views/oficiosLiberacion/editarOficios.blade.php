@@ -16,9 +16,9 @@
                                     <div class="card-body">
                                         <!---->
                                         <br><br><br>
-                                        <h1 class="ms-5 mt-4 text-center">Editar Datos Oficios de Liberación</h1>
-                                        <h2 class="ms-5 mt-3 text-center">Instrucciones</h2>
-                                        <h5 class="ms-5 mt-3 text-center">Actualiza los datos del estudiante para generar el Oficio 
+                                        <h1 class="mt-4 text-center"> <b>Editar Datos Oficios de Liberación</b> </h1>
+                                        <h2 class="mt-3 text-center"> <b>Instrucciones</b> </h2>
+                                        <h5 class="mt-3 text-center">Actualiza los datos del estudiante para generar el Oficio 
                                             de Liberación por medio de este formulario. </h5>
                                         <!---->
                                     </div>

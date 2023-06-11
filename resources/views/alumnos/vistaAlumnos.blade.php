@@ -16,8 +16,8 @@
                                 <div class="card colorTransparente border-0">
                                     <div class="card-body">
                                         <!--Contenido Texto Inicio-->
-                                        <h1 class="ms-4 mt-4">Agregar Datos del Alumno</h1>
-                                        <h2 class="ms-4 mt-4">Instrucciones</h2>
+                                        <h1 class="ms-4 mt-4"> <b>Agregar Datos del Alumno</b> </h1>
+                                        <h2 class="ms-4 mt-4"> <b>Instrucciones</b> </h2>
                                         <br>
                                         <h5 class="ms-4">En el botón de “agregar alumno” te llevara a una vista en 
                                             dónde podrás agregar los datos del alumno por medio de un formulario y 

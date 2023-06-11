@@ -16,8 +16,8 @@
                                     <div class="card-body">
                                         <br><br>
                                         <!---->
-                                        <h1 class="text-center">Editar Créditos</h1>
-                                        <h2 class="mt-2 mb-2 text-center">Instrucciones</h2>
+                                        <h1 class="text-center"> <b>Editar Créditos</b> </h1>
+                                        <h2 class="mt-2 mb-2 text-center"> <b>Instrucciones</b> </h2>
                                         <h5 class="mt-3 text-center">Actualiza los datos y archivos del estudiante, además de que podrás 
                                             ingresar los archivos que faltan por medio de este formulario.</h5>
                                         <!---->

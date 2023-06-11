@@ -9,7 +9,7 @@
                 <div class="card shadow-lg  bg-body rounded border-0 rounded-5">
                     <div class="card-body">
                         <!--Texto Arriba Informacion-->
-                        <h1 class="text-center mt-4">Notas de Participación</h1>
+                        <h1 class="text-center mt-4"> <b>Notas de Participación</b> </h1>
 
                         <!--Texto Principal Inicio-->
                         <div class="row">
@@ -17,7 +17,7 @@
                                 <div class="card colorTransparente border-0">
                                     <div class="card-body">
                                         <br><br><br>
-                                        <h2 class="mt-2 mb-2">Instrucciones</h2>
+                                        <h2 class="mt-2 mb-2"> <b>Instrucciones</b> </h2>
                                         <h5>En el botón de “agregar datos” ingresaras toda la información del alumno por medio
                                              de un formulario, en el botón de “agregar evento” se ingresarán los eventos contemplados
                                               para las generar las notas de participación. Al agregar un registro te aparecerá un botón 

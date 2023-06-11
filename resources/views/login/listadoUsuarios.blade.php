@@ -14,7 +14,7 @@
                             <div class="col-sm-6">
                                 <div class="card border-0 colorTransparente">
                                     <div class="card-body">
-                                        <h2 class="mt-4 mb-2 text-center">INSTRUCCIONES</h2>
+                                        <h2 class="mt-4 mb-2 text-center"> <b>INSTRUCCIONES</b> </h2>
                                         <h5 class="text-center mt-2">A continuación, se muestra un listado de todos los usuarios creados:</h5>
                                         <!--Contenido Inicio Boton-->
                                         <div class="d-grid gap-2 mt-2 mb-2">
@@ -43,7 +43,7 @@
                         </div>
                         <!--Contenido De Boton Regresar Dentro De Un Card Fin-->
                         <br>
-                        <h1 class="text-center mt-4">Listado Usuarios</h1>
+                        <h1 class="text-center mt-4"> <b>Listado Usuarios</b> </h1>
                         <br>
                         <!--Contenido Dentro De Card Inicio-->
                         <div class="card mt-4 mb-4 ms-4 mx-4 shadow-sm bg-body rounded rounded-4 text-center">

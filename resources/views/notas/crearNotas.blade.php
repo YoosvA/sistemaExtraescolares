@@ -15,8 +15,8 @@
                                     <div class="card-body">
                                         <!---->
                                         <br><br><br><br><br>
-                                        <h1 class="text-center">Agregar Datos Notas</h1>
-                                        <h2 class="mt-2 mb-2 text-center">Instrucciones</h2>
+                                        <h1 class="text-center"> <b>Agregar Datos Notas</b> </h1>
+                                        <h2 class="mt-2 mb-2 text-center"> <b>Instrucciones</b> </h2>
                                         <h5 class="mt-2 text-center">Ingresa toda la información del alumno que se te pide por medio de este 
                                             formulario para generar el Ofició de Notas de participación.</h5>
                                         <!---->

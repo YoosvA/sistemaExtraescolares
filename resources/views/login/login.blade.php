@@ -45,7 +45,7 @@
                                         <form action="{{ route('logear') }}" method="post">
                                             @csrf
                                             @method('POST')
-                                            <h1 class="text-center">Sistema Extraescolares</h1>
+                                            <h1 class="text-center"> <b>Sistema Extraescolares</b> </h1>
                                             <h4 class="ms-3"><i class="fas fa-user"></i> Usuario</h4>
                                             <input type="text"
                                                 class="form-control text-center rounded-pill mt-2 mb-2 shadow-sm bg-body rounded" name="user"

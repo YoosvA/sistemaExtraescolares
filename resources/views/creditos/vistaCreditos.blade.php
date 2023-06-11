@@ -14,13 +14,14 @@
                                 <div class="card colorTransparente border-0">
                                     <div class="card-body">
                                         <br>
-                                        <h1 class="text-center mt-4">Créditos</h1>
-                                        <h2 class="mt-2 mb-2">Instrucciones</h2>
-                                        <h5 class="mt-4">En el botón de “agregar créditos” podrás agregar 
+                                        <h1 class="text-center mt-4"> <b>Créditos</b> </h1>
+                                        <h2 class="mt-2 mb-2"> <b>Instrucciones</b> </h2>
+                                        <h5 class="mt-4">En el botón de “agregar créditos” podrás agregar
                                             archivos y datos del alumno que se verán reflejados en esta vista,
-                                             en el botón de “agregar carpeta” podrás agregar el nombre de la carpeta 
-                                             física en la que se encuentran dichos archivos y en “crear oficios de liberación” 
-                                             se podrá generar los oficios de liberación en formato PDF.
+                                            en el botón de “agregar carpeta” podrás agregar el nombre de la carpeta
+                                            física en la que se encuentran dichos archivos y en “crear oficios de
+                                            liberación”
+                                            se podrá generar los oficios de liberación en formato PDF.
                                         </h5>
                                     </div>
                                 </div>
@@ -81,8 +82,8 @@
                                         <!---->
                                         <div class="d-grid gap-2">
                                             <a href="/vistaOficios" class="btn guardarBoton mt-3 rounded-pill text-white"><i
-                                                    class="fas fa-clipboard"></i> 
-                                                    Crear Oficios de Liberación</a>
+                                                    class="fas fa-clipboard"></i>
+                                                Crear Oficios de Liberación</a>
                                         </div>
                                         <!---->
                                     </div>

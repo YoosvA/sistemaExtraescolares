@@ -19,8 +19,8 @@
                         </div>
                         <!--Contenido De Img Fin-->
                         <br><br><br><br>
-                        <h1 class="text-center mt-4">Editar Notas</h1>
-                        <h2 class="mt-2 mb-2">Instrucciones</h2>
+                        <h1 class="text-center mt-4"> <b>Editar Notas</b> </h1>
+                        <h2 class="mt-2 mb-2"> <b>Instrucciones</b> </h2>
                         <h5>Actualiza los datos del alumno para generar la nota de 
                             participación por medio de este formulario. </h5>
                         <!--Contenido Texto Arriba Fin-->

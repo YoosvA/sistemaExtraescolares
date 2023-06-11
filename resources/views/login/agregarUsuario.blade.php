@@ -17,7 +17,7 @@
                             </div>
                         </div>
                         <br><br><br><br><br>
-                        <h1 class="text-center mt-4">Agregar Usuario</h1>
+                        <h1 class="text-center mt-4"> <b>Agregar Usuario</b> </h1>
                         <!--Contenido Donde Se Coloco Una Imagen Y Titulo Fin-->
                         <!--Contenido De Input Que Estan Dentro De Diferentes Card En Orden Inicio-->
                         <form action="/agregarNuevo" method="post" class="mt-3">

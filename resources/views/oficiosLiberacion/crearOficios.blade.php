@@ -20,8 +20,8 @@
                         <!--Contenido De Img Fin-->
                         <br><br><br><br><br>
                         <!-- Contendio De Texto-->
-                        <h1 class="mt-4 text-center">Agregar Datos Para Oficio de Liberación</h1>
-                        <h2 class="ms-5 mt-3 text-center">Instrucciones</h2>
+                        <h1 class="mt-4 text-center"> <b>Agregar Datos Para Oficio de Liberación</b> </h1>
+                        <h2 class="ms-5 mt-3 text-center"> <b>Instrucciones</b> </h2>
                         <h5 class="ms-5 mt-3 text-center">Ingresa todos los datos del estudiante que se te piden por 
                             <br>
                             medio de este formulario para generar el Oficio de Liberación.</h5>

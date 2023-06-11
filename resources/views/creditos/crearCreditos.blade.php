@@ -20,8 +20,8 @@
                         <!--Contenido De Img Fin-->
                         <!--Contenido De Texto Inicio-->
                         <br><br><br><br><br>
-                        <h1 class="text-center mt-4">Agregar Créditos</h1>
-                        <h2 class="ms-5">Instrucciones</h2>
+                        <h1 class="text-center mt-4"> <b>Agregar Créditos</b> </h1>
+                        <h2 class="ms-5"> <b>Instrucciones</b> </h2>
                         <h5 class="ms-5">Deberás llenar todos los datos del estudiante que se te piden a excepción 
                             de los archivos los cuales los podrás ingresar en el momento que desees por medio de editar.</h5>
                         <!--Contenido De Texto Fin-->
