@@ -64,7 +64,7 @@
                                     <div class="card border-0 colorTransparente">
                                         <div class="card-body">
                                             <div class="text-center">
-                                                <img src="{{ asset('img/CarpetaImg.jpg') }}" class="CarpetaImgVista"
+                                                <img src="{{ asset('img/PersonaEnTresD.webp') }}" class="CarpetaImgVista"
                                                     alt="">
                                             </div>
                                         </div>

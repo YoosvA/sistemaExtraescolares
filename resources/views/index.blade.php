@@ -4,13 +4,46 @@
     <div class="container">
         <div class="row">
             <div class="col">
+                
+                <!---->
+                <br><br><br>
+                    <div class="card colorTransparente border-0">
+                        <div class="card-body">
+                            <h1 class="text-center">Sistemas Extraescolares</h1>
+                            <!---->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                  <div class="card colorTransparente border-0">
+                                    <div class="card-body">
+                                        <!---->
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hf3RXUpe06A" class="border-0 rounded-3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <!---->
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="card colorTransparente border-0">
+                                    <div class="card-body">
+                                        <h2 class="text-center">Instituto Tecnologico De Milpa Alta II</h2>
+                                        <h4 class="">El origen de los Institutos Tecnológicos se remonta a finales de la década de los 50’s, pero en la CDMX los Institutos tecnológicos nacieron por decreto presidencial el 24 de julio de 2014 por el presidente Enrique Peña Nieto constituyendose así el Tecnológico Nacional de México (TNM) que tiene adscritos a 266 Institutos Tecnológicos, unidades y centros de investigación, docencia y desarrollo de educación superior tecnológica.</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!---->
+                        </div>
+                        <h4 class="text-center">El Instituto Tecnológico de Milpa Alta II (ITMA II) es un plantel de reciente creación dentro del sistema educativo implementado en la CDMX por la entonces Dirección General de Educación Superior Tecnológica (DGEST), y que consistió en la apertura de 12 Institutos Tecnológicos en la capital del país.</h4>
+                    </div>
+                <!---->
+
+
                 <!--Inicio-->
                 <div class="col-md-12">
                     <div id="DatosPersonalesDelAlumno">
                         <!---->
                         <br>
                         <!---->
-                        <div class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
+                        <div data-aos="fade-left" data-aos-duration="4000" class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
                                 <h1 class="text-center">Datos Personales Del Alumno</h1>
                                 <div class="row">
@@ -66,11 +99,11 @@
 
                     </div>
                     <!-- ///////////////// -->
-                    <div class="divFondoPrimero " id="Creditos">
+                    <div data-aos="fade-right" data-aos-duration="4000" class="divFondoPrimero " id="Creditos">
                         <!---->
                         <br>
                         <!---->
-                        <div class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
+                        <div  class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
                                 <h1>Créditos</h1>
                                 <div class="row">
@@ -132,7 +165,7 @@
                         <!---->
                         <br>
                         <!---->
-                        <div class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
+                        <div data-aos="fade-left" data-aos-duration="4000" class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4" >
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
                                 <h1>Notas De Participación</h1>
                                 <div class="row">
@@ -184,10 +217,12 @@
                     </div>
                     <!--Fin-->
                 </div>
+                <br>
+                <h1 class="mt-4 text-center" data-aos="zoom-in" data-aos-duration="4000">ALGUNAS DE LAS REDES SOCIALES DE LA ESCUELA</h1>
                 <!--Botones De Redes Sociales Inicio-->
                 <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
                     <div class="col">
-                        <div class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
+                        <div data-aos="slide-up" data-aos-duration="4000" class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
                             <div class="card-body">
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
@@ -200,7 +235,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
+                        <div data-aos="fade-down" data-aos-duration="4000" class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
                             <div class="card-body">
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
@@ -213,7 +248,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
+                        <div data-aos="slide-up" data-aos-duration="4000" class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
                             <div class="card-body">
                                 <!--Contenido De Img Inicio-->
                                 <div class="text-center">
@@ -226,7 +261,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
+                        <div data-aos="fade-down" data-aos-duration="4000" class="card rounded-circle tamaño shadow-lg bg-body rounded border-0">
                             <div class="card-body">
                                 <!--Contenido De Img Inicio IMG-> DE INSTAGRAM FALTA MODIFICAR LA DIRECCION-->
                                 <div class="text-center">
@@ -241,6 +276,7 @@
                 </div>
                 <!--Botones De Redes Sociales Fin-->
                 <br><br><br><br>
+                <!--Fin-->
             </div>
         </div>
     </div>

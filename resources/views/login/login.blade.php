@@ -48,7 +48,7 @@
                                             <h1 class="text-center">Sistema Extraescolares</h1>
                                             <h4 class="ms-3"><i class="fas fa-user"></i> Usuario</h4>
                                             <input type="text"
-                                                class="form-control text-center rounded-pill mt-2 mb-2" name="user"
+                                                class="form-control text-center rounded-pill mt-2 mb-2 shadow-sm bg-body rounded" name="user"
                                                 required placeholder="Usuario" aria-label="Usuario">
                                             <h4 class="ms-3 mt-3"><i class="fas fa-key"></i> Contraseña</h4>
                                             <input type="password"

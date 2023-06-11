@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="{{asset('css/sidebar.css') }}">
     <link rel="shortcut icon" href="{{asset('img/creativeCode.png')}}" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>{{ $titulo }}</title>
 </head>
 
@@ -30,6 +31,11 @@
     <script src="{{ asset('js/controller_navbar.js') }}"></script>
     <script src="{{ asset('js/mascaraDeCarga/jquery.blockUI.js') }}"></script>
     <script src="{{ asset('js/mascaraDeCarga/mascara.js') }}"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
