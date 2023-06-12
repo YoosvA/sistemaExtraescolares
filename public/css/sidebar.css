@@ -248,18 +248,22 @@ body {
     font-size: 16px;
   }
 }
-.tipo-letra{
-   font-family: Monserrat;
-  
+
+.tipo-letra {
+  font-family: Monserrat;
+
 }
-.tipo-Letra-Titulo{
+
+.tipo-Letra-Titulo {
   font-family: Monserrat;
 }
-.fondo-color-indefinido{
+
+.fondo-color-indefinido {
   background-color: #1b396a;
 
 }
-.fondo-color-indefinido-center{
+
+.fondo-color-indefinido-center {
   background-color: #1b396a;
 }
 
@@ -277,94 +281,112 @@ body {
   margin: 0;
   font-family: Monserrat;
   background-color: #F9FCFF;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23F9FCFF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23f7fafd' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f4f7fa' cx='50' cy='100' r='50'/%3E%3Cg fill='%23f2f5f8' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23eff2f5' cx='50' cy='200' r='50'/%3E%3Cg fill='%23edf0f3' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ebedf0' cx='50' cy='300' r='50'/%3E%3Cg fill='%23e8ebee' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e6e9ec' cx='50' cy='400' r='50'/%3E%3Cg fill='%23e4e6e9' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e1e4e7' cx='50' cy='500' r='50'/%3E%3Cg fill='%23dfe1e4' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dddfe2' cx='50' cy='600' r='50'/%3E%3Cg fill='%23dadde0' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d8dadd' cx='50' cy='700' r='50'/%3E%3Cg fill='%23d6d8db' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d3d5d8' cx='50' cy='800' r='50'/%3E%3Cg fill='%23d1d3d6' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cfd1d4' cx='50' cy='900' r='50'/%3E%3Cg fill='%23ccced1' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23CACCCF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23F9FCFF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23f7fafd' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f4f7fa' cx='50' cy='100' r='50'/%3E%3Cg fill='%23f2f5f8' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23eff2f5' cx='50' cy='200' r='50'/%3E%3Cg fill='%23edf0f3' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ebedf0' cx='50' cy='300' r='50'/%3E%3Cg fill='%23e8ebee' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e6e9ec' cx='50' cy='400' r='50'/%3E%3Cg fill='%23e4e6e9' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e1e4e7' cx='50' cy='500' r='50'/%3E%3Cg fill='%23dfe1e4' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dddfe2' cx='50' cy='600' r='50'/%3E%3Cg fill='%23dadde0' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d8dadd' cx='50' cy='700' r='50'/%3E%3Cg fill='%23d6d8db' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d3d5d8' cx='50' cy='800' r='50'/%3E%3Cg fill='%23d1d3d6' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cfd1d4' cx='50' cy='900' r='50'/%3E%3Cg fill='%23ccced1' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23CACCCF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
 }
 
 
-.colorBlanco{
+.colorBlanco {
   color: rgb(255, 255, 255);
 }
-.tamañoDeImgPersona{
+
+.tamañoDeImgPersona {
   width: 20rem;
   height: 20rem;
 }
-.colorTransparente{
-  background:rgba(138,221,45,0);
+
+.colorTransparente {
+  background: rgba(138, 221, 45, 0);
 }
-.colorDeBotonazul{
+
+.colorDeBotonazul {
   /*Color Que Puedes Ocupar En El ProyeccolorDeBotonazulto (Institucional)*/
   background-color: #1b396a;
 }
 
-.colorDeBotonazul:hover{
+.colorDeBotonazul:hover {
   background: #1d4f9e;
   color: #fff;
 }
-.colorDeBoton{
+
+.colorDeBoton {
 
   background-color: #1b396a;
 }
-.logoBlancoEnSidebar{
+
+.logoBlancoEnSidebar {
   width: 5rem;
   height: 5rem;
 }
+
 /*COLORES DE BOTONES DE MOSTRAR EN LA TABLA DE CREDITOS*/
 /*1*/
-.colorBoton1{
+.colorBoton1 {
   background-color: #90e0ef;
 
 }
-.colorBoton1:hover{
+
+.colorBoton1:hover {
   background: #90e0ef;
   color: #fff;
 }
+
 /*1*/
 /*2*/
-.colorBoton2{
- background: #48cae4;
+.colorBoton2 {
+  background: #48cae4;
 }
-.colorBoton2:hover{
+
+.colorBoton2:hover {
   background: #48cae4;
   color: #fff;
 }
+
 /*2*/
 /*3*/
-.colorBoton3{
-background: #0096c7;
+.colorBoton3 {
+  background: #0096c7;
 }
-.colorBoton3:hover{
+
+.colorBoton3:hover {
   background: #0096c7;
   color: #fff;
 }
+
 /*3*/
 /*4*/
-.colorBoton4{
+.colorBoton4 {
   background: #0077b6;
-  }
-  .colorBoton4:hover{
-    background: #0077b6;
-    color: #fff;
-  }
+}
+
+.colorBoton4:hover {
+  background: #0077b6;
+  color: #fff;
+}
+
 /*4*/
 /*5*/
-.colorBoton5{
+.colorBoton5 {
   background: #023e8a;
-  }
-  .colorBoton5:hover{
-    background: #023e8a;
-    color: #fff;
-  }
+}
+
+.colorBoton5:hover {
+  background: #023e8a;
+  color: #fff;
+}
+
 /*5*/
-.colorDeFondo{
+.colorDeFondo {
   background-color: #e9ecef;
 }
+
 /*TamañoDeImgGif*/
-.TamañoDe1gif{
-    height: 20rem;
+.TamañoDe1gif {
+  height: 20rem;
 }
-.TamañoDe2gif{
+
+.TamañoDe2gif {
   height: 20rem;
   width: 25rem;
 }
@@ -380,20 +402,20 @@ background: #0096c7;
   font-family: inherit;
   background: #023e8a;
   color: #fff;
- }
- 
- .guardarBoton:hover {
+}
+
+.guardarBoton:hover {
   transform: translateY(-3px);
-    background: #023e8a;
-    color: #fff;
- }
- 
- .guardarBoton:active {
+  background: #023e8a;
+  color: #fff;
+}
+
+.guardarBoton:active {
   transform: translateY(-1px);
   box-shadow: #023e8a;
- }
- 
- .guardarBoton::after {
+}
+
+.guardarBoton::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -404,18 +426,19 @@ background: #0096c7;
   left: 0;
   z-index: -1;
   transition: all .4s;
- }
- 
- .guardarBoton::after {
+}
+
+.guardarBoton::after {
   background-color: #fff;
- }
- 
- .guardarBoton:hover::after {
+}
+
+.guardarBoton:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
- }
- /*Boton2*/
- .RegresarBoton {
+}
+
+/*Boton2*/
+.RegresarBoton {
   position: relative;
   display: inline-block;
   border-radius: 6em;
@@ -424,20 +447,20 @@ background: #0096c7;
   font-family: inherit;
   background: #ff0000;
   color: #fff;
- }
- 
- .RegresarBoton:hover {
+}
+
+.RegresarBoton:hover {
   transform: translateY(-3px);
-    background: #ff0000;
-    color: #fff;
- }
- 
- .RegresarBoton:active {
+  background: #ff0000;
+  color: #fff;
+}
+
+.RegresarBoton:active {
   transform: translateY(-1px);
   box-shadow: #ff0000;
- }
- 
- .RegresarBoton::after {
+}
+
+.RegresarBoton::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -448,31 +471,35 @@ background: #0096c7;
   left: 0;
   z-index: -1;
   transition: all .4s;
- }
- 
- .RegresarBoton::after {
+}
+
+.RegresarBoton::after {
   background-color: #fff;
- }
- 
- .RegresarBoton:hover::after {
+}
+
+.RegresarBoton:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
- }
+}
+
 /*Tamaño De Img Circular En Agregar Carpeta Siempre Tendras Unas secciones Basias*/
-.TamañoDeImgCarpeta{
+.TamañoDeImgCarpeta {
   height: 30rem;
   width: 30rem;
 }
-.tamañoDeImgTecnmCircular{
+
+.tamañoDeImgTecnmCircular {
   height: 15rem;
   width: 15rem;
 }
-.tamañoDeImgTecnmCircularprueba{
+
+.tamañoDeImgTecnmCircularprueba {
   height: 20rem;
   width: 20rem;
 }
- /*Boton3*/
- .EditarBoton {
+
+/*Boton3*/
+.EditarBoton {
   position: relative;
   display: inline-block;
   border-radius: 6em;
@@ -481,20 +508,20 @@ background: #0096c7;
   font-family: inherit;
   background: #ffd60a;
   color: #fff;
- }
- 
- .EditarBoton:hover {
+}
+
+.EditarBoton:hover {
   transform: translateY(-3px);
-    background: #ffd60a;
-    color: #fff;
- }
- 
- .EditarBoton:active {
+  background: #ffd60a;
+  color: #fff;
+}
+
+.EditarBoton:active {
   transform: translateY(-1px);
   box-shadow: #ffd60a;
- }
- 
- .EditarBoton::after {
+}
+
+.EditarBoton::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -505,19 +532,19 @@ background: #0096c7;
   left: 0;
   z-index: -1;
   transition: all .4s;
- }
- 
- .EditarBoton::after {
+}
+
+.EditarBoton::after {
   background-color: #fff;
- }
- 
- .EditarBoton:hover::after {
+}
+
+.EditarBoton:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
- }
+}
 
- /*Boton4*/
- .pdfBoton {
+/*Boton4*/
+.pdfBoton {
   position: relative;
   display: inline-block;
   border-radius: 6em;
@@ -526,20 +553,20 @@ background: #0096c7;
   font-family: inherit;
   background: #38b000;
   color: #fff;
- }
- 
- .pdfBoton:hover {
+}
+
+.pdfBoton:hover {
   transform: translateY(-3px);
-    background: #38b000;
-    color: #fff;
- }
- 
- .pdfBoton:active {
+  background: #38b000;
+  color: #fff;
+}
+
+.pdfBoton:active {
   transform: translateY(-1px);
   box-shadow: #38b000;
- }
- 
- .pdfBoton::after {
+}
+
+.pdfBoton::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -550,64 +577,65 @@ background: #0096c7;
   left: 0;
   z-index: -1;
   transition: all .4s;
- }
- 
- .pdfBoton::after {
+}
+
+.pdfBoton::after {
   background-color: #fff;
- }
- 
- .pdfBoton:hover::after {
+}
+
+.pdfBoton:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
- }
+}
 
-  /*Boton5*/
-  .CambioDeColorAzul {
-    position: relative;
-    display: inline-block;
-    border-radius: 6em;
-    transition: all .2s;
-    border: none;
-    font-family: inherit;
-    background: #3a86ff;
-    color: #fff;
-   }
-   
-   .CambioDeColorAzul:hover {
-    transform: translateY(-3px);
-      background: #3a86ff;
-      color: #fff;
-   }
-   
-   .CambioDeColorAzul:active {
-    transform: translateY(-1px);
-    box-shadow: #3a86ff;
-   }
-   
-   .CambioDeColorAzul::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-   }
-   
-   .CambioDeColorAzul::after {
-    background-color: #fff;
-   }
-   
-   .CambioDeColorAzul:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-   }
- /*Efectos De Botones De Colores De Mostrar Inicio*/
- /*Boton6*/
- .MostrarUno {
+/*Boton5*/
+.CambioDeColorAzul {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #3a86ff;
+  color: #fff;
+}
+
+.CambioDeColorAzul:hover {
+  transform: translateY(-3px);
+  background: #3a86ff;
+  color: #fff;
+}
+
+.CambioDeColorAzul:active {
+  transform: translateY(-1px);
+  box-shadow: #3a86ff;
+}
+
+.CambioDeColorAzul::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.CambioDeColorAzul::after {
+  background-color: #fff;
+}
+
+.CambioDeColorAzul:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+/*Efectos De Botones De Colores De Mostrar Inicio*/
+/*Boton6*/
+.MostrarUno {
   position: relative;
   display: inline-block;
   border-radius: 6em;
@@ -616,20 +644,20 @@ background: #0096c7;
   font-family: inherit;
   background: #90e0ef;
   color: #fff;
- }
- 
- .MostrarUno:hover {
+}
+
+.MostrarUno:hover {
   transform: translateY(-3px);
-    background: #90e0ef;
-    color: #fff;
- }
- 
- .MostrarUno:active {
+  background: #90e0ef;
+  color: #fff;
+}
+
+.MostrarUno:active {
   transform: translateY(-1px);
   box-shadow: #90e0ef;
- }
- 
- .MostrarUno::after {
+}
+
+.MostrarUno::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -640,64 +668,66 @@ background: #0096c7;
   left: 0;
   z-index: -1;
   transition: all .4s;
- }
- 
- .MostrarUno::after {
+}
+
+.MostrarUno::after {
   background-color: #fff;
- }
- 
- .MostrarUno:hover::after {
+}
+
+.MostrarUno:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
- }
- /*Boton6*/
-  /*Boton7*/
-  .MostrarDos {
-    position: relative;
-    display: inline-block;
-    border-radius: 6em;
-    transition: all .2s;
-    border: none;
-    font-family: inherit;
-    background: #48cae4;
-    color: #fff;
-   }
-   
-   .MostrarDos:hover {
-    transform: translateY(-3px);
-      background: #48cae4;
-      color: #fff;
-   }
-   
-   .MostrarDos:active {
-    transform: translateY(-1px);
-    box-shadow: #48cae4;
-   }
-   
-   .MostrarDos::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-   }
-   
-   .MostrarDos::after {
-    background-color: #fff;
-   }
-   
-   .MostrarDos:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-   }
-   /*Boton7*/
-    /*Boton8*/
- .MostrarTres {
+}
+
+/*Boton6*/
+/*Boton7*/
+.MostrarDos {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #48cae4;
+  color: #fff;
+}
+
+.MostrarDos:hover {
+  transform: translateY(-3px);
+  background: #48cae4;
+  color: #fff;
+}
+
+.MostrarDos:active {
+  transform: translateY(-1px);
+  box-shadow: #48cae4;
+}
+
+.MostrarDos::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.MostrarDos::after {
+  background-color: #fff;
+}
+
+.MostrarDos:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+/*Boton7*/
+/*Boton8*/
+.MostrarTres {
   position: relative;
   display: inline-block;
   border-radius: 6em;
@@ -706,20 +736,20 @@ background: #0096c7;
   font-family: inherit;
   background: #0096c7;
   color: #fff;
- }
- 
- .MostrarTres:hover {
+}
+
+.MostrarTres:hover {
   transform: translateY(-3px);
-    background: #0096c7;
-    color: #fff;
- }
- 
- .MostrarTres:active {
+  background: #0096c7;
+  color: #fff;
+}
+
+.MostrarTres:active {
   transform: translateY(-1px);
   box-shadow: #0096c7;
- }
- 
- .MostrarTres::after {
+}
+
+.MostrarTres::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -730,81 +760,86 @@ background: #0096c7;
   left: 0;
   z-index: -1;
   transition: all .4s;
- }
- 
- .MostrarTres::after {
+}
+
+.MostrarTres::after {
   background-color: #fff;
- }
- 
- .MostrarTres:hover::after {
+}
+
+.MostrarTres:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
- }
- /*Boton8*/
-  /*Boton9*/
-  .MostrarCuatro {
-    position: relative;
-    display: inline-block;
-    border-radius: 6em;
-    transition: all .2s;
-    border: none;
-    font-family: inherit;
-    background: #0077b6;
-    color: #fff;
-   }
-   
-   .MostrarCuatro:hover {
-    transform: translateY(-3px);
-      background: #0077b6;
-      color: #fff;
-   }
-   
-   .MostrarCuatro:active {
-    transform: translateY(-1px);
-    box-shadow: #0077b6;
-   }
-   
-   .MostrarCuatro::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-   }
-   
-   .MostrarCuatro::after {
-    background-color: #fff;
-   }
-   
-   .MostrarCuatro:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-   }
-   /*Boton9*/
- /*Efectos De Botones De Colores De Mostrar Fin*/
+}
+
+/*Boton8*/
+/*Boton9*/
+.MostrarCuatro {
+  position: relative;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  background: #0077b6;
+  color: #fff;
+}
+
+.MostrarCuatro:hover {
+  transform: translateY(-3px);
+  background: #0077b6;
+  color: #fff;
+}
+
+.MostrarCuatro:active {
+  transform: translateY(-1px);
+  box-shadow: #0077b6;
+}
+
+.MostrarCuatro::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.MostrarCuatro::after {
+  background-color: #fff;
+}
+
+.MostrarCuatro:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+/*Boton9*/
+/*Efectos De Botones De Colores De Mostrar Fin*/
 
 
 /*Tamaño De Img Circular En Agregar Carpeta Siempre Tendras Unas secciones Basias*/
-.TamañoDeImgCarpeta{
+.TamañoDeImgCarpeta {
   height: 30rem;
   width: 30rem;
 }
-.tamañoDeImgTecnmCircular{
+
+.tamañoDeImgTecnmCircular {
   height: 15rem;
   width: 15rem;
 }
-.tamañoDeImgTecnmCircularprueba{
+
+.tamañoDeImgTecnmCircularprueba {
   height: 20rem;
   width: 20rem;
 }
+
 /*Fondo De Div*/
 /* .divFondoPrimero { */
-  /*Nota
+/*Nota
   - > No Se Borre Lo Ocuparemos En Algun Momento En Un Div En Una vista
       Del Proyecto Del Sistema ExtraEscolares
   */
@@ -813,36 +848,41 @@ background: #0096c7;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; */
- /*  height: 22em; Si le quitamos el tamaño va a agarrar el que guste */
+/*  height: 22em; Si le quitamos el tamaño va a agarrar el que guste */
 /* } */
 
 /*Tamaño de redes sociales*/
-.tamañoDeImgRedesSociales{
+.tamañoDeImgRedesSociales {
   width: 18rem;
   height: 18rem;
 }
-.tamaño{
+
+.tamaño {
   width: 20rem;
   height: 20rem;
 }
-.tamañoDeLogoVistaAlumno{
+
+.tamañoDeLogoVistaAlumno {
   width: 25rem;
   height: 25rem;
 }
-.tamañoDeVistaAlumnoImg{
+
+.tamañoDeVistaAlumnoImg {
   height: 20rem;
   width: 20rem;
 }
-.CarpetaImgVista{
+
+.CarpetaImgVista {
   width: 28rem;
   height: 28rem;
 }
-.tamañoDeLogoVistaCretido{
+
+.tamañoDeLogoVistaCretido {
   height: 15rem;
   width: 15rem;
 }
-.tamañoDeLogoVistaCretidoImg{
+
+.tamañoDeLogoVistaCretidoImg {
   height: 10rem;
   width: 10rem;
 }
-

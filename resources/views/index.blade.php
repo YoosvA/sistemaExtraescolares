@@ -48,7 +48,7 @@
                         <!---->
                         <div data-aos="fade-left" data-aos-duration="4000" class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
-                                <h1 class="text-center">Datos Personales Del Alumno</h1>
+                                <h1 class="text-center"> <b>Datos Personales Del Alumno</b> </h1>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="card border-0 colorTransparente">
@@ -108,7 +108,7 @@
                         <!---->
                         <div  class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4">
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
-                                <h1>Créditos</h1>
+                                <h1 class="text-center"> <b>Créditos</b> </h1>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="card border-0 colorTransparente">
@@ -170,7 +170,7 @@
                         <!---->
                         <div data-aos="fade-left" data-aos-duration="4000" class="card border-0 shadow-lg bg-body rounded rounded-5 mt-4" >
                             <div class="card-body mt-4 mb-4 ms-4 mx-4">
-                                <h1>Notas De Participación</h1>
+                                <h1 class="text-center"> <b>Notas De Participación</b> </h1>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="card border-0 colorTransparente">
@@ -221,7 +221,7 @@
                     <!--Fin-->
                 </div>
                 <br>
-                <h1 class="mt-4 text-center" data-aos="zoom-in" data-aos-duration="4000">ALGUNAS DE LAS REDES SOCIALES DE LA ESCUELA</h1>
+                <h1 class="mt-4 text-center" data-aos="zoom-in" data-aos-duration="4000"> <b>ALGUNAS DE LAS REDES SOCIALES DE LA ESCUELA</b> </h1>
                 <!--Botones De Redes Sociales Inicio-->
                 <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
                     <div class="col">

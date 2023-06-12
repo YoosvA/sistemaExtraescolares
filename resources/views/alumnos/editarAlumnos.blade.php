@@ -19,8 +19,8 @@
                         <!--Contenido De Img Fin-->
                         <!--Contenido Texto-->
                         <br><br><br><br>
-                        <h1 class="text-center">Editar Datos del Alumno </h1>
-                        <h2>Instrucciones</h2>
+                        <h1 class="text-center"> <b>Editar Datos del Alumno</b> </h1>
+                        <h2> <b>Instrucciones</b> </h2>
                         <h5>Actualiza los datos del estudiante en el siguiente formulario.</h5>
                         <!--Contenido De Adentro Card Inicio-->
                         <div class="row">

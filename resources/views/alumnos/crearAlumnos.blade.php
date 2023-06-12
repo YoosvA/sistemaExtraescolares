@@ -20,9 +20,10 @@
                     <!--Contenido De Img Fin-->
                     <!--Texto Inicio-->
                     <br><br><br><br><br>
-                    <h1 class="mt-4 text-center">Agregar Datos Alumno</h1>
-                    <h2 class="text-center mt-3">Instrucciones</h2>
-                    <h5 class="text-center mt-3">Agrega los datos del estudiante que se te solicitan en el siguiente formulario.</h5>
+                    <h1 class="mt-4 text-center"> <b>Agregar Datos Alumno</b> </h1>
+                    <h2 class="text-center mt-3"> <b>Instrucciones</b> </h2>
+                    <h5 class="text-center mt-3">Agrega los datos del estudiante que se te solicitan en el siguiente
+                        formulario.</h5>
                     <!--Texto Fin-->
                     <div class="card-body">
                         <!--Contenido Dentro De Card Inicio-->
@@ -51,7 +52,8 @@
                                                     <input type="text" name="noControl" id="noControl"
                                                         class="form-control rounded-pill text-center shadow-sm  bg-body mt-3"
                                                         required placeholder="Numero De Control"
-                                                        aria-label="Numero De Control" pattern="[0-9]+" title="Ingrese solo números" maxlength="9">
+                                                        aria-label="Numero De Control" pattern="[0-9]+"
+                                                        title="Ingrese solo números" maxlength="9">
                                                     <!---->
                                                     <h4 class="text-center mt-3"><i class="fas fa-calendar-week"></i> Fecha
                                                         de
@@ -82,7 +84,8 @@
                                                     <input type="text" name="telefono" id="telefono"
                                                         class="form-control rounded-pill text-center shadow-sm  bg-body mt-3"
                                                         required placeholder="Numero De Celular"
-                                                        aria-label="Numero De Celular" pattern="[0-9]+" title="Ingrese solo números" maxlength="10">
+                                                        aria-label="Numero De Celular" pattern="[0-9]+"
+                                                        title="Ingrese solo números" maxlength="10">
                                                     <!---->
                                                     <h4 class="text-center mt-3"><i class="fas fa-balance-scale-left"></i>
                                                         Escuela

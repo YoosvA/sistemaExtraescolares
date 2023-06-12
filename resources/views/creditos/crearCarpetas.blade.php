@@ -18,8 +18,8 @@
                                     <div class="card border-0 colorTransparente">
                                         <div class="card-body">
                                             <br><br><br>
-                                            <h1 class="text-center">Agregar Carpetas</h1>
-                                            <h2 class="text-center">Instrucciones</h2>
+                                            <h1 class="text-center"> <b>Agregar Carpetas</b> </h1>
+                                            <h2 class="text-center"> <b>Instrucciones</b> </h2>
                                             <h5 class="text-center">Ingresa el nombre de la carpeta física que deseas agregar.</h5>
                                             <!--Contenido Dentro De Un Card Inicio-->
                                             <h4 class="text-center"><i class="fas fa-file-signature"></i> Nombre Carpeta

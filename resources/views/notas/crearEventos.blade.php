@@ -22,8 +22,8 @@
                                                 <div class="card-body">
                                                     <br><br>
                                                     <!---->
-                                                    <h1 class="mt-4 text-center">Agregar Evento</h1>
-                                                    <h2 class="text-center mt-2 mb-2">Instrucciones</h2>
+                                                    <h1 class="mt-4 text-center"> <b>Agregar Evento</b> </h1>
+                                                    <h2 class="text-center mt-2 mb-2"> <b>Instrucciones</b> </h2>
                                                     <h5 class="ms-5">Agrega el nombre del evento con el cual se darán horas de participación.</h5>
                                                     <!--Contenido De Texto Informacion-->
                                                     <br>

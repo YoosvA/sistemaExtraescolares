@@ -18,8 +18,8 @@
                             <!--Card Donde Contiene Una Img Fin-->
                         </div>
                         <br><br><br><br>
-                        <h1 class="ms-5 mt-4">Editar Usuario </h1>
-                        <h2 class="ms-5 mt-2 mb-4">Instrucciones</h2>
+                        <h1 class="ms-5 mt-4"> <b>Editar Usuario</b> </h1>
+                        <h2 class="ms-5 mt-2 mb-4"> <b>Instrucciones</b> </h2>
                         <h5 class="ms-5">Aquí podrás editar las credenciales del usuario, además de que podrás 
                             crear una nueva contraseña en caso de haberla perdido.</h5>
                         <!--Contenido De Adentro Card Inicio-->
