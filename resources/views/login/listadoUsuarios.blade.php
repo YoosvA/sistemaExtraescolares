@@ -74,7 +74,7 @@
 
 
                                                 <td>
-                                                    <br>
+                                            
                                                     <a href="{{ route('editarUsuarios', $item->id) }}"
                                                         class="btn EditarBoton"><i class="fas fa-user-edit"></i> Editar</a>
                                                 </td>
