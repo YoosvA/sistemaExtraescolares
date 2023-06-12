@@ -27,7 +27,7 @@
                                   <div class="card colorTransparente border-0">
                                     <div class="card-body">
                                         <br>
-                                        <h1 class="text-center mt-2 mb-4"> <b>Instituto Tecnologico De Milpa Alta II</b> </h1>
+                                        <h1 class="text-center mt-2 mb-4"> <b>Instituto Tecnológico De Milpa Alta II</b> </h1>
                                         <h4 class="text-justify">El origen de los Institutos Tecnológicos se remonta a finales de la década de los 50’s, pero en la CDMX los Institutos tecnológicos nacieron por decreto presidencial el 24 de julio de 2014 por el presidente Enrique Peña Nieto constituyendose así el Tecnológico Nacional de México (TNM) <br>Que tiene adscritos a 266 Institutos Tecnológicos, unidades y centros de investigación, docencia y desarrollo de educación superior tecnológica.</h4>
                                     </div>
                                   </div>
